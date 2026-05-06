@@ -27,68 +27,68 @@ config:
     nodeSpacing: 20
 ---
 graph TB
-    subgraph conspiracy ["Conspiracy Claims Debunked"]
-        obs_flag["🏳️ Flag waves (0.95→1.00)"]:::premise
-        alt_flag["Studio air currents (0.05→0.05)"]:::alt
-        obs_stars["⭐ No stars in photos (0.95→1.00)"]:::premise
-        alt_stars["Studio backdrop (0.05→0.05)"]:::alt
-        obs_rad["☢️ Van Allen belt transit (0.99→1.00)"]:::premise
-        alt_rad["Lethal radiation (0.02→0.02)"]:::alt
-        obs_shadow["🌓 Non-parallel shadows (0.90→1.00)"]:::premise
-        alt_shadow["Multiple studio lights (0.03→0.03)"]:::alt
-        obs_foot["👣 Sharp footprints (0.95→1.00)"]:::premise
-        alt_foot["Wet sand on Earth (0.05→0.05)"]:::alt
-        obs_crater["🚀 No blast crater (0.95→1.00)"]:::premise
-        alt_crater["LM was a prop (0.03→0.03)"]:::alt
-        flag_sci["Flag: Γ-rod + vacuum inertia (1.00)"]:::derived
-        stars_sci["Stars: camera exposure (1.00)"]:::derived
-        rad_sci["Radiation: fast transit 0.18rad (1.00)"]:::derived
-        shadow_sci["Shadows: perspective + terrain (1.00)"]:::derived
-        foot_sci["Footprints: angular regolith (1.00)"]:::derived
-        crater_sci["Crater: low thrust + vacuum (1.00)"]:::derived
-        abd0(["abduction"])
+    subgraph conspiracy ["阴谋论击破"]
+        obs_flag["🏳️ 国旗飘动 (0.95→1.00)"]:::premise
+        alt_flag["摄影棚气流 (0.05→0.05)"]:::alt
+        obs_stars["⭐ 照片无星星 (0.95→1.00)"]:::premise
+        alt_stars["摄影棚背景 (0.05→0.05)"]:::alt
+        obs_rad["☢️ 范艾伦辐射带穿越 (0.99→1.00)"]:::premise
+        alt_rad["致命辐射 (0.02→0.02)"]:::alt
+        obs_shadow["🌓 影子不平行 (0.90→1.00)"]:::premise
+        alt_shadow["多个摄影棚灯光 (0.03→0.03)"]:::alt
+        obs_foot["👣 脚印太清晰 (0.95→1.00)"]:::premise
+        alt_foot["地球湿沙 (0.05→0.05)"]:::alt
+        obs_crater["🚀 无着陆坑 (0.95→1.00)"]:::premise
+        alt_crater["登月舱是道具 (0.03→0.03)"]:::alt
+        flag_sci["国旗：Γ型支架 + 真空惯性 (1.00)"]:::derived
+        stars_sci["星星：相机曝光参数 (1.00)"]:::derived
+        rad_sci["辐射：快速穿越 0.18rad (1.00)"]:::derived
+        shadow_sci["影子：透视效应 + 不平地面 (1.00)"]:::derived
+        foot_sci["脚印：棱角月壤互锁 (1.00)"]:::derived
+        crater_sci["坑洞：低推力 + 真空扩散 (1.00)"]:::derived
+        abd0(["溯因推断"])
         obs_flag --> abd0
         alt_flag --> abd0
         abd0 --> flag_sci
-        abd1(["abduction"])
+        abd1(["溯因推断"])
         obs_stars --> abd1
         alt_stars --> abd1
         abd1 --> stars_sci
-        abd2(["abduction"])
+        abd2(["溯因推断"])
         obs_rad --> abd2
         alt_rad --> abd2
         abd2 --> rad_sci
-        abd3(["abduction"])
+        abd3(["溯因推断"])
         obs_shadow --> abd3
         alt_shadow --> abd3
         abd3 --> shadow_sci
-        abd4(["abduction"])
+        abd4(["溯因推断"])
         obs_foot --> abd4
         alt_foot --> abd4
         abd4 --> foot_sci
-        abd5(["abduction"])
+        abd5(["溯因推断"])
         obs_crater --> abd5
         alt_crater --> abd5
         abd5 --> crater_sci
     end
-    all_explained["All anomalies explained (1.00)"]:::derived
+    all_explained["所有异常均已解释 (1.00)"]:::derived
     flag_sci --> na0
     stars_sci --> na0
     rad_sci --> na0
     shadow_sci --> na0
     foot_sci --> na0
     crater_sci --> na0
-    na0(["noisy_and"]) --> all_explained
+    na0(["噪声与门"]) --> all_explained
     all_explained --> na1
-    na1(["noisy_and"]) --> moon_landing_real
+    na1(["噪声与门"]) --> moon_landing_real
 
-    subgraph evidence ["Independent Evidence"]
-        obs_retro["🔭 Laser retroreflectors\nUS+China (0.99→1.00)"]:::premise
-        obs_rocks["🪨 381.7 kg moon rocks\n+Soviet match (0.99→1.00)"]:::premise
-        obs_orbital["🛰️ Orbital imaging\nJapan+India+LRO (0.97→1.00)"]:::premise
-        obs_soviet["☭ Soviet acknowledgment\n+Luna 15 coordination (0.97→1.00)"]:::premise
-        obs_scale["👥 400,000 people\nstatistically impossible (0.99→1.00)"]:::premise
-        obs_china["🇨🇳 Ouyang Ziyuan endorsement\n+sample analysis (0.98→1.00)"]:::premise
+    subgraph evidence ["独立证据"]
+        obs_retro["🔭 激光反射镜\n中美法意均测距成功 (0.99→1.00)"]:::premise
+        obs_rocks["🪨 月岩样本 381.7 kg\n苏联 Luna 同位素吻合 (0.99→1.00)"]:::premise
+        obs_orbital["🛰️ 第三方轨道成像\n日本·印度·LRO (0.97→1.00)"]:::premise
+        obs_soviet["☭ 苏联隐含承认\nLuna 15 避碰协调 (0.97→1.00)"]:::premise
+        obs_scale["👥 40 万人参与\n统计学上不可能保密 (0.99→1.00)"]:::premise
+        obs_china["🇨🇳 欧阳自远背书\n独立样本分析 (0.98→1.00)"]:::premise
     end
     obs_retro --> strat_ev
     obs_rocks --> strat_ev
@@ -96,11 +96,11 @@ graph TB
     obs_soviet --> strat_ev
     obs_scale --> strat_ev
     obs_china --> strat_ev
-    strat_ev(["induction + noisy_and"]) --> moon_landing_real
+    strat_ev(["归纳推断 + 噪声与门"]) --> moon_landing_real
 
-    moon_landing_real["★ Moon landings were REAL\n(0.50 → 1.00)"]:::exported
-    moon_landing_hoax["★ Moon landings were a HOAX\n(0.05 → 0.0001)"]:::exported
-    oper_0{{"⊕ complement"}}
+    moon_landing_real["★ 登月是真的\n(0.50 → 1.00)"]:::exported
+    moon_landing_hoax["★ 登月是假的\n(0.05 → 0.0001)"]:::exported
+    oper_0{{"⊕ 互补约束"}}
     moon_landing_real --- oper_0
     moon_landing_hoax --- oper_0
 
