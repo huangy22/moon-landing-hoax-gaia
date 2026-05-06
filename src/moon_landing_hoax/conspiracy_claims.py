@@ -1,6 +1,6 @@
 """Conspiracy theory claims and their scientific debunking."""
 
-from gaia.lang import claim, setting, abduction
+from gaia.lang import claim, setting, abduction, noisy_and
 from .motivation import moon_landing_real, moon_landing_hoax
 
 # ═══════════════════════════════════════════════════════════════════════════
@@ -252,5 +252,44 @@ _s_crater = abduction(
         "India (Chandrayaan) showing lighter disturbed soil around Apollo landing sites. "
         "@alt_crater_studio ignores the difference between atmospheric and vacuum "
         "exhaust behavior."
+    ),
+)
+
+# ═══════════════════════════════════════════════════════════════════════════
+# Connection to core hypothesis: all anomalies explained → landings real
+# ═══════════════════════════════════════════════════════════════════════════
+
+all_anomalies_explained = claim(
+    "All six photographic/video anomalies cited by conspiracy theorists — the "
+    "waving flag, absent stars, Van Allen radiation, non-parallel shadows, sharp "
+    "footprints, and missing blast crater — have complete scientific explanations "
+    "consistent with the known lunar environment. None requires invoking a studio "
+    "or fabrication.",
+    title="All conspiracy anomalies have scientific explanations",
+)
+
+_s_anomalies = noisy_and(
+    [flag_science, no_stars_science, radiation_safe,
+     shadows_science, footprints_science, no_crater_science],
+    all_anomalies_explained,
+    reason=(
+        "Each of the six anomalies has been independently explained by lunar physics: "
+        "@flag_science (vacuum inertia), @no_stars_science (camera exposure), "
+        "@radiation_safe (fast transit + shielding), @shadows_science (perspective "
+        "geometry), @footprints_science (angular regolith), @no_crater_science "
+        "(low thrust + vacuum exhaust). The conjunction of all six scientific "
+        "explanations being correct supports the conclusion that no anomaly "
+        "requires a hoax to explain."
+    ),
+)
+
+_s_anomalies_support_real = noisy_and(
+    [all_anomalies_explained],
+    moon_landing_real,
+    reason=(
+        "If @all_anomalies_explained — i.e., every supposed 'evidence' for the hoax "
+        "has a natural scientific explanation — then the hoax hypothesis loses its "
+        "entire evidential basis from photographic anomalies, supporting the "
+        "conclusion that the landings were real."
     ),
 )

@@ -6,6 +6,7 @@ from ..conspiracy_claims import (
     obs_footprints, obs_no_crater,
     alt_flag_studio, alt_no_stars_studio, alt_radiation_lethal,
     alt_shadows_studio, alt_footprints_fake, alt_crater_studio,
+    _s_anomalies, _s_anomalies_support_real,
 )
 from ..independent_evidence import (
     obs_retroreflector_us, obs_retroreflector_china,
@@ -180,6 +181,21 @@ REVIEW = ReviewBundle(
         # ═══════════════════════════════════════════════════════════════
         # noisy_and strategies — assign conditional probabilities
         # ═══════════════════════════════════════════════════════════════
+        review_strategy(_s_anomalies,
+            conditional_probability=0.90,
+            judgment="formalized",
+            justification=(
+                "If all six scientific explanations are individually correct, "
+                "they jointly explain all anomalies with high probability."
+            )),
+        review_strategy(_s_anomalies_support_real,
+            conditional_probability=0.85,
+            judgment="formalized",
+            justification=(
+                "Explaining away all anomalies removes the hoax hypothesis's "
+                "photographic evidence base, but alone doesn't prove the "
+                "landings — other evidence lines provide that."
+            )),
         review_strategy(_s_scale,
             conditional_probability=0.95,
             judgment="formalized",

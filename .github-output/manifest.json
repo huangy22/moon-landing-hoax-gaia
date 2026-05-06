@@ -1,0 +1,25 @@
+{
+  "package_name": "moon_landing_hoax",
+  "generated_at": "2026-05-06T15:01:44.323088+00:00",
+  "wiki_pages": [
+    "Home.md",
+    "Module-Root.md",
+    "Module-conspiracy-claims.md",
+    "Module-independent-evidence.md",
+    "Module-motivation.md",
+    "Inference-Results.md"
+  ],
+  "pages_sections": [
+    "motivation.md",
+    "conspiracy_claims.md",
+    "independent_evidence.md"
+  ],
+  "assets": [],
+  "exported_conclusions": [
+    "moon_landing_hoax",
+    "moon_landing_real"
+  ],
+  "total_claims": 40,
+  "total_beliefs": 44,
+  "readme_placeholders": []
+}

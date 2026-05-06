@@ -62,24 +62,25 @@ China has no political allegiance to NASA and operates a fully independent space
 ```mermaid
 graph TD
     lunar_vacuum["Lunar vacuum environment"]:::setting
-    obs_flag_waves["Observation: flag appears to wave (0.95)"]:::premise
-    flag_science["Scientific explanation: flag design + vacuum inertia (0.91)"]:::derived
-    alt_flag_studio["Hoax explanation: studio air currents (0.09)"]:::premise
-    obs_no_stars["Observation: no stars in photos (0.95)"]:::premise
-    no_stars_science["Scientific explanation: camera exposure settings (0.91)"]:::derived
-    alt_no_stars_studio["Hoax explanation: studio backdrop (0.09)"]:::premise
-    obs_radiation_belt["Observation: Apollo transited the Van Allen belts (0.99)"]:::premise
-    radiation_safe["Scientific explanation: minimal radiation dose via fast transit (0.97)"]:::derived
-    alt_radiation_lethal["Hoax explanation: lethal radiation barrier (0.04)"]:::premise
-    obs_shadows["Observation: non-parallel shadows (0.91)"]:::premise
-    shadows_science["Scientific explanation: perspective + uneven terrain (0.88)"]:::derived
-    alt_shadows_studio["Hoax explanation: multiple studio lights (0.05)"]:::premise
-    obs_footprints["Observation: sharp footprints in lunar soil (0.95)"]:::premise
-    footprints_science["Scientific explanation: angular regolith holds imprints (0.91)"]:::derived
-    alt_footprints_fake["Hoax explanation: wet sand on Earth (0.09)"]:::premise
-    obs_no_crater["Observation: no blast crater under LM (0.95)"]:::premise
-    no_crater_science["Scientific explanation: low thrust + vacuum gas expansion (0.92)"]:::derived
-    alt_crater_studio["Hoax explanation: LM was a studio prop (0.06)"]:::premise
+    obs_flag_waves["Observation: flag appears to wave (1.00)"]:::premise
+    flag_science["Scientific explanation: flag design + vacuum inertia (1.00)"]:::derived
+    alt_flag_studio["Hoax explanation: studio air currents (0.05)"]:::premise
+    obs_no_stars["Observation: no stars in photos (1.00)"]:::premise
+    no_stars_science["Scientific explanation: camera exposure settings (1.00)"]:::derived
+    alt_no_stars_studio["Hoax explanation: studio backdrop (0.05)"]:::premise
+    obs_radiation_belt["Observation: Apollo transited the Van Allen belts (1.00)"]:::premise
+    radiation_safe["Scientific explanation: minimal radiation dose via fast transit (1.00)"]:::derived
+    alt_radiation_lethal["Hoax explanation: lethal radiation barrier (0.02)"]:::premise
+    obs_shadows["Observation: non-parallel shadows (1.00)"]:::premise
+    shadows_science["Scientific explanation: perspective + uneven terrain (1.00)"]:::derived
+    alt_shadows_studio["Hoax explanation: multiple studio lights (0.03)"]:::premise
+    obs_footprints["Observation: sharp footprints in lunar soil (1.00)"]:::premise
+    footprints_science["Scientific explanation: angular regolith holds imprints (1.00)"]:::derived
+    alt_footprints_fake["Hoax explanation: wet sand on Earth (0.05)"]:::premise
+    obs_no_crater["Observation: no blast crater under LM (1.00)"]:::premise
+    no_crater_science["Scientific explanation: low thrust + vacuum gas expansion (1.00)"]:::derived
+    alt_crater_studio["Hoax explanation: LM was a studio prop (0.03)"]:::premise
+    all_anomalies_explained["All conspiracy anomalies have scientific explanations (1.00)"]:::derived
     strat_0(["abduction"]):::weak
     obs_flag_waves --> strat_0
     alt_flag_studio --> strat_0
@@ -105,6 +106,14 @@ graph TD
     obs_no_crater --> strat_5
     alt_crater_studio --> strat_5
     strat_5 --> no_crater_science
+    strat_6(["noisy_and"]):::weak
+    flag_science --> strat_6
+    no_stars_science --> strat_6
+    radiation_safe --> strat_6
+    shadows_science --> strat_6
+    footprints_science --> strat_6
+    no_crater_science --> strat_6
+    strat_6 --> all_anomalies_explained
 
     classDef setting fill:#f0f0f0,stroke:#999,color:#333
     classDef premise fill:#ddeeff,stroke:#4488bb,color:#333
@@ -130,7 +139,7 @@ graph TD
 
 #### Observation: flag appears to wave
 
-📌 `obs_flag_waves`   |   Prior: 0.95   |   Belief: **0.95**
+📌 `obs_flag_waves`   |   Prior: 0.95   |   Belief: **1.00**
 
 > In Apollo mission footage and photographs, the American flag planted on the lunar surface appears to ripple and wave as though blown by wind.
 
@@ -139,7 +148,7 @@ graph TD
 
 #### Scientific explanation: flag design + vacuum inertia
 
-📌 `flag_science`   |   Belief: **0.91**
+📌 `flag_science`   |   Belief: **1.00**
 
 > The flag's apparent waving is explained by its Γ-shaped support rod (a horizontal telescoping arm kept the fabric unfurled) and the absence of air resistance. When astronauts handled the flagpole, inertial oscillations persisted far longer than on Earth. In video footage the flag is motionless except when physically touched.
 
@@ -156,7 +165,7 @@ The @flag_science explanation is fully consistent with the physics of vacuum ine
 
 #### Hoax explanation: studio air currents
 
-📌 `alt_flag_studio`   |   Prior: 0.05   |   Belief: **0.09**
+📌 `alt_flag_studio`   |   Prior: 0.05   |   Belief: **0.05**
 
 > The flag waves because the footage was shot in an Earth-based studio with air currents from ventilation or movement of crew.
 
@@ -165,7 +174,7 @@ The @flag_science explanation is fully consistent with the physics of vacuum ine
 
 #### Observation: no stars in photos
 
-📌 `obs_no_stars`   |   Prior: 0.95   |   Belief: **0.95**
+📌 `obs_no_stars`   |   Prior: 0.95   |   Belief: **1.00**
 
 > None of the Apollo mission photographs show stars in the lunar sky, despite the Moon having no atmosphere to scatter light.
 
@@ -174,7 +183,7 @@ The @flag_science explanation is fully consistent with the physics of vacuum ine
 
 #### Scientific explanation: camera exposure settings
 
-📌 `no_stars_science`   |   Belief: **0.91**
+📌 `no_stars_science`   |   Belief: **1.00**
 
 > Stars are absent from Apollo photos because all manned missions landed during lunar daytime. The sunlit lunar surface has an albedo of ~0.12, requiring fast shutter speeds (1/125–1/250 s) and small apertures (f/5.6–f/11) to properly expose the bright foreground. At these camera settings, stars (apparent magnitude > +1) are far too dim to register on film. The same effect occurs on Earth: daytime photos rarely show stars.
 
@@ -191,7 +200,7 @@ The absence of stars is a well-understood photographic effect. Any camera set to
 
 #### Hoax explanation: studio backdrop
 
-📌 `alt_no_stars_studio`   |   Prior: 0.05   |   Belief: **0.09**
+📌 `alt_no_stars_studio`   |   Prior: 0.05   |   Belief: **0.05**
 
 > Stars are absent because the footage was shot in a studio, and the backdrop was a simple black curtain without star projections. Accurately reproducing the star field visible from a specific lunar location would have been too difficult to fake convincingly.
 
@@ -200,7 +209,7 @@ The absence of stars is a well-understood photographic effect. Any camera set to
 
 #### Observation: Apollo transited the Van Allen belts
 
-📌 `obs_radiation_belt`   |   Prior: 0.99   |   Belief: **0.99**
+📌 `obs_radiation_belt`   |   Prior: 0.99   |   Belief: **1.00**
 
 > The Apollo spacecraft had to pass through the Van Allen radiation belts, which contain high-energy charged particles trapped by Earth's magnetic field.
 
@@ -209,7 +218,7 @@ The absence of stars is a well-understood photographic effect. Any camera set to
 
 #### Scientific explanation: minimal radiation dose via fast transit
 
-📌 `radiation_safe`   |   Belief: **0.97**
+📌 `radiation_safe`   |   Belief: **1.00**
 
 > Apollo astronauts passed through the Van Allen belts in approximately 30 minutes each way via a trajectory designed to minimize exposure through the belts' thinnest regions. The total mission radiation dose was measured at approximately 0.18 rad (1.8 mSv) over the 12-day Apollo 11 mission — comparable to one or two chest X-rays, and well below the 25 rad threshold for acute radiation sickness.
 
@@ -226,7 +235,7 @@ The @radiation_safe explanation is backed by dosimetry data from onboard radiati
 
 #### Hoax explanation: lethal radiation barrier
 
-📌 `alt_radiation_lethal`   |   Prior: 0.02   |   Belief: **0.04**
+📌 `alt_radiation_lethal`   |   Prior: 0.02   |   Belief: **0.02**
 
 > The Van Allen belt radiation would have been lethal to the astronauts, proving they could not have passed through them and therefore never left low Earth orbit.
 
@@ -235,7 +244,7 @@ The @radiation_safe explanation is backed by dosimetry data from onboard radiati
 
 #### Observation: non-parallel shadows
 
-📌 `obs_shadows`   |   Prior: 0.90   |   Belief: **0.91**
+📌 `obs_shadows`   |   Prior: 0.90   |   Belief: **1.00**
 
 > In several Apollo photographs, shadows cast by objects on the lunar surface appear to point in different directions rather than being parallel.
 
@@ -244,7 +253,7 @@ The @radiation_safe explanation is backed by dosimetry data from onboard radiati
 
 #### Scientific explanation: perspective + uneven terrain
 
-📌 `shadows_science`   |   Belief: **0.88**
+📌 `shadows_science`   |   Belief: **1.00**
 
 > Non-parallel shadows are a well-known perspective effect in wide-angle photography of uneven terrain. On the Moon's undulating surface, parallel shadows from a single distant light source (the Sun) appear to diverge when projected onto a 2D photograph. If multiple artificial light sources existed, objects would cast multiple shadows — but no Apollo photo shows multiple shadows from any object.
 
@@ -261,7 +270,7 @@ The @radiation_safe explanation is backed by dosimetry data from onboard radiati
 
 #### Hoax explanation: multiple studio lights
 
-📌 `alt_shadows_studio`   |   Prior: 0.03   |   Belief: **0.05**
+📌 `alt_shadows_studio`   |   Prior: 0.03   |   Belief: **0.03**
 
 > The non-parallel shadows prove multiple artificial light sources were used in a studio setting, since a single light source (the Sun) would produce perfectly parallel shadows.
 
@@ -270,7 +279,7 @@ The @radiation_safe explanation is backed by dosimetry data from onboard radiati
 
 #### Observation: sharp footprints in lunar soil
 
-📌 `obs_footprints`   |   Prior: 0.95   |   Belief: **0.95**
+📌 `obs_footprints`   |   Prior: 0.95   |   Belief: **1.00**
 
 > Apollo astronaut bootprints on the lunar surface are remarkably sharp and well-defined, appearing as clear as prints made in wet sand on Earth.
 
@@ -279,7 +288,7 @@ The @radiation_safe explanation is backed by dosimetry data from onboard radiati
 
 #### Scientific explanation: angular regolith holds imprints
 
-📌 `footprints_science`   |   Belief: **0.91**
+📌 `footprints_science`   |   Belief: **1.00**
 
 > Lunar regolith consists of angular, jagged micro-particles created by micrometeorite bombardment over billions of years, unlike wind-rounded Earth sand grains. These angular particles interlock under compression, holding a sharp imprint without moisture. The effect is analogous to pressing talcum powder — fine angular powders hold shape without water.
 
@@ -296,7 +305,7 @@ The @radiation_safe explanation is backed by dosimetry data from onboard radiati
 
 #### Hoax explanation: wet sand on Earth
 
-📌 `alt_footprints_fake`   |   Prior: 0.05   |   Belief: **0.09**
+📌 `alt_footprints_fake`   |   Prior: 0.05   |   Belief: **0.05**
 
 > The sharp footprints prove the photos were taken on Earth using wet sand or a prepared substrate, because dry powder cannot hold such detailed impressions.
 
@@ -305,7 +314,7 @@ The @radiation_safe explanation is backed by dosimetry data from onboard radiati
 
 #### Observation: no blast crater under LM
 
-📌 `obs_no_crater`   |   Prior: 0.95   |   Belief: **0.95**
+📌 `obs_no_crater`   |   Prior: 0.95   |   Belief: **1.00**
 
 > Photos of the Apollo Lunar Module (LM) on the Moon show no significant blast crater or scorching beneath the descent engine despite the engine producing ~4,500 kg of thrust during landing.
 
@@ -314,7 +323,7 @@ The @radiation_safe explanation is backed by dosimetry data from onboard radiati
 
 #### Scientific explanation: low thrust + vacuum gas expansion
 
-📌 `no_crater_science`   |   Belief: **0.92**
+📌 `no_crater_science`   |   Belief: **1.00**
 
 > The absence of a blast crater is explained by three factors: (1) the descent engine was throttled down to ~1,360 kg of thrust during final approach; (2) without an atmosphere, exhaust gases expand radially and dissipate rather than concentrating downward; (3) the lunar surface beneath the LM was swept clean of loose regolith, which is visible in photos as a lighter-colored area around the landing site — confirmed by Japan's SELENE probe (2008) and India's Chandrayaan missions.
 
@@ -331,9 +340,26 @@ The @radiation_safe explanation is backed by dosimetry data from onboard radiati
 
 #### Hoax explanation: LM was a studio prop
 
-📌 `alt_crater_studio`   |   Prior: 0.03   |   Belief: **0.06**
+📌 `alt_crater_studio`   |   Prior: 0.03   |   Belief: **0.03**
 
 > The lack of a blast crater proves the Lunar Module was a static prop placed on a studio floor, because a real rocket landing would create an obvious crater.
+
+
+<a id="all_anomalies_explained"></a>
+
+#### All conspiracy anomalies have scientific explanations
+
+📌 `all_anomalies_explained`   |   Belief: **1.00**
+
+> All six photographic/video anomalies cited by conspiracy theorists — the waving flag, absent stars, Van Allen radiation, non-parallel shadows, sharp footprints, and missing blast crater — have complete scientific explanations consistent with the known lunar environment. None requires invoking a studio or fabrication.
+
+🔗 **noisy_and**([Scientific explanation: flag design + vacuum inertia](#flag_science), [Scientific explanation: camera exposure settings](#no_stars_science), [Scientific explanation: minimal radiation dose via fast transit](#radiation_safe), [Scientific explanation: perspective + uneven terrain](#shadows_science), [Scientific explanation: angular regolith holds imprints](#footprints_science), [Scientific explanation: low thrust + vacuum gas expansion](#no_crater_science))
+
+<details><summary>Reasoning</summary>
+
+Each of the six anomalies has been independently explained by lunar physics: @flag_science (vacuum inertia), @no_stars_science (camera exposure), @radiation_safe (fast transit + shielding), @shadows_science (perspective geometry), @footprints_science (angular regolith), @no_crater_science (low thrust + vacuum exhaust). The conjunction of all six scientific explanations being correct supports the conclusion that no anomaly requires a hoax to explain.
+
+</details>
 
 
 ## Independent evidence confirming the Apollo Moon landings.
@@ -359,9 +385,9 @@ graph TD
     obs_400k_people["400,000+ people involved in Apollo (1.00)"]:::premise
     conspiracy_impossible["Large-scale conspiracy is statistically implausible (1.00)"]:::derived
     obs_ouyang_endorsement["China's chief lunar scientist endorses Apollo authenticity (1.00)"]:::premise
-    strat_21(["noisy_and"]):::weak
-    obs_400k_people --> strat_21
-    strat_21 --> conspiracy_impossible
+    strat_23(["noisy_and"]):::weak
+    obs_400k_people --> strat_23
+    strat_23 --> conspiracy_impossible
 
     classDef setting fill:#f0f0f0,stroke:#999,color:#333
     classDef premise fill:#ddeeff,stroke:#4488bb,color:#333
@@ -563,29 +589,30 @@ Based on @obs_400k_people and Grimes' statistical model of conspiracy viability,
 | [alt_rocks_fake](#alt_rocks_fake) | claim | 0.01 | 0.0100 | independent |
 | [alt_soviet_complicit](#alt_soviet_complicit) | claim | 0.01 | 0.0100 | independent |
 | [alt_imaging_fake](#alt_imaging_fake) | claim | 0.01 | 0.0100 | independent |
-| [alt_radiation_lethal](#alt_radiation_lethal) | claim | 0.02 | 0.0387 | independent |
-| [alt_shadows_studio](#alt_shadows_studio) | claim | 0.03 | 0.0526 | independent |
-| [alt_crater_studio](#alt_crater_studio) | claim | 0.03 | 0.0554 | independent |
-| [alt_flag_studio](#alt_flag_studio) | claim | 0.05 | 0.0907 | independent |
-| [alt_footprints_fake](#alt_footprints_fake) | claim | 0.05 | 0.0907 | independent |
-| [alt_no_stars_studio](#alt_no_stars_studio) | claim | 0.05 | 0.0907 | independent |
+| [alt_radiation_lethal](#alt_radiation_lethal) | claim | 0.02 | 0.0201 | independent |
+| [alt_shadows_studio](#alt_shadows_studio) | claim | 0.03 | 0.0301 | independent |
+| [alt_crater_studio](#alt_crater_studio) | claim | 0.03 | 0.0301 | independent |
+| [alt_flag_studio](#alt_flag_studio) | claim | 0.05 | 0.0502 | independent |
+| [alt_footprints_fake](#alt_footprints_fake) | claim | 0.05 | 0.0502 | independent |
+| [alt_no_stars_studio](#alt_no_stars_studio) | claim | 0.05 | 0.0502 | independent |
 | [alt_retroreflector_unmanned](#alt_retroreflector_unmanned) | claim | 0.15 | 0.1500 | independent |
-| [shadows_science](#shadows_science) | claim | — | 0.8767 | derived |
-| [obs_shadows](#obs_shadows) | claim | 0.90 | 0.9052 | independent |
-| [flag_science](#flag_science) | claim | — | 0.9067 | derived |
-| [footprints_science](#footprints_science) | claim | — | 0.9067 | derived |
-| [no_stars_science](#no_stars_science) | claim | — | 0.9067 | derived |
-| [no_crater_science](#no_crater_science) | claim | — | 0.9225 | derived |
-| [obs_no_crater](#obs_no_crater) | claim | 0.95 | 0.9528 | independent |
-| [obs_flag_waves](#obs_flag_waves) | claim | 0.95 | 0.9545 | independent |
-| [obs_footprints](#obs_footprints) | claim | 0.95 | 0.9545 | independent |
-| [obs_no_stars](#obs_no_stars) | claim | 0.95 | 0.9545 | independent |
-| [radiation_safe](#radiation_safe) | claim | — | 0.9682 | derived |
-| [obs_radiation_belt](#obs_radiation_belt) | claim | 0.99 | 0.9904 | independent |
+| [all_anomalies_explained](#all_anomalies_explained) | claim | — | 0.9989 | derived |
+| [obs_shadows](#obs_shadows) | claim | 0.90 | 0.9991 | independent |
+| [shadows_science](#shadows_science) | claim | — | 0.9993 | derived |
+| [flag_science](#flag_science) | claim | — | 0.9995 | derived |
+| [footprints_science](#footprints_science) | claim | — | 0.9995 | derived |
+| [no_stars_science](#no_stars_science) | claim | — | 0.9995 | derived |
+| [no_crater_science](#no_crater_science) | claim | — | 0.9995 | derived |
+| [obs_no_crater](#obs_no_crater) | claim | 0.95 | 0.9996 | independent |
+| [obs_flag_waves](#obs_flag_waves) | claim | 0.95 | 0.9996 | independent |
+| [obs_footprints](#obs_footprints) | claim | 0.95 | 0.9996 | independent |
+| [obs_no_stars](#obs_no_stars) | claim | 0.95 | 0.9996 | independent |
+| [radiation_safe](#radiation_safe) | claim | — | 0.9998 | derived |
 | [obs_soviet_tracked](#obs_soviet_tracked) | claim | 0.95 | 0.9998 | independent |
 | [obs_india_chandrayaan](#obs_india_chandrayaan) | claim | 0.96 | 0.9999 | independent |
 | [obs_soviet_luna15](#obs_soviet_luna15) | claim | 0.97 | 0.9999 | independent |
 | [obs_japan_selene](#obs_japan_selene) | claim | 0.97 | 0.9999 | independent |
+| [obs_radiation_belt](#obs_radiation_belt) | claim | 0.99 | 0.9999 | independent |
 | [conspiracy_impossible](#conspiracy_impossible) | claim | — | 0.9999 | derived |
 | [obs_soviet_samples_match](#obs_soviet_samples_match) | claim | 0.98 | 0.9999 | independent |
 | [obs_soviet_encyclopedia](#obs_soviet_encyclopedia) | claim | 0.98 | 0.9999 | independent |

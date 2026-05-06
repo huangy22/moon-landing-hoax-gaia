@@ -1,5 +1,5 @@
 {
-  "ir_hash": "sha256:ed4f04b64060a74431beb594bf2e52e288653706b519e70d2f751433cd50c15b",
+  "ir_hash": "sha256:d06e2024b6e9d18ddca5772a221e6fe50edd127775f2c72613b96c702406defe",
   "knowledges": [
     {
       "content": "During the Cold War (1957–1972), the United States and the Soviet Union competed in the 'Space Race.' NASA's Apollo program aimed to land humans on the Moon, culminating in Apollo 11 on July 20, 1969. Six Apollo missions (11, 12, 14, 15, 16, 17) successfully landed on the Moon between 1969 and 1972.",
@@ -36,6 +36,7 @@
         "gaia": {
           "provenance": {
             "referenced_claims": [
+              "all_anomalies_explained",
               "alt_imaging_fake",
               "alt_retroreflector_unmanned",
               "alt_rocks_fake",
@@ -374,6 +375,32 @@
       "module": "conspiracy_claims",
       "parameters": [],
       "title": "Hoax explanation: LM was a studio prop",
+      "type": "claim"
+    },
+    {
+      "content": "All six photographic/video anomalies cited by conspiracy theorists — the waving flag, absent stars, Van Allen radiation, non-parallel shadows, sharp footprints, and missing blast crater — have complete scientific explanations consistent with the known lunar environment. None requires invoking a studio or fabrication.",
+      "content_hash": "006a2b1fe9c05fbaf79d9a6e8fd606a758f6b30694e9f3fe0dee6a42b19fe9ab",
+      "declaration_index": 19,
+      "exported": false,
+      "id": "github:moon_landing_hoax::all_anomalies_explained",
+      "label": "all_anomalies_explained",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "referenced_claims": [
+              "flag_science",
+              "footprints_science",
+              "no_crater_science",
+              "no_stars_science",
+              "radiation_safe",
+              "shadows_science"
+            ]
+          }
+        }
+      },
+      "module": "conspiracy_claims",
+      "parameters": [],
+      "title": "All conspiracy anomalies have scientific explanations",
       "type": "claim"
     },
     {
@@ -1580,6 +1607,35 @@
       "scope": "local",
       "strategy_id": "lcs_e732e70f1399d479",
       "type": "abduction"
+    },
+    {
+      "conclusion": "github:moon_landing_hoax::all_anomalies_explained",
+      "metadata": {
+        "reason": "Each of the six anomalies has been independently explained by lunar physics: @flag_science (vacuum inertia), @no_stars_science (camera exposure), @radiation_safe (fast transit + shielding), @shadows_science (perspective geometry), @footprints_science (angular regolith), @no_crater_science (low thrust + vacuum exhaust). The conjunction of all six scientific explanations being correct supports the conclusion that no anomaly requires a hoax to explain."
+      },
+      "premises": [
+        "github:moon_landing_hoax::flag_science",
+        "github:moon_landing_hoax::no_stars_science",
+        "github:moon_landing_hoax::radiation_safe",
+        "github:moon_landing_hoax::shadows_science",
+        "github:moon_landing_hoax::footprints_science",
+        "github:moon_landing_hoax::no_crater_science"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_eabf5cadc3817991",
+      "type": "noisy_and"
+    },
+    {
+      "conclusion": "github:moon_landing_hoax::moon_landing_real",
+      "metadata": {
+        "reason": "If @all_anomalies_explained — i.e., every supposed 'evidence' for the hoax has a natural scientific explanation — then the hoax hypothesis loses its entire evidential basis from photographic anomalies, supporting the conclusion that the landings were real."
+      },
+      "premises": [
+        "github:moon_landing_hoax::all_anomalies_explained"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_027c1171ea4aa40d",
+      "type": "noisy_and"
     },
     {
       "background": [

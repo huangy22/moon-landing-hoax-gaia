@@ -23,58 +23,91 @@ Did NASA fake the Apollo Moon landings? This knowledge package formalizes the de
 ---
 config:
   flowchart:
-    rankSpacing: 80
-    nodeSpacing: 30
+    rankSpacing: 60
+    nodeSpacing: 20
 ---
 graph TB
-    moon_landing_real["★ Moon landings were real\n(0.50 → 1.00)"]:::exported
-    obs_retroreflector_us["Laser ranging from Western observatories\n(0.99 → 1.00)"]:::premise
-    obs_retroreflector_china["Laser ranging from Chinese observatories\n(0.99 → 1.00)"]:::premise
-    alt_retroreflector_unmanned["Alternative: unmanned placement of retroreflectors\n(0.15 → 0.15)"]:::premise
-    obs_moon_rocks["Apollo lunar samples: properties and independent analysis\n(0.99 → 1.00)"]:::premise
-    obs_soviet_samples_match["Soviet Luna samples match Apollo samples\n(0.98 → 1.00)"]:::premise
-    obs_china_sample["Chinese analysis of gifted Apollo sample\n(0.97 → 1.00)"]:::premise
-    alt_rocks_fake["Alternative: fabricated lunar samples\n(0.01 → 0.01)"]:::premise
-    obs_lro_images["LRO photographs of Apollo landing sites\n(0.98 → 1.00)"]:::premise
-    obs_japan_selene["Japan SELENE imaging of Apollo 15 site\n(0.97 → 1.00)"]:::premise
-    obs_india_chandrayaan["India Chandrayaan imaging of Apollo sites\n(0.96 → 1.00)"]:::premise
-    alt_imaging_fake["Alternative: fabricated orbital images\n(0.01 → 0.01)"]:::premise
-    obs_soviet_tracked["Soviet independent tracking of Apollo missions\n(0.95 → 1.00)"]:::premise
-    obs_soviet_encyclopedia["Soviet Encyclopedia acknowledgment\n(0.98 → 1.00)"]:::premise
-    obs_soviet_luna15["Soviet Luna 15 coordination with Apollo 11\n(0.97 → 1.00)"]:::premise
-    alt_soviet_complicit["Alternative: Soviet complicity or deception\n(0.01 → 0.01)"]:::premise
-    obs_400k_people["400,000+ people involved in Apollo\n(0.99 → 1.00)"]:::premise
-    obs_ouyang_endorsement["China's chief lunar scientist endorses Apollo authenticity\n(0.98 → 1.00)"]:::premise
-    real_xor_hoax["real_xor_hoax\n(0.50 → 1.00)"]:::premise
-    moon_landing_hoax["★ Moon landings were a hoax\n(0.05 → 0.00)"]:::exported
-    strat_0(["infer\n0.00 bits"]):::weak
-    alt_imaging_fake --> strat_0
-    alt_retroreflector_unmanned --> strat_0
-    alt_rocks_fake --> strat_0
-    alt_soviet_complicit --> strat_0
-    obs_400k_people --> strat_0
-    obs_china_sample --> strat_0
-    obs_india_chandrayaan --> strat_0
-    obs_japan_selene --> strat_0
-    obs_lro_images --> strat_0
-    obs_moon_rocks --> strat_0
-    obs_ouyang_endorsement --> strat_0
-    obs_retroreflector_china --> strat_0
-    obs_retroreflector_us --> strat_0
-    obs_soviet_encyclopedia --> strat_0
-    obs_soviet_luna15 --> strat_0
-    obs_soviet_samples_match --> strat_0
-    obs_soviet_tracked --> strat_0
-    strat_0 --> moon_landing_real
-    oper_0{{"⊕"}}
+    subgraph conspiracy ["Conspiracy Claims Debunked"]
+        obs_flag["🏳️ Flag waves (0.95→1.00)"]:::premise
+        alt_flag["Studio air currents (0.05→0.05)"]:::alt
+        obs_stars["⭐ No stars in photos (0.95→1.00)"]:::premise
+        alt_stars["Studio backdrop (0.05→0.05)"]:::alt
+        obs_rad["☢️ Van Allen belt transit (0.99→1.00)"]:::premise
+        alt_rad["Lethal radiation (0.02→0.02)"]:::alt
+        obs_shadow["🌓 Non-parallel shadows (0.90→1.00)"]:::premise
+        alt_shadow["Multiple studio lights (0.03→0.03)"]:::alt
+        obs_foot["👣 Sharp footprints (0.95→1.00)"]:::premise
+        alt_foot["Wet sand on Earth (0.05→0.05)"]:::alt
+        obs_crater["🚀 No blast crater (0.95→1.00)"]:::premise
+        alt_crater["LM was a prop (0.03→0.03)"]:::alt
+        flag_sci["Flag: Γ-rod + vacuum inertia (1.00)"]:::derived
+        stars_sci["Stars: camera exposure (1.00)"]:::derived
+        rad_sci["Radiation: fast transit 0.18rad (1.00)"]:::derived
+        shadow_sci["Shadows: perspective + terrain (1.00)"]:::derived
+        foot_sci["Footprints: angular regolith (1.00)"]:::derived
+        crater_sci["Crater: low thrust + vacuum (1.00)"]:::derived
+        abd0(["abduction"])
+        obs_flag --> abd0
+        alt_flag --> abd0
+        abd0 --> flag_sci
+        abd1(["abduction"])
+        obs_stars --> abd1
+        alt_stars --> abd1
+        abd1 --> stars_sci
+        abd2(["abduction"])
+        obs_rad --> abd2
+        alt_rad --> abd2
+        abd2 --> rad_sci
+        abd3(["abduction"])
+        obs_shadow --> abd3
+        alt_shadow --> abd3
+        abd3 --> shadow_sci
+        abd4(["abduction"])
+        obs_foot --> abd4
+        alt_foot --> abd4
+        abd4 --> foot_sci
+        abd5(["abduction"])
+        obs_crater --> abd5
+        alt_crater --> abd5
+        abd5 --> crater_sci
+    end
+    all_explained["All anomalies explained (1.00)"]:::derived
+    flag_sci --> na0
+    stars_sci --> na0
+    rad_sci --> na0
+    shadow_sci --> na0
+    foot_sci --> na0
+    crater_sci --> na0
+    na0(["noisy_and"]) --> all_explained
+    all_explained --> na1
+    na1(["noisy_and"]) --> moon_landing_real
+
+    subgraph evidence ["Independent Evidence"]
+        obs_retro["🔭 Laser retroreflectors\nUS+China (0.99→1.00)"]:::premise
+        obs_rocks["🪨 381.7 kg moon rocks\n+Soviet match (0.99→1.00)"]:::premise
+        obs_orbital["🛰️ Orbital imaging\nJapan+India+LRO (0.97→1.00)"]:::premise
+        obs_soviet["☭ Soviet acknowledgment\n+Luna 15 coordination (0.97→1.00)"]:::premise
+        obs_scale["👥 400,000 people\nstatistically impossible (0.99→1.00)"]:::premise
+        obs_china["🇨🇳 Ouyang Ziyuan endorsement\n+sample analysis (0.98→1.00)"]:::premise
+    end
+    obs_retro --> strat_ev
+    obs_rocks --> strat_ev
+    obs_orbital --> strat_ev
+    obs_soviet --> strat_ev
+    obs_scale --> strat_ev
+    obs_china --> strat_ev
+    strat_ev(["induction + noisy_and"]) --> moon_landing_real
+
+    moon_landing_real["★ Moon landings were REAL\n(0.50 → 1.00)"]:::exported
+    moon_landing_hoax["★ Moon landings were a HOAX\n(0.05 → 0.0001)"]:::exported
+    oper_0{{"⊕ complement"}}
     moon_landing_real --- oper_0
     moon_landing_hoax --- oper_0
-    oper_0 --- real_xor_hoax
 
     classDef premise fill:#ddeeff,stroke:#4488bb,color:#333
-    classDef exported fill:#d4edda,stroke:#28a745,stroke-width:2px,color:#333
-    classDef weak fill:#fff9c4,stroke:#f9a825,stroke-dasharray: 5 5,color:#333
-    classDef contra fill:#ffebee,stroke:#c62828,color:#333
+    classDef alt fill:#ffebee,stroke:#c62828,color:#333
+    classDef derived fill:#ddffdd,stroke:#44bb44,color:#333
+    classDef exported fill:#d4edda,stroke:#28a745,stroke-width:3px,color:#333
 ```
 
 > [!NOTE]
@@ -88,9 +121,11 @@ graph TB
 
 The Moon-landing hoax theory, originating with Bill Kaysing's 1976 book, rests on apparent anomalies in Apollo photographs and footage. Each anomaly has a straightforward scientific explanation rooted in the physics of the lunar environment — a place with no atmosphere, no wind, extreme lighting contrast, and angular micro-particle soil unlike anything on Earth.
 
-The **waving flag** appears to flutter because it hangs from a horizontal telescoping rod (the Γ-shaped support) and, in the absence of air resistance, any motion imparted by the astronauts persists far longer than it would on Earth. Video analysis confirms the flag only moves when physically touched (belief 0.91). The **absent stars** are explained by basic photography: the sunlit lunar surface requires fast shutter speeds and small apertures that render faint stars invisible — the same reason daytime photos on Earth don't show stars (belief 0.91). The **Van Allen radiation belt** concern is addressed by dosimetry: Apollo spacecraft transited the belts' thinnest regions in approximately 30 minutes, receiving a total dose of ~0.18 rad over the entire mission — comparable to a chest X-ray and far below the 25-rad threshold for acute radiation sickness (belief 0.97).
+The **waving flag** appears to flutter because it hangs from a horizontal telescoping rod (the Γ-shaped support) and, in the absence of air resistance, any motion imparted by the astronauts persists far longer than it would on Earth. Video analysis confirms the flag only moves when physically touched (belief 1.00). The **absent stars** are explained by basic photography: the sunlit lunar surface requires fast shutter speeds and small apertures that render faint stars invisible — the same reason daytime photos on Earth don't show stars (belief 1.00). The **Van Allen radiation belt** concern is addressed by dosimetry: Apollo spacecraft transited the belts' thinnest regions in approximately 30 minutes, receiving a total dose of ~0.18 rad over the entire mission — comparable to a chest X-ray and far below the 25-rad threshold for acute radiation sickness (belief 1.00).
 
-**Non-parallel shadows** are a well-understood perspective effect from wide-angle photography on uneven terrain; crucially, multiple studio lights would produce multiple shadows per object, which no Apollo photo shows (belief 0.88). **Sharp footprints** result from lunar regolith's angular micro-particles — created by billions of years of micrometeorite bombardment without wind rounding — which interlock under compression like talcum powder (belief 0.91). The **missing blast crater** is explained by the descent engine's reduced throttle (~1,360 kg at touchdown), combined with vacuum exhaust that expands radially rather than concentrating downward; the predicted swept regolith has been confirmed by Japan's SELENE and India's Chandrayaan orbiters (belief 0.92).
+**Non-parallel shadows** are a well-understood perspective effect from wide-angle photography on uneven terrain; crucially, multiple studio lights would produce multiple shadows per object, which no Apollo photo shows (belief 1.00). **Sharp footprints** result from lunar regolith's angular micro-particles — created by billions of years of micrometeorite bombardment without wind rounding — which interlock under compression like talcum powder (belief 1.00). The **missing blast crater** is explained by the descent engine's reduced throttle (~1,360 kg at touchdown), combined with vacuum exhaust that expands radially rather than concentrating downward; the predicted swept regolith has been confirmed by Japan's SELENE and India's Chandrayaan orbiters (belief 1.00).
+
+All six scientific explanations jointly confirm that no photographic anomaly requires a hoax to explain — the entire evidential basis of the conspiracy theory dissolves under scrutiny (belief 1.00).
 
 ### The Cold War's Most Powerful Witness: The Soviet Union
 
@@ -120,8 +155,6 @@ The Apollo program employed over 400,000 people. Mathematical modeling of conspi
 | moon_landing_hoax | The Apollo Moon landings were faked | 0.05 | **0.00** |
 
 ## Weak Points
-
-The formalization's weakest scientific explanation is the **non-parallel shadows** account (belief 0.88), because perspective effects on uneven terrain are less intuitively obvious than, say, camera exposure settings. A determined skeptic could argue this specific visual anomaly requires more rigorous computational demonstration — though NVIDIA's GPU-based lighting simulations have done precisely this.
 
 The **unmanned retroreflector placement** alternative (belief 0.15) is the most technically credible hoax-compatible claim. The Soviets demonstrably placed retroreflectors via Lunokhod rovers, so the technology existed. However, accepting this alternative requires inventing an additional secret NASA unmanned program while publicly claiming manned landings — a conspiracy within a conspiracy.
 

@@ -1,11 +1,61 @@
 {
   "holes": [
     {
+      "content": "The lack of a blast crater proves the Lunar Module was a static prop placed on a studio floor, because a real rocket landing would create an obvious crater.",
+      "content_hash": "f531e441b7b0204fa2a66c17e792526241f2887bfaeb2b841d77d648beda989b",
+      "interface_hash": "sha256:ccd0c2d784deeee25f59bf28f41c3650746f54c9425031b944a33dfe7164c741",
+      "label": "alt_crater_studio",
+      "qid": "github:moon_landing_hoax::alt_crater_studio",
+      "required_by": [
+        "github:moon_landing_hoax::moon_landing_real"
+      ]
+    },
+    {
+      "content": "The flag waves because the footage was shot in an Earth-based studio with air currents from ventilation or movement of crew.",
+      "content_hash": "4d12216b234bf2da9a39d3f8b7ace8e00ee32108242da8ea4499d621815cde83",
+      "interface_hash": "sha256:259f30839227014261f7485a6eea4b0451b3ddbf1afa559c9c193d3f58107419",
+      "label": "alt_flag_studio",
+      "qid": "github:moon_landing_hoax::alt_flag_studio",
+      "required_by": [
+        "github:moon_landing_hoax::moon_landing_real"
+      ]
+    },
+    {
+      "content": "The sharp footprints prove the photos were taken on Earth using wet sand or a prepared substrate, because dry powder cannot hold such detailed impressions.",
+      "content_hash": "7d030d121bb883493279cdae6530aab1a6e948cce8612a6327af7e4acf6145bd",
+      "interface_hash": "sha256:7ece78814d40623ef95292067597dbbc286933328291d1ff6dc473ab7110deb9",
+      "label": "alt_footprints_fake",
+      "qid": "github:moon_landing_hoax::alt_footprints_fake",
+      "required_by": [
+        "github:moon_landing_hoax::moon_landing_real"
+      ]
+    },
+    {
       "content": "The orbital images were fabricated or doctored by the respective space agencies (NASA, JAXA, ISRO) as part of a coordinated international cover-up.",
       "content_hash": "ba1f225518b32503158a0a8533d0f793fbad0ece95a8408f7521049fa650355c",
       "interface_hash": "sha256:c444b58ffa88a7043acf47dc6712219526cf2709539a8ab870dbf1056575d015",
       "label": "alt_imaging_fake",
       "qid": "github:moon_landing_hoax::alt_imaging_fake",
+      "required_by": [
+        "github:moon_landing_hoax::moon_landing_real"
+      ]
+    },
+    {
+      "content": "Stars are absent because the footage was shot in a studio, and the backdrop was a simple black curtain without star projections. Accurately reproducing the star field visible from a specific lunar location would have been too difficult to fake convincingly.",
+      "content_hash": "47759d63f68d0a2c0e7158764d5900200af89bd8ca077dcc1cbf833cae4abcf6",
+      "interface_hash": "sha256:a94eef95e5917514e17c1100ed9d1216b6af7a8a099765fd4ea31fc57d97b911",
+      "label": "alt_no_stars_studio",
+      "qid": "github:moon_landing_hoax::alt_no_stars_studio",
+      "required_by": [
+        "github:moon_landing_hoax::moon_landing_real"
+      ]
+    },
+    {
+      "content": "The Van Allen belt radiation would have been lethal to the astronauts, proving they could not have passed through them and therefore never left low Earth orbit.",
+      "content_hash": "65a0d619adf93cafb52c4dca7d0d5877f83702de040b2f566f456cea1e3562bc",
+      "interface_hash": "sha256:abd7ef57791788dc9bff465b633db6da8b29639ae5c84303dd07e262c4e1ec11",
+      "label": "alt_radiation_lethal",
+      "qid": "github:moon_landing_hoax::alt_radiation_lethal",
       "required_by": [
         "github:moon_landing_hoax::moon_landing_real"
       ]
@@ -26,6 +76,16 @@
       "interface_hash": "sha256:632b543747562083c928c0a3a8683b5a9f189935ec8b1a336d45dd62254dc793",
       "label": "alt_rocks_fake",
       "qid": "github:moon_landing_hoax::alt_rocks_fake",
+      "required_by": [
+        "github:moon_landing_hoax::moon_landing_real"
+      ]
+    },
+    {
+      "content": "The non-parallel shadows prove multiple artificial light sources were used in a studio setting, since a single light source (the Sun) would produce perfectly parallel shadows.",
+      "content_hash": "3206363acfdd6e88379dd2052331015b12225d582f9f5abaf67f7f6d70078a3c",
+      "interface_hash": "sha256:8ea886d47b37a25506069144040fc48de6c781b38445640a5e0a06853731b5b5",
+      "label": "alt_shadows_studio",
+      "qid": "github:moon_landing_hoax::alt_shadows_studio",
       "required_by": [
         "github:moon_landing_hoax::moon_landing_real"
       ]
@@ -56,6 +116,26 @@
       "interface_hash": "sha256:c3f5fd16931cedcbff69c935e24c8cb85d0a30f3d2220f9646001e22b94b9169",
       "label": "obs_china_sample",
       "qid": "github:moon_landing_hoax::obs_china_sample",
+      "required_by": [
+        "github:moon_landing_hoax::moon_landing_real"
+      ]
+    },
+    {
+      "content": "In Apollo mission footage and photographs, the American flag planted on the lunar surface appears to ripple and wave as though blown by wind.",
+      "content_hash": "7088c669aa76a2b13bcefa84246f4394d19d53e6d36873b2764e059cf7cc7745",
+      "interface_hash": "sha256:2ed6238269cf31f511e55bd77ebde8f47daae26bfd10f0702e8997680ff0afcc",
+      "label": "obs_flag_waves",
+      "qid": "github:moon_landing_hoax::obs_flag_waves",
+      "required_by": [
+        "github:moon_landing_hoax::moon_landing_real"
+      ]
+    },
+    {
+      "content": "Apollo astronaut bootprints on the lunar surface are remarkably sharp and well-defined, appearing as clear as prints made in wet sand on Earth.",
+      "content_hash": "1dd8c939debe39da224e020ce44fc34a2c9f641e40eec8862e08036077aa573b",
+      "interface_hash": "sha256:68a51827a75d72a7bb4e95a4049fe601eafdb13fddc8ccf6aa15b04fe9fe7b5c",
+      "label": "obs_footprints",
+      "qid": "github:moon_landing_hoax::obs_footprints",
       "required_by": [
         "github:moon_landing_hoax::moon_landing_real"
       ]
@@ -101,11 +181,41 @@
       ]
     },
     {
+      "content": "Photos of the Apollo Lunar Module (LM) on the Moon show no significant blast crater or scorching beneath the descent engine despite the engine producing ~4,500 kg of thrust during landing.",
+      "content_hash": "2895ab8a4090822e387260f30b4e17a54151ced07ca200c225eba95b7d908060",
+      "interface_hash": "sha256:a1624998e7cddab4ef5bf1b71942b3e1a9181783df563ccff3950a119e780ecb",
+      "label": "obs_no_crater",
+      "qid": "github:moon_landing_hoax::obs_no_crater",
+      "required_by": [
+        "github:moon_landing_hoax::moon_landing_real"
+      ]
+    },
+    {
+      "content": "None of the Apollo mission photographs show stars in the lunar sky, despite the Moon having no atmosphere to scatter light.",
+      "content_hash": "3dc9e6b502a9f3729a579178f683534596ce8cc0a839db6b314d48499d801636",
+      "interface_hash": "sha256:59a2f89c1d121059b99ef80d4d150eac59d31ec4ae0c8a61fe06f5a04867cd00",
+      "label": "obs_no_stars",
+      "qid": "github:moon_landing_hoax::obs_no_stars",
+      "required_by": [
+        "github:moon_landing_hoax::moon_landing_real"
+      ]
+    },
+    {
       "content": "Ouyang Ziyuan (欧阳自远), chief scientist of China's Chang'e lunar exploration program, publicly stated that 'the scientific community has reached consensus on the authenticity of the Apollo landings.' He systematically addressed common conspiracy claims — flag motion, absent stars, shadow directions — with scientific explanations, leveraging China's own lunar exploration experience and independent data.",
       "content_hash": "bd45b48887c7b452267c40410d1c51ca7a5b259c7ea9f172a613ef929520cb00",
       "interface_hash": "sha256:58abb60b8b7b13bc6a63e6a2acc6ac47cc3d9ccf2257894d099fbbfd8eac2338",
       "label": "obs_ouyang_endorsement",
       "qid": "github:moon_landing_hoax::obs_ouyang_endorsement",
+      "required_by": [
+        "github:moon_landing_hoax::moon_landing_real"
+      ]
+    },
+    {
+      "content": "The Apollo spacecraft had to pass through the Van Allen radiation belts, which contain high-energy charged particles trapped by Earth's magnetic field.",
+      "content_hash": "165787ea75357e30c25bb767a8307475d986d74e7e04c29934d51926b81f6092",
+      "interface_hash": "sha256:1e6152e6d61dbd008f226598529e49bd4641af1452d121056bce669f8061d791",
+      "label": "obs_radiation_belt",
+      "qid": "github:moon_landing_hoax::obs_radiation_belt",
       "required_by": [
         "github:moon_landing_hoax::moon_landing_real"
       ]
@@ -126,6 +236,16 @@
       "interface_hash": "sha256:987ff33247c2c57927a5e2bde4e0ff69e2551f016ec635c05034a19f24ead658",
       "label": "obs_retroreflector_us",
       "qid": "github:moon_landing_hoax::obs_retroreflector_us",
+      "required_by": [
+        "github:moon_landing_hoax::moon_landing_real"
+      ]
+    },
+    {
+      "content": "In several Apollo photographs, shadows cast by objects on the lunar surface appear to point in different directions rather than being parallel.",
+      "content_hash": "96dbc3ac8c454a34a4a2b84991c51a1d9265f0bcbf274b1b8442c355eb8dbf59",
+      "interface_hash": "sha256:9f2496c106d182fed85196acb4989b937e63959c57bc4d9269c563fb0b220d1a",
+      "label": "obs_shadows",
+      "qid": "github:moon_landing_hoax::obs_shadows",
       "required_by": [
         "github:moon_landing_hoax::moon_landing_real"
       ]
@@ -171,7 +291,7 @@
       ]
     }
   ],
-  "ir_hash": "sha256:ed4f04b64060a74431beb594bf2e52e288653706b519e70d2f751433cd50c15b",
+  "ir_hash": "sha256:d06e2024b6e9d18ddca5772a221e6fe50edd127775f2c72613b96c702406defe",
   "manifest_schema_version": 1,
   "package": "moon-landing-hoax",
   "version": "0.1.0"
