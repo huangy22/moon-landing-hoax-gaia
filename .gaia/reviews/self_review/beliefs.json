@@ -1,0 +1,603 @@
+{
+  "beliefs": [
+    {
+      "belief": 0.9528936238075721,
+      "knowledge_id": "github:moon_landing_hoax::__disjunction_result_094648df",
+      "label": "__disjunction_result_094648df"
+    },
+    {
+      "belief": 0.9528936238075721,
+      "knowledge_id": "github:moon_landing_hoax::__disjunction_result_0b6d54d5",
+      "label": "__disjunction_result_0b6d54d5"
+    },
+    {
+      "belief": 0.9999979292769338,
+      "knowledge_id": "github:moon_landing_hoax::__disjunction_result_14dfc79a",
+      "label": "__disjunction_result_14dfc79a"
+    },
+    {
+      "belief": 0.9999979742061604,
+      "knowledge_id": "github:moon_landing_hoax::__disjunction_result_1fd85102",
+      "label": "__disjunction_result_1fd85102"
+    },
+    {
+      "belief": 0.9999878852653179,
+      "knowledge_id": "github:moon_landing_hoax::__disjunction_result_223194b7",
+      "label": "__disjunction_result_223194b7"
+    },
+    {
+      "belief": 0.9037398655674596,
+      "knowledge_id": "github:moon_landing_hoax::__disjunction_result_2d072d33",
+      "label": "__disjunction_result_2d072d33"
+    },
+    {
+      "belief": 0.9999775688229512,
+      "knowledge_id": "github:moon_landing_hoax::__disjunction_result_33681f67",
+      "label": "__disjunction_result_33681f67"
+    },
+    {
+      "belief": 0.9999453204837345,
+      "knowledge_id": "github:moon_landing_hoax::__disjunction_result_4c55233f",
+      "label": "__disjunction_result_4c55233f"
+    },
+    {
+      "belief": 0.9999562931766632,
+      "knowledge_id": "github:moon_landing_hoax::__disjunction_result_545ecda3",
+      "label": "__disjunction_result_545ecda3"
+    },
+    {
+      "belief": 0.9999775688231191,
+      "knowledge_id": "github:moon_landing_hoax::__disjunction_result_6ca8b987",
+      "label": "__disjunction_result_6ca8b987"
+    },
+    {
+      "belief": 0.9999670403286822,
+      "knowledge_id": "github:moon_landing_hoax::__disjunction_result_80e030c1",
+      "label": "__disjunction_result_80e030c1"
+    },
+    {
+      "belief": 0.999967040328512,
+      "knowledge_id": "github:moon_landing_hoax::__disjunction_result_848e1c82",
+      "label": "__disjunction_result_848e1c82"
+    },
+    {
+      "belief": 0.9999878852650462,
+      "knowledge_id": "github:moon_landing_hoax::__disjunction_result_8aa14b33",
+      "label": "__disjunction_result_8aa14b33"
+    },
+    {
+      "belief": 0.9528936238075721,
+      "knowledge_id": "github:moon_landing_hoax::__disjunction_result_b36f6296",
+      "label": "__disjunction_result_b36f6296"
+    },
+    {
+      "belief": 0.9510659460908768,
+      "knowledge_id": "github:moon_landing_hoax::__disjunction_result_b4f1d54f",
+      "label": "__disjunction_result_b4f1d54f"
+    },
+    {
+      "belief": 0.9885046031008626,
+      "knowledge_id": "github:moon_landing_hoax::__disjunction_result_da41b834",
+      "label": "__disjunction_result_da41b834"
+    },
+    {
+      "belief": 0.9999775688222619,
+      "knowledge_id": "github:moon_landing_hoax::__disjunction_result_df2e163e",
+      "label": "__disjunction_result_df2e163e"
+    },
+    {
+      "belief": 0.999977568823768,
+      "knowledge_id": "github:moon_landing_hoax::__equivalence_result_175cde33",
+      "label": "__equivalence_result_175cde33"
+    },
+    {
+      "belief": 0.9999670403293577,
+      "knowledge_id": "github:moon_landing_hoax::__equivalence_result_1ea1c1fb",
+      "label": "__equivalence_result_1ea1c1fb"
+    },
+    {
+      "belief": 0.9990382589286981,
+      "knowledge_id": "github:moon_landing_hoax::__equivalence_result_26d55205",
+      "label": "__equivalence_result_26d55205"
+    },
+    {
+      "belief": 0.9999878852664355,
+      "knowledge_id": "github:moon_landing_hoax::__equivalence_result_28ec6e5d",
+      "label": "__equivalence_result_28ec6e5d"
+    },
+    {
+      "belief": 0.9990523260873104,
+      "knowledge_id": "github:moon_landing_hoax::__equivalence_result_7c263a5e",
+      "label": "__equivalence_result_7c263a5e"
+    },
+    {
+      "belief": 0.9999979292785347,
+      "knowledge_id": "github:moon_landing_hoax::__equivalence_result_8e9ef190",
+      "label": "__equivalence_result_8e9ef190"
+    },
+    {
+      "belief": 0.9990466475465128,
+      "knowledge_id": "github:moon_landing_hoax::__equivalence_result_92516424",
+      "label": "__equivalence_result_92516424"
+    },
+    {
+      "belief": 0.9999562931773488,
+      "knowledge_id": "github:moon_landing_hoax::__equivalence_result_98e43639",
+      "label": "__equivalence_result_98e43639"
+    },
+    {
+      "belief": 0.9990857165711561,
+      "knowledge_id": "github:moon_landing_hoax::__equivalence_result_af595afc",
+      "label": "__equivalence_result_af595afc"
+    },
+    {
+      "belief": 0.9999670403293525,
+      "knowledge_id": "github:moon_landing_hoax::__equivalence_result_b8ccffc2",
+      "label": "__equivalence_result_b8ccffc2"
+    },
+    {
+      "belief": 0.9999775688237371,
+      "knowledge_id": "github:moon_landing_hoax::__equivalence_result_bd9d8319",
+      "label": "__equivalence_result_bd9d8319"
+    },
+    {
+      "belief": 0.9990857165711561,
+      "knowledge_id": "github:moon_landing_hoax::__equivalence_result_ced0d42d",
+      "label": "__equivalence_result_ced0d42d"
+    },
+    {
+      "belief": 0.9990857165711561,
+      "knowledge_id": "github:moon_landing_hoax::__equivalence_result_d8267bdd",
+      "label": "__equivalence_result_d8267bdd"
+    },
+    {
+      "belief": 0.9999775688237755,
+      "knowledge_id": "github:moon_landing_hoax::__equivalence_result_de46e3bf",
+      "label": "__equivalence_result_de46e3bf"
+    },
+    {
+      "belief": 0.9999979742074492,
+      "knowledge_id": "github:moon_landing_hoax::__equivalence_result_eb68f47a",
+      "label": "__equivalence_result_eb68f47a"
+    },
+    {
+      "belief": 0.9999878852664129,
+      "knowledge_id": "github:moon_landing_hoax::__equivalence_result_ec98c334",
+      "label": "__equivalence_result_ec98c334"
+    },
+    {
+      "belief": 0.9999453204845955,
+      "knowledge_id": "github:moon_landing_hoax::__equivalence_result_f3fbde6c",
+      "label": "__equivalence_result_f3fbde6c"
+    },
+    {
+      "belief": 0.055352748789648985,
+      "knowledge_id": "github:moon_landing_hoax::alt_crater_studio",
+      "label": "alt_crater_studio"
+    },
+    {
+      "belief": 0.09067461517171965,
+      "knowledge_id": "github:moon_landing_hoax::alt_flag_studio",
+      "label": "alt_flag_studio"
+    },
+    {
+      "belief": 0.09067461517171965,
+      "knowledge_id": "github:moon_landing_hoax::alt_footprints_fake",
+      "label": "alt_footprints_fake"
+    },
+    {
+      "belief": 0.010000000202329737,
+      "knowledge_id": "github:moon_landing_hoax::alt_imaging_fake",
+      "label": "alt_imaging_fake"
+    },
+    {
+      "belief": 0.09067461517171965,
+      "knowledge_id": "github:moon_landing_hoax::alt_no_stars_studio",
+      "label": "alt_no_stars_studio"
+    },
+    {
+      "belief": 0.03872810942142918,
+      "knowledge_id": "github:moon_landing_hoax::alt_radiation_lethal",
+      "label": "alt_radiation_lethal"
+    },
+    {
+      "belief": 0.15000000017301465,
+      "knowledge_id": "github:moon_landing_hoax::alt_retroreflector_unmanned",
+      "label": "alt_retroreflector_unmanned"
+    },
+    {
+      "belief": 0.01000000020143429,
+      "knowledge_id": "github:moon_landing_hoax::alt_rocks_fake",
+      "label": "alt_rocks_fake"
+    },
+    {
+      "belief": 0.05260141335196789,
+      "knowledge_id": "github:moon_landing_hoax::alt_shadows_studio",
+      "label": "alt_shadows_studio"
+    },
+    {
+      "belief": 0.010000000202154344,
+      "knowledge_id": "github:moon_landing_hoax::alt_soviet_complicit",
+      "label": "alt_soviet_complicit"
+    },
+    {
+      "belief": 0.9999297238419257,
+      "knowledge_id": "github:moon_landing_hoax::conspiracy_impossible",
+      "label": "conspiracy_impossible"
+    },
+    {
+      "belief": 0.9067461517171964,
+      "knowledge_id": "github:moon_landing_hoax::flag_science",
+      "label": "flag_science"
+    },
+    {
+      "belief": 0.9067461517171964,
+      "knowledge_id": "github:moon_landing_hoax::footprints_science",
+      "label": "footprints_science"
+    },
+    {
+      "belief": 0.00010535751706852598,
+      "knowledge_id": "github:moon_landing_hoax::moon_landing_hoax",
+      "label": "moon_landing_hoax"
+    },
+    {
+      "belief": 0.9999999997949015,
+      "knowledge_id": "github:moon_landing_hoax::moon_landing_real",
+      "label": "moon_landing_real"
+    },
+    {
+      "belief": 0.9225458131608164,
+      "knowledge_id": "github:moon_landing_hoax::no_crater_science",
+      "label": "no_crater_science"
+    },
+    {
+      "belief": 0.9067461517171964,
+      "knowledge_id": "github:moon_landing_hoax::no_stars_science",
+      "label": "no_stars_science"
+    },
+    {
+      "belief": 0.9999775669267581,
+      "knowledge_id": "github:moon_landing_hoax::obs_400k_people",
+      "label": "obs_400k_people"
+    },
+    {
+      "belief": 0.9999997998329101,
+      "knowledge_id": "github:moon_landing_hoax::obs_china_sample",
+      "label": "obs_china_sample"
+    },
+    {
+      "belief": 0.9545194016857466,
+      "knowledge_id": "github:moon_landing_hoax::obs_flag_waves",
+      "label": "obs_flag_waves"
+    },
+    {
+      "belief": 0.9545194016857466,
+      "knowledge_id": "github:moon_landing_hoax::obs_footprints",
+      "label": "obs_footprints"
+    },
+    {
+      "belief": 0.9998748908627944,
+      "knowledge_id": "github:moon_landing_hoax::obs_india_chandrayaan",
+      "label": "obs_india_chandrayaan"
+    },
+    {
+      "belief": 0.9999071324911505,
+      "knowledge_id": "github:moon_landing_hoax::obs_japan_selene",
+      "label": "obs_japan_selene"
+    },
+    {
+      "belief": 0.9999387181432544,
+      "knowledge_id": "github:moon_landing_hoax::obs_lro_images",
+      "label": "obs_lro_images"
+    },
+    {
+      "belief": 0.9999696676362207,
+      "knowledge_id": "github:moon_landing_hoax::obs_moon_rocks",
+      "label": "obs_moon_rocks"
+    },
+    {
+      "belief": 0.9527588901890224,
+      "knowledge_id": "github:moon_landing_hoax::obs_no_crater",
+      "label": "obs_no_crater"
+    },
+    {
+      "belief": 0.9545194016857466,
+      "knowledge_id": "github:moon_landing_hoax::obs_no_stars",
+      "label": "obs_no_stars"
+    },
+    {
+      "belief": 0.9999568922437365,
+      "knowledge_id": "github:moon_landing_hoax::obs_ouyang_endorsement",
+      "label": "obs_ouyang_endorsement"
+    },
+    {
+      "belief": 0.990386106379159,
+      "knowledge_id": "github:moon_landing_hoax::obs_radiation_belt",
+      "label": "obs_radiation_belt"
+    },
+    {
+      "belief": 0.999999934620722,
+      "knowledge_id": "github:moon_landing_hoax::obs_retroreflector_china",
+      "label": "obs_retroreflector_china"
+    },
+    {
+      "belief": 0.9999696676364473,
+      "knowledge_id": "github:moon_landing_hoax::obs_retroreflector_us",
+      "label": "obs_retroreflector_us"
+    },
+    {
+      "belief": 0.9052425958806111,
+      "knowledge_id": "github:moon_landing_hoax::obs_shadows",
+      "label": "obs_shadows"
+    },
+    {
+      "belief": 0.9999387181431015,
+      "knowledge_id": "github:moon_landing_hoax::obs_soviet_encyclopedia",
+      "label": "obs_soviet_encyclopedia"
+    },
+    {
+      "belief": 0.9999071324909906,
+      "knowledge_id": "github:moon_landing_hoax::obs_soviet_luna15",
+      "label": "obs_soviet_luna15"
+    },
+    {
+      "belief": 0.999938718142474,
+      "knowledge_id": "github:moon_landing_hoax::obs_soviet_samples_match",
+      "label": "obs_soviet_samples_match"
+    },
+    {
+      "belief": 0.9998419726084438,
+      "knowledge_id": "github:moon_landing_hoax::obs_soviet_tracked",
+      "label": "obs_soviet_tracked"
+    },
+    {
+      "belief": 0.9682027355357296,
+      "knowledge_id": "github:moon_landing_hoax::radiation_safe",
+      "label": "radiation_safe"
+    },
+    {
+      "belief": 0.9999463194400675,
+      "knowledge_id": "github:moon_landing_hoax::real_xor_hoax",
+      "label": "real_xor_hoax"
+    },
+    {
+      "belief": 0.8766902225327979,
+      "knowledge_id": "github:moon_landing_hoax::shadows_science",
+      "label": "shadows_science"
+    }
+  ],
+  "diagnostics": {
+    "belief_history": {
+      "_m_na_lcs_1766b58ef2462c0d": [
+        0.9999760733689342
+      ],
+      "github:moon_landing_hoax::__disjunction_result_094648df": [
+        0.9528936238075721
+      ],
+      "github:moon_landing_hoax::__disjunction_result_0b6d54d5": [
+        0.9528936238075721
+      ],
+      "github:moon_landing_hoax::__disjunction_result_14dfc79a": [
+        0.9999979292769338
+      ],
+      "github:moon_landing_hoax::__disjunction_result_1fd85102": [
+        0.9999979742061604
+      ],
+      "github:moon_landing_hoax::__disjunction_result_223194b7": [
+        0.9999878852653179
+      ],
+      "github:moon_landing_hoax::__disjunction_result_2d072d33": [
+        0.9037398655674596
+      ],
+      "github:moon_landing_hoax::__disjunction_result_33681f67": [
+        0.9999775688229512
+      ],
+      "github:moon_landing_hoax::__disjunction_result_4c55233f": [
+        0.9999453204837345
+      ],
+      "github:moon_landing_hoax::__disjunction_result_545ecda3": [
+        0.9999562931766632
+      ],
+      "github:moon_landing_hoax::__disjunction_result_6ca8b987": [
+        0.9999775688231191
+      ],
+      "github:moon_landing_hoax::__disjunction_result_80e030c1": [
+        0.9999670403286822
+      ],
+      "github:moon_landing_hoax::__disjunction_result_848e1c82": [
+        0.999967040328512
+      ],
+      "github:moon_landing_hoax::__disjunction_result_8aa14b33": [
+        0.9999878852650462
+      ],
+      "github:moon_landing_hoax::__disjunction_result_b36f6296": [
+        0.9528936238075721
+      ],
+      "github:moon_landing_hoax::__disjunction_result_b4f1d54f": [
+        0.9510659460908768
+      ],
+      "github:moon_landing_hoax::__disjunction_result_da41b834": [
+        0.9885046031008626
+      ],
+      "github:moon_landing_hoax::__disjunction_result_df2e163e": [
+        0.9999775688222619
+      ],
+      "github:moon_landing_hoax::__equivalence_result_175cde33": [
+        0.999977568823768
+      ],
+      "github:moon_landing_hoax::__equivalence_result_1ea1c1fb": [
+        0.9999670403293577
+      ],
+      "github:moon_landing_hoax::__equivalence_result_26d55205": [
+        0.9990382589286981
+      ],
+      "github:moon_landing_hoax::__equivalence_result_28ec6e5d": [
+        0.9999878852664355
+      ],
+      "github:moon_landing_hoax::__equivalence_result_7c263a5e": [
+        0.9990523260873104
+      ],
+      "github:moon_landing_hoax::__equivalence_result_8e9ef190": [
+        0.9999979292785347
+      ],
+      "github:moon_landing_hoax::__equivalence_result_92516424": [
+        0.9990466475465128
+      ],
+      "github:moon_landing_hoax::__equivalence_result_98e43639": [
+        0.9999562931773488
+      ],
+      "github:moon_landing_hoax::__equivalence_result_af595afc": [
+        0.9990857165711561
+      ],
+      "github:moon_landing_hoax::__equivalence_result_b8ccffc2": [
+        0.9999670403293525
+      ],
+      "github:moon_landing_hoax::__equivalence_result_bd9d8319": [
+        0.9999775688237371
+      ],
+      "github:moon_landing_hoax::__equivalence_result_ced0d42d": [
+        0.9990857165711561
+      ],
+      "github:moon_landing_hoax::__equivalence_result_d8267bdd": [
+        0.9990857165711561
+      ],
+      "github:moon_landing_hoax::__equivalence_result_de46e3bf": [
+        0.9999775688237755
+      ],
+      "github:moon_landing_hoax::__equivalence_result_eb68f47a": [
+        0.9999979742074492
+      ],
+      "github:moon_landing_hoax::__equivalence_result_ec98c334": [
+        0.9999878852664129
+      ],
+      "github:moon_landing_hoax::__equivalence_result_f3fbde6c": [
+        0.9999453204845955
+      ],
+      "github:moon_landing_hoax::alt_crater_studio": [
+        0.055352748789648985
+      ],
+      "github:moon_landing_hoax::alt_flag_studio": [
+        0.09067461517171965
+      ],
+      "github:moon_landing_hoax::alt_footprints_fake": [
+        0.09067461517171965
+      ],
+      "github:moon_landing_hoax::alt_imaging_fake": [
+        0.010000000202329737
+      ],
+      "github:moon_landing_hoax::alt_no_stars_studio": [
+        0.09067461517171965
+      ],
+      "github:moon_landing_hoax::alt_radiation_lethal": [
+        0.03872810942142918
+      ],
+      "github:moon_landing_hoax::alt_retroreflector_unmanned": [
+        0.15000000017301465
+      ],
+      "github:moon_landing_hoax::alt_rocks_fake": [
+        0.01000000020143429
+      ],
+      "github:moon_landing_hoax::alt_shadows_studio": [
+        0.05260141335196789
+      ],
+      "github:moon_landing_hoax::alt_soviet_complicit": [
+        0.010000000202154344
+      ],
+      "github:moon_landing_hoax::conspiracy_impossible": [
+        0.9999297238419257
+      ],
+      "github:moon_landing_hoax::flag_science": [
+        0.9067461517171964
+      ],
+      "github:moon_landing_hoax::footprints_science": [
+        0.9067461517171964
+      ],
+      "github:moon_landing_hoax::moon_landing_hoax": [
+        0.00010535751706852598
+      ],
+      "github:moon_landing_hoax::moon_landing_real": [
+        0.9999999997949015
+      ],
+      "github:moon_landing_hoax::no_crater_science": [
+        0.9225458131608164
+      ],
+      "github:moon_landing_hoax::no_stars_science": [
+        0.9067461517171964
+      ],
+      "github:moon_landing_hoax::obs_400k_people": [
+        0.9999775669267581
+      ],
+      "github:moon_landing_hoax::obs_china_sample": [
+        0.9999997998329101
+      ],
+      "github:moon_landing_hoax::obs_flag_waves": [
+        0.9545194016857466
+      ],
+      "github:moon_landing_hoax::obs_footprints": [
+        0.9545194016857466
+      ],
+      "github:moon_landing_hoax::obs_india_chandrayaan": [
+        0.9998748908627944
+      ],
+      "github:moon_landing_hoax::obs_japan_selene": [
+        0.9999071324911505
+      ],
+      "github:moon_landing_hoax::obs_lro_images": [
+        0.9999387181432544
+      ],
+      "github:moon_landing_hoax::obs_moon_rocks": [
+        0.9999696676362207
+      ],
+      "github:moon_landing_hoax::obs_no_crater": [
+        0.9527588901890224
+      ],
+      "github:moon_landing_hoax::obs_no_stars": [
+        0.9545194016857466
+      ],
+      "github:moon_landing_hoax::obs_ouyang_endorsement": [
+        0.9999568922437365
+      ],
+      "github:moon_landing_hoax::obs_radiation_belt": [
+        0.990386106379159
+      ],
+      "github:moon_landing_hoax::obs_retroreflector_china": [
+        0.999999934620722
+      ],
+      "github:moon_landing_hoax::obs_retroreflector_us": [
+        0.9999696676364473
+      ],
+      "github:moon_landing_hoax::obs_shadows": [
+        0.9052425958806111
+      ],
+      "github:moon_landing_hoax::obs_soviet_encyclopedia": [
+        0.9999387181431015
+      ],
+      "github:moon_landing_hoax::obs_soviet_luna15": [
+        0.9999071324909906
+      ],
+      "github:moon_landing_hoax::obs_soviet_samples_match": [
+        0.999938718142474
+      ],
+      "github:moon_landing_hoax::obs_soviet_tracked": [
+        0.9998419726084438
+      ],
+      "github:moon_landing_hoax::radiation_safe": [
+        0.9682027355357296
+      ],
+      "github:moon_landing_hoax::real_xor_hoax": [
+        0.9999463194400675
+      ],
+      "github:moon_landing_hoax::shadows_science": [
+        0.8766902225327979
+      ]
+    },
+    "converged": true,
+    "direction_changes": {},
+    "iterations_run": 2,
+    "max_change_at_stop": 0.0,
+    "treewidth": 3
+  },
+  "gaia_lang_version": "0.3.0",
+  "ir_hash": "sha256:ed4f04b64060a74431beb594bf2e52e288653706b519e70d2f751433cd50c15b",
+  "review_content_hash": "sha256:903d79d1719ec0f2458df151f848735f2154df4823dea80301dd715369c5964a"
+}

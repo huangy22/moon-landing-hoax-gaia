@@ -1,0 +1,22 @@
+{
+  "exports": [
+    {
+      "content": "The Apollo Moon landings were faked: NASA staged the landings in a film studio on Earth to win the Space Race, and all photographic/video evidence was fabricated. The 400,000+ people involved in the Apollo program were either complicit or deceived.",
+      "content_hash": "8d3bb959742dbcd2d3089a40e9521e07ef61395e891b1faaad4584ec6e5cc8e5",
+      "label": "moon_landing_hoax",
+      "qid": "github:moon_landing_hoax::moon_landing_hoax",
+      "type": "claim"
+    },
+    {
+      "content": "The Apollo Moon landings (1969–1972) were real: NASA astronauts traveled to the Moon, walked on its surface, conducted experiments, and returned safely to Earth. This is supported by the scientific community, multiple independent space agencies, and 381.7 kg of returned lunar samples.",
+      "content_hash": "33b89ebe93ccf741a33f1f472ba9181126565ff07948a2352e897b1e754f448c",
+      "label": "moon_landing_real",
+      "qid": "github:moon_landing_hoax::moon_landing_real",
+      "type": "claim"
+    }
+  ],
+  "ir_hash": "sha256:ed4f04b64060a74431beb594bf2e52e288653706b519e70d2f751433cd50c15b",
+  "manifest_schema_version": 1,
+  "package": "moon-landing-hoax",
+  "version": "0.1.0"
+}

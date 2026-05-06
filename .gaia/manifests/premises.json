@@ -1,0 +1,212 @@
+{
+  "ir_hash": "sha256:ed4f04b64060a74431beb594bf2e52e288653706b519e70d2f751433cd50c15b",
+  "manifest_schema_version": 1,
+  "package": "moon-landing-hoax",
+  "premises": [
+    {
+      "content": "The orbital images were fabricated or doctored by the respective space agencies (NASA, JAXA, ISRO) as part of a coordinated international cover-up.",
+      "content_hash": "ba1f225518b32503158a0a8533d0f793fbad0ece95a8408f7521049fa650355c",
+      "exported": false,
+      "interface_hash": "sha256:c444b58ffa88a7043acf47dc6712219526cf2709539a8ab870dbf1056575d015",
+      "label": "alt_imaging_fake",
+      "qid": "github:moon_landing_hoax::alt_imaging_fake",
+      "required_by": [
+        "github:moon_landing_hoax::moon_landing_real"
+      ],
+      "role": "local_hole"
+    },
+    {
+      "content": "The retroreflectors could have been placed on the Moon by unmanned probes without a human landing, similar to the Soviet Lunokhod rovers that also carried retroreflectors.",
+      "content_hash": "3a5e29f965e072afd0d79770158748e0ccd362c1ea6796b426605b79e0d3dbd1",
+      "exported": false,
+      "interface_hash": "sha256:f9690930f0dfe8f53a5f57150f221aca4af8e886dccf18b6600166ceaf3e0866",
+      "label": "alt_retroreflector_unmanned",
+      "qid": "github:moon_landing_hoax::alt_retroreflector_unmanned",
+      "required_by": [
+        "github:moon_landing_hoax::moon_landing_real"
+      ],
+      "role": "local_hole"
+    },
+    {
+      "content": "The lunar rocks were manufactured on Earth or collected from meteorites, and the analysis results were fabricated or misinterpreted by scientists worldwide who were either complicit or deceived.",
+      "content_hash": "4af95ea961cee19dfa9ee365a18915b04246740dd2f19e6cafb7950cf18415d6",
+      "exported": false,
+      "interface_hash": "sha256:632b543747562083c928c0a3a8683b5a9f189935ec8b1a336d45dd62254dc793",
+      "label": "alt_rocks_fake",
+      "qid": "github:moon_landing_hoax::alt_rocks_fake",
+      "required_by": [
+        "github:moon_landing_hoax::moon_landing_real"
+      ],
+      "role": "local_hole"
+    },
+    {
+      "content": "The Soviet Union was complicit in the hoax or was deceived — despite having independent deep-space tracking capabilities and being the Apollo program's primary geopolitical rival with every motivation to expose a fraud.",
+      "content_hash": "ab078060080f7b7c2b8c31279c7cbc25a52e5ac6c1c47b8b496d12cc79e52504",
+      "exported": false,
+      "interface_hash": "sha256:8150da4e4a08ad4ba6b7eb7ff846d5c9dde3bcaa9fdfb4a40c90d24fb2e00512",
+      "label": "alt_soviet_complicit",
+      "qid": "github:moon_landing_hoax::alt_soviet_complicit",
+      "required_by": [
+        "github:moon_landing_hoax::moon_landing_real"
+      ],
+      "role": "local_hole"
+    },
+    {
+      "content": "The Apollo program employed over 400,000 people across NASA, contractor companies (North American Aviation, Grumman, MIT Instrumentation Lab, etc.), and support organizations. An additional ~100,000 people were involved in independent tracking and communication worldwide.",
+      "content_hash": "f7cc16cfd53357f45c2f2f9ab283ac973628accd7bda33a72aec22aa9a73fba6",
+      "exported": false,
+      "interface_hash": "sha256:f871724919e21828c9688aa178661a9501e2766f15f33eb06e08e8d2384f686a",
+      "label": "obs_400k_people",
+      "qid": "github:moon_landing_hoax::obs_400k_people",
+      "required_by": [
+        "github:moon_landing_hoax::moon_landing_real"
+      ],
+      "role": "local_hole"
+    },
+    {
+      "content": "In 1978, the United States gifted 1 gram of lunar rock to China. Chinese scientists at the Chinese Academy of Sciences analyzed the sample and determined it was collected by Apollo 17 (December 1972), based on its mineral composition and exposure history. The analysis results were published in peer-reviewed Chinese scientific journals.",
+      "content_hash": "7f6f04cf04c181c6d51d05badb53b07ef28170a1c9102d1c5e009d24f8323ead",
+      "exported": false,
+      "interface_hash": "sha256:c3f5fd16931cedcbff69c935e24c8cb85d0a30f3d2220f9646001e22b94b9169",
+      "label": "obs_china_sample",
+      "qid": "github:moon_landing_hoax::obs_china_sample",
+      "required_by": [
+        "github:moon_landing_hoax::moon_landing_real"
+      ],
+      "role": "local_hole"
+    },
+    {
+      "content": "India's Chandrayaan-1 (2008) and Chandrayaan-2 (2019) probes independently detected lighter, disturbed soil signatures around the Apollo 15 landing site — consistent with engine exhaust sweeping away surface regolith.",
+      "content_hash": "dac3082354c4cdcb263c07dca3a121f7fe26e17efe393e12edefa361ae0735d6",
+      "exported": false,
+      "interface_hash": "sha256:951bb27c8e37e56a7b79ff1197f4ba049b89303a3237b70b8a64476c511f35dc",
+      "label": "obs_india_chandrayaan",
+      "qid": "github:moon_landing_hoax::obs_india_chandrayaan",
+      "required_by": [
+        "github:moon_landing_hoax::moon_landing_real"
+      ],
+      "role": "local_hole"
+    },
+    {
+      "content": "Japan's SELENE (Kaguya) lunar orbiter in 2008 photographed the Apollo 15 landing site, detecting a halo of lighter-colored disturbed regolith around the Lunar Module position. The terrain matched surface photographs taken by Apollo 15 astronauts from ground level.",
+      "content_hash": "063e81fc6b354d581f287f8981d84acfd23da4162248ab980257f68351f37ddf",
+      "exported": false,
+      "interface_hash": "sha256:454f2854bbd07039ea498cb63f520faab924577bb886ce660ff9177199f7a2d9",
+      "label": "obs_japan_selene",
+      "qid": "github:moon_landing_hoax::obs_japan_selene",
+      "required_by": [
+        "github:moon_landing_hoax::moon_landing_real"
+      ],
+      "role": "local_hole"
+    },
+    {
+      "content": "NASA's Lunar Reconnaissance Orbiter (LRO), launched in 2009, captured high-resolution photographs of all six Apollo landing sites showing the Lunar Module descent stages, deployed experiment packages, rover tracks (Apollo 15–17), and astronaut footpaths — all consistent with documented mission activities.",
+      "content_hash": "6bd00eade9d8e57e5133b5b3d593ac2e3ae4302a1316f9ebf870195e3e1972ed",
+      "exported": false,
+      "interface_hash": "sha256:22fa3d97b5d1b3609024fc481ab9cd5118797369b9bf0cb3ae42d7aad6df8dea",
+      "label": "obs_lro_images",
+      "qid": "github:moon_landing_hoax::obs_lro_images",
+      "required_by": [
+        "github:moon_landing_hoax::moon_landing_real"
+      ],
+      "role": "local_hole"
+    },
+    {
+      "content": "Apollo missions returned 381.7 kg of lunar rock and soil samples from six landing sites. These samples contain features impossible to produce on Earth: (1) unoxidized metallic iron microparticles, (2) nano-scale micrometeorite impact structures, (3) absence of hydrated minerals, (4) cosmic-ray exposure ages indicating billions of years of surface exposure, (5) the oldest samples date to 4.5 billion years — 200 million years older than the oldest known Earth rocks. Over 50 years, thousands of scientists worldwide have studied these samples in hundreds of laboratories.",
+      "content_hash": "947830c91bbe014a5aa00ac787e2a68d00fd36df0e592fa08c6929c3e2a9686d",
+      "exported": false,
+      "interface_hash": "sha256:b9e6ec3078afc15bf92850ca24f4f0eb3348665dc81a57d58a9411fdcb222d02",
+      "label": "obs_moon_rocks",
+      "qid": "github:moon_landing_hoax::obs_moon_rocks",
+      "required_by": [
+        "github:moon_landing_hoax::moon_landing_real"
+      ],
+      "role": "local_hole"
+    },
+    {
+      "content": "Ouyang Ziyuan (欧阳自远), chief scientist of China's Chang'e lunar exploration program, publicly stated that 'the scientific community has reached consensus on the authenticity of the Apollo landings.' He systematically addressed common conspiracy claims — flag motion, absent stars, shadow directions — with scientific explanations, leveraging China's own lunar exploration experience and independent data.",
+      "content_hash": "bd45b48887c7b452267c40410d1c51ca7a5b259c7ea9f172a613ef929520cb00",
+      "exported": false,
+      "interface_hash": "sha256:58abb60b8b7b13bc6a63e6a2acc6ac47cc3d9ccf2257894d099fbbfd8eac2338",
+      "label": "obs_ouyang_endorsement",
+      "qid": "github:moon_landing_hoax::obs_ouyang_endorsement",
+      "required_by": [
+        "github:moon_landing_hoax::moon_landing_real"
+      ],
+      "role": "local_hole"
+    },
+    {
+      "content": "In January 2018, the Chinese Academy of Sciences' Yunnan Astronomical Observatory successfully detected return laser pulses from the Apollo 15 retroreflector using its 1.2 m telescope — the first such detection by China. In late 2019, Sun Yat-sen University's TianQin Center achieved high-precision laser ranging to all five lunar retroreflectors (Apollo 11, 14, 15 and Lunokhod 1, 2), independently confirming their existence and positions.",
+      "content_hash": "6c25f46e492ee66fb1d75ed1337170ecb7607a4abe8b58d750a255198f814cb0",
+      "exported": false,
+      "interface_hash": "sha256:38e789df91c7f2bb068447b7d12f386f86f59f2014c6231463d29d369ce12571",
+      "label": "obs_retroreflector_china",
+      "qid": "github:moon_landing_hoax::obs_retroreflector_china",
+      "required_by": [
+        "github:moon_landing_hoax::moon_landing_real"
+      ],
+      "role": "local_hole"
+    },
+    {
+      "content": "Since 1969, observatories worldwide have successfully bounced laser pulses off the Apollo retroreflectors and measured the return signal. When the laser is aimed at the documented Apollo coordinates, a concentrated burst of photons returns in a narrow time window. Aiming at nearby coordinates produces no such concentrated return. Measurements achieve sub-centimeter precision for the Earth-Moon distance (~384,400 km).",
+      "content_hash": "2215d5426313b6deb7dbe177da234e70a0986f4c90688377c2c21864d2fa683f",
+      "exported": false,
+      "interface_hash": "sha256:987ff33247c2c57927a5e2bde4e0ff69e2551f016ec635c05034a19f24ead658",
+      "label": "obs_retroreflector_us",
+      "qid": "github:moon_landing_hoax::obs_retroreflector_us",
+      "required_by": [
+        "github:moon_landing_hoax::moon_landing_real"
+      ],
+      "role": "local_hole"
+    },
+    {
+      "content": "The Great Soviet Encyclopedia (3rd edition, 1970–1979) — the official state-approved reference work — lists the Apollo Moon landings as genuine historical events. The Soviet Union, despite being locked in a fierce Cold War space competition, never claimed the landings were faked. Instead, Soviet officials denied a Moon race had ever existed.",
+      "content_hash": "8e3f9754b8ab03e85917dacc62b05ff71deeb98b7ca36753588083fb07e96711",
+      "exported": false,
+      "interface_hash": "sha256:bfc8ebcbd0d828a5d33af9a2060085d1127e1644608a2fe985a6fcef36dc1161",
+      "label": "obs_soviet_encyclopedia",
+      "qid": "github:moon_landing_hoax::obs_soviet_encyclopedia",
+      "required_by": [
+        "github:moon_landing_hoax::moon_landing_real"
+      ],
+      "role": "local_hole"
+    },
+    {
+      "content": "During Apollo 11's mission in July 1969, the Soviet Union's Luna 15 probe was simultaneously in lunar orbit. The Soviets proactively shared Luna 15's orbital parameters with the Americans to avoid a collision — an action that only makes sense if the Soviets knew Apollo 11 was genuinely at the Moon.",
+      "content_hash": "a6fcfbe1ba80ff0f9e57b9d3d7f85841ccd2894fa78b3f19a6dafd0f8aaa9df3",
+      "exported": false,
+      "interface_hash": "sha256:59be0bcf6d08d139b6a97585363aa223d4b1b8c4042d763621012ca36ca3b69a",
+      "label": "obs_soviet_luna15",
+      "qid": "github:moon_landing_hoax::obs_soviet_luna15",
+      "required_by": [
+        "github:moon_landing_hoax::moon_landing_real"
+      ],
+      "role": "local_hole"
+    },
+    {
+      "content": "The Soviet Union's unmanned Luna 16, 20, and 24 missions independently returned ~300 g of lunar soil. Isotopic analysis of Soviet samples matches the composition of Apollo samples — both show identical oxygen isotope ratios and trace element abundances characteristic of a common lunar origin.",
+      "content_hash": "7e3e1e0908dfb8d33ed79d4430093b458ae8578ac6afa49769b6160972ec1ad9",
+      "exported": false,
+      "interface_hash": "sha256:daed2cde76c079f0335e79eda5a2cc5df446230fabd36e8751b639f9a5dceb0f",
+      "label": "obs_soviet_samples_match",
+      "qid": "github:moon_landing_hoax::obs_soviet_samples_match",
+      "required_by": [
+        "github:moon_landing_hoax::moon_landing_real"
+      ],
+      "role": "local_hole"
+    },
+    {
+      "content": "The Soviet Union independently tracked the Apollo missions using its own deep-space communication network. Soviet radar and telemetry systems monitored the Apollo spacecraft's trajectory from Earth orbit to the Moon and back. Had the signals originated from Earth orbit rather than the Moon, this would have been trivially detectable by Soviet tracking stations.",
+      "content_hash": "c0b6acbd975b32170308954a3b42654adbdbd6368c21cdc4610b547bbf0a46f7",
+      "exported": false,
+      "interface_hash": "sha256:4be7b5801c073025900ab9e87f87b09d8ffb52457b5af4901aec34a131ff634e",
+      "label": "obs_soviet_tracked",
+      "qid": "github:moon_landing_hoax::obs_soviet_tracked",
+      "required_by": [
+        "github:moon_landing_hoax::moon_landing_real"
+      ],
+      "role": "local_hole"
+    }
+  ],
+  "version": "0.1.0"
+}

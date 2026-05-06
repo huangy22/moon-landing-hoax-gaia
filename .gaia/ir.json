@@ -1,0 +1,2179 @@
+{
+  "ir_hash": "sha256:ed4f04b64060a74431beb594bf2e52e288653706b519e70d2f751433cd50c15b",
+  "knowledges": [
+    {
+      "content": "During the Cold War (1957–1972), the United States and the Soviet Union competed in the 'Space Race.' NASA's Apollo program aimed to land humans on the Moon, culminating in Apollo 11 on July 20, 1969. Six Apollo missions (11, 12, 14, 15, 16, 17) successfully landed on the Moon between 1969 and 1972.",
+      "content_hash": "97c0f467d7707e42b4affd08ccdcfbbdd8ff285b85a378a804d76d46892b89c3",
+      "declaration_index": 0,
+      "exported": false,
+      "id": "github:moon_landing_hoax::space_race",
+      "label": "space_race",
+      "module": "motivation",
+      "parameters": [],
+      "title": "The Space Race and Apollo program",
+      "type": "setting"
+    },
+    {
+      "content": "The Moon-landing conspiracy theory originated with Bill Kaysing's 1976 book 'We Never Went to the Moon: America's Thirty Billion Dollar Swindle.' Kaysing held a B.A. in English and worked briefly as a technical writer at Rocketdyne in the 1950s. The theory gained traction through the 2001 Fox TV special 'Conspiracy Theory: Did We Land on the Moon?'",
+      "content_hash": "828b92454c4d333bcd273bbb65cc72b26766dd5770bd1be55fb5367aa251f9ba",
+      "declaration_index": 1,
+      "exported": false,
+      "id": "github:moon_landing_hoax::hoax_origin",
+      "label": "hoax_origin",
+      "module": "motivation",
+      "parameters": [],
+      "title": "Origin of the hoax theory",
+      "type": "setting"
+    },
+    {
+      "content": "The Apollo Moon landings (1969–1972) were real: NASA astronauts traveled to the Moon, walked on its surface, conducted experiments, and returned safely to Earth. This is supported by the scientific community, multiple independent space agencies, and 381.7 kg of returned lunar samples.",
+      "content_hash": "33b89ebe93ccf741a33f1f472ba9181126565ff07948a2352e897b1e754f448c",
+      "declaration_index": 2,
+      "exported": true,
+      "id": "github:moon_landing_hoax::moon_landing_real",
+      "label": "moon_landing_real",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "referenced_claims": [
+              "alt_imaging_fake",
+              "alt_retroreflector_unmanned",
+              "alt_rocks_fake",
+              "alt_soviet_complicit",
+              "conspiracy_impossible",
+              "obs_china_sample",
+              "obs_india_chandrayaan",
+              "obs_japan_selene",
+              "obs_lro_images",
+              "obs_moon_rocks",
+              "obs_ouyang_endorsement",
+              "obs_retroreflector_china",
+              "obs_retroreflector_us",
+              "obs_soviet_encyclopedia",
+              "obs_soviet_luna15",
+              "obs_soviet_samples_match",
+              "obs_soviet_tracked"
+            ]
+          }
+        }
+      },
+      "module": "motivation",
+      "parameters": [],
+      "title": "Moon landings were real",
+      "type": "claim"
+    },
+    {
+      "content": "The Apollo Moon landings were faked: NASA staged the landings in a film studio on Earth to win the Space Race, and all photographic/video evidence was fabricated. The 400,000+ people involved in the Apollo program were either complicit or deceived.",
+      "content_hash": "8d3bb959742dbcd2d3089a40e9521e07ef61395e891b1faaad4584ec6e5cc8e5",
+      "declaration_index": 3,
+      "exported": true,
+      "id": "github:moon_landing_hoax::moon_landing_hoax",
+      "label": "moon_landing_hoax",
+      "module": "motivation",
+      "parameters": [],
+      "title": "Moon landings were a hoax",
+      "type": "claim"
+    },
+    {
+      "content": "opposite_truth(A, B)",
+      "content_hash": "faf7a1f4b55e7d7efd70f095476d9d55c2e2feae0488c157754bb3cb5bc32772",
+      "declaration_index": 4,
+      "exported": false,
+      "id": "github:moon_landing_hoax::real_xor_hoax",
+      "label": "real_xor_hoax",
+      "metadata": {
+        "helper_kind": "complement_result"
+      },
+      "module": "motivation",
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "The Moon has no atmosphere. In a vacuum there is no air resistance, so once an object is set in motion it continues to oscillate far longer than it would on Earth.",
+      "content_hash": "b92c785c4b0f03250a45d7e9c30c412ddab3b62c98344f47895cd36a3a833ff6",
+      "declaration_index": 0,
+      "exported": false,
+      "id": "github:moon_landing_hoax::lunar_vacuum",
+      "label": "lunar_vacuum",
+      "module": "conspiracy_claims",
+      "parameters": [],
+      "title": "Lunar vacuum environment",
+      "type": "setting"
+    },
+    {
+      "content": "In Apollo mission footage and photographs, the American flag planted on the lunar surface appears to ripple and wave as though blown by wind.",
+      "content_hash": "7088c669aa76a2b13bcefa84246f4394d19d53e6d36873b2764e059cf7cc7745",
+      "declaration_index": 1,
+      "exported": false,
+      "id": "github:moon_landing_hoax::obs_flag_waves",
+      "label": "obs_flag_waves",
+      "module": "conspiracy_claims",
+      "parameters": [],
+      "title": "Observation: flag appears to wave",
+      "type": "claim"
+    },
+    {
+      "content": "The flag's apparent waving is explained by its Γ-shaped support rod (a horizontal telescoping arm kept the fabric unfurled) and the absence of air resistance. When astronauts handled the flagpole, inertial oscillations persisted far longer than on Earth. In video footage the flag is motionless except when physically touched.",
+      "content_hash": "78c7772d5e00cbcb6b1f0769fb1af89246a456d3d7859ef92059539c88cb1f14",
+      "declaration_index": 2,
+      "exported": false,
+      "id": "github:moon_landing_hoax::flag_science",
+      "label": "flag_science",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "referenced_claims": [
+              "alt_flag_studio",
+              "flag_science"
+            ]
+          }
+        }
+      },
+      "module": "conspiracy_claims",
+      "parameters": [],
+      "title": "Scientific explanation: flag design + vacuum inertia",
+      "type": "claim"
+    },
+    {
+      "content": "The flag waves because the footage was shot in an Earth-based studio with air currents from ventilation or movement of crew.",
+      "content_hash": "4d12216b234bf2da9a39d3f8b7ace8e00ee32108242da8ea4499d621815cde83",
+      "declaration_index": 3,
+      "exported": false,
+      "id": "github:moon_landing_hoax::alt_flag_studio",
+      "label": "alt_flag_studio",
+      "module": "conspiracy_claims",
+      "parameters": [],
+      "title": "Hoax explanation: studio air currents",
+      "type": "claim"
+    },
+    {
+      "content": "None of the Apollo mission photographs show stars in the lunar sky, despite the Moon having no atmosphere to scatter light.",
+      "content_hash": "3dc9e6b502a9f3729a579178f683534596ce8cc0a839db6b314d48499d801636",
+      "declaration_index": 4,
+      "exported": false,
+      "id": "github:moon_landing_hoax::obs_no_stars",
+      "label": "obs_no_stars",
+      "module": "conspiracy_claims",
+      "parameters": [],
+      "title": "Observation: no stars in photos",
+      "type": "claim"
+    },
+    {
+      "content": "Stars are absent from Apollo photos because all manned missions landed during lunar daytime. The sunlit lunar surface has an albedo of ~0.12, requiring fast shutter speeds (1/125–1/250 s) and small apertures (f/5.6–f/11) to properly expose the bright foreground. At these camera settings, stars (apparent magnitude > +1) are far too dim to register on film. The same effect occurs on Earth: daytime photos rarely show stars.",
+      "content_hash": "feec741542f8d22fc6fe0b83a4d4386fd7dfe8c76f0737b1d699162612f81624",
+      "declaration_index": 5,
+      "exported": false,
+      "id": "github:moon_landing_hoax::no_stars_science",
+      "label": "no_stars_science",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "referenced_claims": [
+              "alt_no_stars_studio",
+              "no_stars_science"
+            ]
+          }
+        }
+      },
+      "module": "conspiracy_claims",
+      "parameters": [],
+      "title": "Scientific explanation: camera exposure settings",
+      "type": "claim"
+    },
+    {
+      "content": "Stars are absent because the footage was shot in a studio, and the backdrop was a simple black curtain without star projections. Accurately reproducing the star field visible from a specific lunar location would have been too difficult to fake convincingly.",
+      "content_hash": "47759d63f68d0a2c0e7158764d5900200af89bd8ca077dcc1cbf833cae4abcf6",
+      "declaration_index": 6,
+      "exported": false,
+      "id": "github:moon_landing_hoax::alt_no_stars_studio",
+      "label": "alt_no_stars_studio",
+      "module": "conspiracy_claims",
+      "parameters": [],
+      "title": "Hoax explanation: studio backdrop",
+      "type": "claim"
+    },
+    {
+      "content": "The Apollo spacecraft had to pass through the Van Allen radiation belts, which contain high-energy charged particles trapped by Earth's magnetic field.",
+      "content_hash": "165787ea75357e30c25bb767a8307475d986d74e7e04c29934d51926b81f6092",
+      "declaration_index": 7,
+      "exported": false,
+      "id": "github:moon_landing_hoax::obs_radiation_belt",
+      "label": "obs_radiation_belt",
+      "module": "conspiracy_claims",
+      "parameters": [],
+      "title": "Observation: Apollo transited the Van Allen belts",
+      "type": "claim"
+    },
+    {
+      "content": "Apollo astronauts passed through the Van Allen belts in approximately 30 minutes each way via a trajectory designed to minimize exposure through the belts' thinnest regions. The total mission radiation dose was measured at approximately 0.18 rad (1.8 mSv) over the 12-day Apollo 11 mission — comparable to one or two chest X-rays, and well below the 25 rad threshold for acute radiation sickness.",
+      "content_hash": "d802662badddd79696e847b8de32f1c66b2abbccbbeb1f8717c1cf9ab1052744",
+      "declaration_index": 8,
+      "exported": false,
+      "id": "github:moon_landing_hoax::radiation_safe",
+      "label": "radiation_safe",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "referenced_claims": [
+              "alt_radiation_lethal",
+              "radiation_safe"
+            ]
+          }
+        }
+      },
+      "module": "conspiracy_claims",
+      "parameters": [],
+      "title": "Scientific explanation: minimal radiation dose via fast transit",
+      "type": "claim"
+    },
+    {
+      "content": "The Van Allen belt radiation would have been lethal to the astronauts, proving they could not have passed through them and therefore never left low Earth orbit.",
+      "content_hash": "65a0d619adf93cafb52c4dca7d0d5877f83702de040b2f566f456cea1e3562bc",
+      "declaration_index": 9,
+      "exported": false,
+      "id": "github:moon_landing_hoax::alt_radiation_lethal",
+      "label": "alt_radiation_lethal",
+      "module": "conspiracy_claims",
+      "parameters": [],
+      "title": "Hoax explanation: lethal radiation barrier",
+      "type": "claim"
+    },
+    {
+      "content": "In several Apollo photographs, shadows cast by objects on the lunar surface appear to point in different directions rather than being parallel.",
+      "content_hash": "96dbc3ac8c454a34a4a2b84991c51a1d9265f0bcbf274b1b8442c355eb8dbf59",
+      "declaration_index": 10,
+      "exported": false,
+      "id": "github:moon_landing_hoax::obs_shadows",
+      "label": "obs_shadows",
+      "module": "conspiracy_claims",
+      "parameters": [],
+      "title": "Observation: non-parallel shadows",
+      "type": "claim"
+    },
+    {
+      "content": "Non-parallel shadows are a well-known perspective effect in wide-angle photography of uneven terrain. On the Moon's undulating surface, parallel shadows from a single distant light source (the Sun) appear to diverge when projected onto a 2D photograph. If multiple artificial light sources existed, objects would cast multiple shadows — but no Apollo photo shows multiple shadows from any object.",
+      "content_hash": "f7378222a9dcb23d81c45cf8fec7d95e6f5c6b85ad076f5e8e201a4fbe37d24e",
+      "declaration_index": 11,
+      "exported": false,
+      "id": "github:moon_landing_hoax::shadows_science",
+      "label": "shadows_science",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "referenced_claims": [
+              "alt_shadows_studio",
+              "shadows_science"
+            ]
+          }
+        }
+      },
+      "module": "conspiracy_claims",
+      "parameters": [],
+      "title": "Scientific explanation: perspective + uneven terrain",
+      "type": "claim"
+    },
+    {
+      "content": "The non-parallel shadows prove multiple artificial light sources were used in a studio setting, since a single light source (the Sun) would produce perfectly parallel shadows.",
+      "content_hash": "3206363acfdd6e88379dd2052331015b12225d582f9f5abaf67f7f6d70078a3c",
+      "declaration_index": 12,
+      "exported": false,
+      "id": "github:moon_landing_hoax::alt_shadows_studio",
+      "label": "alt_shadows_studio",
+      "module": "conspiracy_claims",
+      "parameters": [],
+      "title": "Hoax explanation: multiple studio lights",
+      "type": "claim"
+    },
+    {
+      "content": "Apollo astronaut bootprints on the lunar surface are remarkably sharp and well-defined, appearing as clear as prints made in wet sand on Earth.",
+      "content_hash": "1dd8c939debe39da224e020ce44fc34a2c9f641e40eec8862e08036077aa573b",
+      "declaration_index": 13,
+      "exported": false,
+      "id": "github:moon_landing_hoax::obs_footprints",
+      "label": "obs_footprints",
+      "module": "conspiracy_claims",
+      "parameters": [],
+      "title": "Observation: sharp footprints in lunar soil",
+      "type": "claim"
+    },
+    {
+      "content": "Lunar regolith consists of angular, jagged micro-particles created by micrometeorite bombardment over billions of years, unlike wind-rounded Earth sand grains. These angular particles interlock under compression, holding a sharp imprint without moisture. The effect is analogous to pressing talcum powder — fine angular powders hold shape without water.",
+      "content_hash": "c17f5fdf40a3e309d3d4a0b960e495bf93985d50187f605e514efdc908e4a03b",
+      "declaration_index": 14,
+      "exported": false,
+      "id": "github:moon_landing_hoax::footprints_science",
+      "label": "footprints_science",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "referenced_claims": [
+              "alt_footprints_fake",
+              "footprints_science"
+            ]
+          }
+        }
+      },
+      "module": "conspiracy_claims",
+      "parameters": [],
+      "title": "Scientific explanation: angular regolith holds imprints",
+      "type": "claim"
+    },
+    {
+      "content": "The sharp footprints prove the photos were taken on Earth using wet sand or a prepared substrate, because dry powder cannot hold such detailed impressions.",
+      "content_hash": "7d030d121bb883493279cdae6530aab1a6e948cce8612a6327af7e4acf6145bd",
+      "declaration_index": 15,
+      "exported": false,
+      "id": "github:moon_landing_hoax::alt_footprints_fake",
+      "label": "alt_footprints_fake",
+      "module": "conspiracy_claims",
+      "parameters": [],
+      "title": "Hoax explanation: wet sand on Earth",
+      "type": "claim"
+    },
+    {
+      "content": "Photos of the Apollo Lunar Module (LM) on the Moon show no significant blast crater or scorching beneath the descent engine despite the engine producing ~4,500 kg of thrust during landing.",
+      "content_hash": "2895ab8a4090822e387260f30b4e17a54151ced07ca200c225eba95b7d908060",
+      "declaration_index": 16,
+      "exported": false,
+      "id": "github:moon_landing_hoax::obs_no_crater",
+      "label": "obs_no_crater",
+      "module": "conspiracy_claims",
+      "parameters": [],
+      "title": "Observation: no blast crater under LM",
+      "type": "claim"
+    },
+    {
+      "content": "The absence of a blast crater is explained by three factors: (1) the descent engine was throttled down to ~1,360 kg of thrust during final approach; (2) without an atmosphere, exhaust gases expand radially and dissipate rather than concentrating downward; (3) the lunar surface beneath the LM was swept clean of loose regolith, which is visible in photos as a lighter-colored area around the landing site — confirmed by Japan's SELENE probe (2008) and India's Chandrayaan missions.",
+      "content_hash": "b6ae79b7a03f6cad586e9c7ea40d935ae644d377980ed518ecd1b8d56a2bfac0",
+      "declaration_index": 17,
+      "exported": false,
+      "id": "github:moon_landing_hoax::no_crater_science",
+      "label": "no_crater_science",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "referenced_claims": [
+              "alt_crater_studio",
+              "no_crater_science"
+            ]
+          }
+        }
+      },
+      "module": "conspiracy_claims",
+      "parameters": [],
+      "title": "Scientific explanation: low thrust + vacuum gas expansion",
+      "type": "claim"
+    },
+    {
+      "content": "The lack of a blast crater proves the Lunar Module was a static prop placed on a studio floor, because a real rocket landing would create an obvious crater.",
+      "content_hash": "f531e441b7b0204fa2a66c17e792526241f2887bfaeb2b841d77d648beda989b",
+      "declaration_index": 18,
+      "exported": false,
+      "id": "github:moon_landing_hoax::alt_crater_studio",
+      "label": "alt_crater_studio",
+      "module": "conspiracy_claims",
+      "parameters": [],
+      "title": "Hoax explanation: LM was a studio prop",
+      "type": "claim"
+    },
+    {
+      "content": "Apollo 11, 14, and 15 missions deployed corner-cube retroreflector arrays on the lunar surface. A retroreflector returns any incoming laser beam exactly back along its incoming direction, regardless of angle of incidence. If pointed at the correct coordinates, a laser fired from Earth should produce a detectable return signal concentrated in a narrow time window.",
+      "content_hash": "90f5c7561d11c30d11902521783c6299cb16afa45e546388e35fd4a1edeeac57",
+      "declaration_index": 0,
+      "exported": false,
+      "id": "github:moon_landing_hoax::retroreflector_background",
+      "label": "retroreflector_background",
+      "module": "independent_evidence",
+      "parameters": [],
+      "title": "Retroreflector deployment",
+      "type": "setting"
+    },
+    {
+      "content": "Since 1969, observatories worldwide have successfully bounced laser pulses off the Apollo retroreflectors and measured the return signal. When the laser is aimed at the documented Apollo coordinates, a concentrated burst of photons returns in a narrow time window. Aiming at nearby coordinates produces no such concentrated return. Measurements achieve sub-centimeter precision for the Earth-Moon distance (~384,400 km).",
+      "content_hash": "2215d5426313b6deb7dbe177da234e70a0986f4c90688377c2c21864d2fa683f",
+      "declaration_index": 1,
+      "exported": false,
+      "id": "github:moon_landing_hoax::obs_retroreflector_us",
+      "label": "obs_retroreflector_us",
+      "module": "independent_evidence",
+      "parameters": [],
+      "title": "Laser ranging from Western observatories",
+      "type": "claim"
+    },
+    {
+      "content": "In January 2018, the Chinese Academy of Sciences' Yunnan Astronomical Observatory successfully detected return laser pulses from the Apollo 15 retroreflector using its 1.2 m telescope — the first such detection by China. In late 2019, Sun Yat-sen University's TianQin Center achieved high-precision laser ranging to all five lunar retroreflectors (Apollo 11, 14, 15 and Lunokhod 1, 2), independently confirming their existence and positions.",
+      "content_hash": "6c25f46e492ee66fb1d75ed1337170ecb7607a4abe8b58d750a255198f814cb0",
+      "declaration_index": 2,
+      "exported": false,
+      "id": "github:moon_landing_hoax::obs_retroreflector_china",
+      "label": "obs_retroreflector_china",
+      "module": "independent_evidence",
+      "parameters": [],
+      "title": "Laser ranging from Chinese observatories",
+      "type": "claim"
+    },
+    {
+      "content": "The retroreflectors could have been placed on the Moon by unmanned probes without a human landing, similar to the Soviet Lunokhod rovers that also carried retroreflectors.",
+      "content_hash": "3a5e29f965e072afd0d79770158748e0ccd362c1ea6796b426605b79e0d3dbd1",
+      "declaration_index": 3,
+      "exported": false,
+      "id": "github:moon_landing_hoax::alt_retroreflector_unmanned",
+      "label": "alt_retroreflector_unmanned",
+      "module": "independent_evidence",
+      "parameters": [],
+      "title": "Alternative: unmanned placement of retroreflectors",
+      "type": "claim"
+    },
+    {
+      "content": "Apollo missions returned 381.7 kg of lunar rock and soil samples from six landing sites. These samples contain features impossible to produce on Earth: (1) unoxidized metallic iron microparticles, (2) nano-scale micrometeorite impact structures, (3) absence of hydrated minerals, (4) cosmic-ray exposure ages indicating billions of years of surface exposure, (5) the oldest samples date to 4.5 billion years — 200 million years older than the oldest known Earth rocks. Over 50 years, thousands of scientists worldwide have studied these samples in hundreds of laboratories.",
+      "content_hash": "947830c91bbe014a5aa00ac787e2a68d00fd36df0e592fa08c6929c3e2a9686d",
+      "declaration_index": 4,
+      "exported": false,
+      "id": "github:moon_landing_hoax::obs_moon_rocks",
+      "label": "obs_moon_rocks",
+      "module": "independent_evidence",
+      "parameters": [],
+      "title": "Apollo lunar samples: properties and independent analysis",
+      "type": "claim"
+    },
+    {
+      "content": "The Soviet Union's unmanned Luna 16, 20, and 24 missions independently returned ~300 g of lunar soil. Isotopic analysis of Soviet samples matches the composition of Apollo samples — both show identical oxygen isotope ratios and trace element abundances characteristic of a common lunar origin.",
+      "content_hash": "7e3e1e0908dfb8d33ed79d4430093b458ae8578ac6afa49769b6160972ec1ad9",
+      "declaration_index": 5,
+      "exported": false,
+      "id": "github:moon_landing_hoax::obs_soviet_samples_match",
+      "label": "obs_soviet_samples_match",
+      "module": "independent_evidence",
+      "parameters": [],
+      "title": "Soviet Luna samples match Apollo samples",
+      "type": "claim"
+    },
+    {
+      "content": "In 1978, the United States gifted 1 gram of lunar rock to China. Chinese scientists at the Chinese Academy of Sciences analyzed the sample and determined it was collected by Apollo 17 (December 1972), based on its mineral composition and exposure history. The analysis results were published in peer-reviewed Chinese scientific journals.",
+      "content_hash": "7f6f04cf04c181c6d51d05badb53b07ef28170a1c9102d1c5e009d24f8323ead",
+      "declaration_index": 6,
+      "exported": false,
+      "id": "github:moon_landing_hoax::obs_china_sample",
+      "label": "obs_china_sample",
+      "module": "independent_evidence",
+      "parameters": [],
+      "title": "Chinese analysis of gifted Apollo sample",
+      "type": "claim"
+    },
+    {
+      "content": "The lunar rocks were manufactured on Earth or collected from meteorites, and the analysis results were fabricated or misinterpreted by scientists worldwide who were either complicit or deceived.",
+      "content_hash": "4af95ea961cee19dfa9ee365a18915b04246740dd2f19e6cafb7950cf18415d6",
+      "declaration_index": 7,
+      "exported": false,
+      "id": "github:moon_landing_hoax::alt_rocks_fake",
+      "label": "alt_rocks_fake",
+      "module": "independent_evidence",
+      "parameters": [],
+      "title": "Alternative: fabricated lunar samples",
+      "type": "claim"
+    },
+    {
+      "content": "NASA's Lunar Reconnaissance Orbiter (LRO), launched in 2009, captured high-resolution photographs of all six Apollo landing sites showing the Lunar Module descent stages, deployed experiment packages, rover tracks (Apollo 15–17), and astronaut footpaths — all consistent with documented mission activities.",
+      "content_hash": "6bd00eade9d8e57e5133b5b3d593ac2e3ae4302a1316f9ebf870195e3e1972ed",
+      "declaration_index": 8,
+      "exported": false,
+      "id": "github:moon_landing_hoax::obs_lro_images",
+      "label": "obs_lro_images",
+      "module": "independent_evidence",
+      "parameters": [],
+      "title": "LRO photographs of Apollo landing sites",
+      "type": "claim"
+    },
+    {
+      "content": "Japan's SELENE (Kaguya) lunar orbiter in 2008 photographed the Apollo 15 landing site, detecting a halo of lighter-colored disturbed regolith around the Lunar Module position. The terrain matched surface photographs taken by Apollo 15 astronauts from ground level.",
+      "content_hash": "063e81fc6b354d581f287f8981d84acfd23da4162248ab980257f68351f37ddf",
+      "declaration_index": 9,
+      "exported": false,
+      "id": "github:moon_landing_hoax::obs_japan_selene",
+      "label": "obs_japan_selene",
+      "module": "independent_evidence",
+      "parameters": [],
+      "title": "Japan SELENE imaging of Apollo 15 site",
+      "type": "claim"
+    },
+    {
+      "content": "India's Chandrayaan-1 (2008) and Chandrayaan-2 (2019) probes independently detected lighter, disturbed soil signatures around the Apollo 15 landing site — consistent with engine exhaust sweeping away surface regolith.",
+      "content_hash": "dac3082354c4cdcb263c07dca3a121f7fe26e17efe393e12edefa361ae0735d6",
+      "declaration_index": 10,
+      "exported": false,
+      "id": "github:moon_landing_hoax::obs_india_chandrayaan",
+      "label": "obs_india_chandrayaan",
+      "module": "independent_evidence",
+      "parameters": [],
+      "title": "India Chandrayaan imaging of Apollo sites",
+      "type": "claim"
+    },
+    {
+      "content": "The orbital images were fabricated or doctored by the respective space agencies (NASA, JAXA, ISRO) as part of a coordinated international cover-up.",
+      "content_hash": "ba1f225518b32503158a0a8533d0f793fbad0ece95a8408f7521049fa650355c",
+      "declaration_index": 11,
+      "exported": false,
+      "id": "github:moon_landing_hoax::alt_imaging_fake",
+      "label": "alt_imaging_fake",
+      "module": "independent_evidence",
+      "parameters": [],
+      "title": "Alternative: fabricated orbital images",
+      "type": "claim"
+    },
+    {
+      "content": "The Soviet Union independently tracked the Apollo missions using its own deep-space communication network. Soviet radar and telemetry systems monitored the Apollo spacecraft's trajectory from Earth orbit to the Moon and back. Had the signals originated from Earth orbit rather than the Moon, this would have been trivially detectable by Soviet tracking stations.",
+      "content_hash": "c0b6acbd975b32170308954a3b42654adbdbd6368c21cdc4610b547bbf0a46f7",
+      "declaration_index": 12,
+      "exported": false,
+      "id": "github:moon_landing_hoax::obs_soviet_tracked",
+      "label": "obs_soviet_tracked",
+      "module": "independent_evidence",
+      "parameters": [],
+      "title": "Soviet independent tracking of Apollo missions",
+      "type": "claim"
+    },
+    {
+      "content": "The Great Soviet Encyclopedia (3rd edition, 1970–1979) — the official state-approved reference work — lists the Apollo Moon landings as genuine historical events. The Soviet Union, despite being locked in a fierce Cold War space competition, never claimed the landings were faked. Instead, Soviet officials denied a Moon race had ever existed.",
+      "content_hash": "8e3f9754b8ab03e85917dacc62b05ff71deeb98b7ca36753588083fb07e96711",
+      "declaration_index": 13,
+      "exported": false,
+      "id": "github:moon_landing_hoax::obs_soviet_encyclopedia",
+      "label": "obs_soviet_encyclopedia",
+      "module": "independent_evidence",
+      "parameters": [],
+      "title": "Soviet Encyclopedia acknowledgment",
+      "type": "claim"
+    },
+    {
+      "content": "During Apollo 11's mission in July 1969, the Soviet Union's Luna 15 probe was simultaneously in lunar orbit. The Soviets proactively shared Luna 15's orbital parameters with the Americans to avoid a collision — an action that only makes sense if the Soviets knew Apollo 11 was genuinely at the Moon.",
+      "content_hash": "a6fcfbe1ba80ff0f9e57b9d3d7f85841ccd2894fa78b3f19a6dafd0f8aaa9df3",
+      "declaration_index": 14,
+      "exported": false,
+      "id": "github:moon_landing_hoax::obs_soviet_luna15",
+      "label": "obs_soviet_luna15",
+      "module": "independent_evidence",
+      "parameters": [],
+      "title": "Soviet Luna 15 coordination with Apollo 11",
+      "type": "claim"
+    },
+    {
+      "content": "The Soviet Union was complicit in the hoax or was deceived — despite having independent deep-space tracking capabilities and being the Apollo program's primary geopolitical rival with every motivation to expose a fraud.",
+      "content_hash": "ab078060080f7b7c2b8c31279c7cbc25a52e5ac6c1c47b8b496d12cc79e52504",
+      "declaration_index": 15,
+      "exported": false,
+      "id": "github:moon_landing_hoax::alt_soviet_complicit",
+      "label": "alt_soviet_complicit",
+      "module": "independent_evidence",
+      "parameters": [],
+      "title": "Alternative: Soviet complicity or deception",
+      "type": "claim"
+    },
+    {
+      "content": "The Apollo program employed over 400,000 people across NASA, contractor companies (North American Aviation, Grumman, MIT Instrumentation Lab, etc.), and support organizations. An additional ~100,000 people were involved in independent tracking and communication worldwide.",
+      "content_hash": "f7cc16cfd53357f45c2f2f9ab283ac973628accd7bda33a72aec22aa9a73fba6",
+      "declaration_index": 16,
+      "exported": false,
+      "id": "github:moon_landing_hoax::obs_400k_people",
+      "label": "obs_400k_people",
+      "module": "independent_evidence",
+      "parameters": [],
+      "title": "400,000+ people involved in Apollo",
+      "type": "claim"
+    },
+    {
+      "content": "A conspiracy involving 400,000+ participants is statistically implausible. Mathematical modeling of conspiracy longevity (Grimes, 2016, PLOS ONE) shows that conspiracies involving more than ~1,000 people have an expected exposure time of less than 4 years. After 55+ years, no credible insider has come forward with evidence of a hoax.",
+      "content_hash": "6a76c0e3400edfe33f2c2b9935494c069b8a2c3b505bde0e8792b619a9b79f8f",
+      "declaration_index": 17,
+      "exported": false,
+      "id": "github:moon_landing_hoax::conspiracy_impossible",
+      "label": "conspiracy_impossible",
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "referenced_claims": [
+              "obs_400k_people"
+            ]
+          }
+        }
+      },
+      "module": "independent_evidence",
+      "parameters": [],
+      "title": "Large-scale conspiracy is statistically implausible",
+      "type": "claim"
+    },
+    {
+      "content": "Ouyang Ziyuan (欧阳自远), chief scientist of China's Chang'e lunar exploration program, publicly stated that 'the scientific community has reached consensus on the authenticity of the Apollo landings.' He systematically addressed common conspiracy claims — flag motion, absent stars, shadow directions — with scientific explanations, leveraging China's own lunar exploration experience and independent data.",
+      "content_hash": "bd45b48887c7b452267c40410d1c51ca7a5b259c7ea9f172a613ef929520cb00",
+      "declaration_index": 18,
+      "exported": false,
+      "id": "github:moon_landing_hoax::obs_ouyang_endorsement",
+      "label": "obs_ouyang_endorsement",
+      "module": "independent_evidence",
+      "parameters": [],
+      "title": "China's chief lunar scientist endorses Apollo authenticity",
+      "type": "claim"
+    },
+    {
+      "content": "explains(github:moon_landing_hoax::obs_flag_waves)",
+      "content_hash": "ed9c7735493d090f6970c5f500e22a3a36569fe64bd16f87b2673a2289f86a33",
+      "exported": false,
+      "id": "github:moon_landing_hoax::__disjunction_result_b36f6296",
+      "label": "__disjunction_result_b36f6296",
+      "metadata": {
+        "canonical_name": "explains(github:moon_landing_hoax::obs_flag_waves)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "disjunction_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "disjunction_result",
+        "owning_strategy_id": "lcs_04bbc986d147c2b5",
+        "owning_strategy_type": "abduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "same_truth(github:moon_landing_hoax::__disjunction_result_b36f6296,github:moon_landing_hoax::obs_flag_waves)",
+      "content_hash": "a8c0797cd21411d571f5c10af7c287892a88da697e2efae7a9b8ec24272ce80e",
+      "exported": false,
+      "id": "github:moon_landing_hoax::__equivalence_result_d8267bdd",
+      "label": "__equivalence_result_d8267bdd",
+      "metadata": {
+        "canonical_name": "same_truth(github:moon_landing_hoax::__disjunction_result_b36f6296,github:moon_landing_hoax::obs_flag_waves)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "equivalence_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "equivalence_result",
+        "owning_strategy_id": "lcs_04bbc986d147c2b5",
+        "owning_strategy_type": "abduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "explains(github:moon_landing_hoax::obs_no_stars)",
+      "content_hash": "851ac61db29352d9479782df45030f22bd3ba0a2e247881e4d7a559e945dfba6",
+      "exported": false,
+      "id": "github:moon_landing_hoax::__disjunction_result_094648df",
+      "label": "__disjunction_result_094648df",
+      "metadata": {
+        "canonical_name": "explains(github:moon_landing_hoax::obs_no_stars)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "disjunction_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "disjunction_result",
+        "owning_strategy_id": "lcs_f47027e8b60d47c4",
+        "owning_strategy_type": "abduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "same_truth(github:moon_landing_hoax::__disjunction_result_094648df,github:moon_landing_hoax::obs_no_stars)",
+      "content_hash": "ed54d50ad5c5d0f33e0a093e7ab2edffbd0e13bf02bcad1aac7f5240743678a1",
+      "exported": false,
+      "id": "github:moon_landing_hoax::__equivalence_result_ced0d42d",
+      "label": "__equivalence_result_ced0d42d",
+      "metadata": {
+        "canonical_name": "same_truth(github:moon_landing_hoax::__disjunction_result_094648df,github:moon_landing_hoax::obs_no_stars)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "equivalence_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "equivalence_result",
+        "owning_strategy_id": "lcs_f47027e8b60d47c4",
+        "owning_strategy_type": "abduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "explains(github:moon_landing_hoax::obs_radiation_belt)",
+      "content_hash": "0aebd825489b5434566908f0e190dd25a1e940469a33e39587d6ab83c3d2a58c",
+      "exported": false,
+      "id": "github:moon_landing_hoax::__disjunction_result_da41b834",
+      "label": "__disjunction_result_da41b834",
+      "metadata": {
+        "canonical_name": "explains(github:moon_landing_hoax::obs_radiation_belt)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "disjunction_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "disjunction_result",
+        "owning_strategy_id": "lcs_80fcc48eeb935274",
+        "owning_strategy_type": "abduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "same_truth(github:moon_landing_hoax::__disjunction_result_da41b834,github:moon_landing_hoax::obs_radiation_belt)",
+      "content_hash": "17c2d39fb3bdf0139445f1e93a8cf95f05556ee80d2f3ec324b875ed4f31c0ea",
+      "exported": false,
+      "id": "github:moon_landing_hoax::__equivalence_result_26d55205",
+      "label": "__equivalence_result_26d55205",
+      "metadata": {
+        "canonical_name": "same_truth(github:moon_landing_hoax::__disjunction_result_da41b834,github:moon_landing_hoax::obs_radiation_belt)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "equivalence_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "equivalence_result",
+        "owning_strategy_id": "lcs_80fcc48eeb935274",
+        "owning_strategy_type": "abduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "explains(github:moon_landing_hoax::obs_shadows)",
+      "content_hash": "c6a8d098f6cac6a5aca72eacae968dddd2a1c1b0faf68245a3bfb1c0d1831bbf",
+      "exported": false,
+      "id": "github:moon_landing_hoax::__disjunction_result_2d072d33",
+      "label": "__disjunction_result_2d072d33",
+      "metadata": {
+        "canonical_name": "explains(github:moon_landing_hoax::obs_shadows)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "disjunction_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "disjunction_result",
+        "owning_strategy_id": "lcs_d0050da020817778",
+        "owning_strategy_type": "abduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "same_truth(github:moon_landing_hoax::__disjunction_result_2d072d33,github:moon_landing_hoax::obs_shadows)",
+      "content_hash": "e472fa644b00ac373e36ef9267f2dc5625b3f79f7fa82249b7d85b93b5f1144e",
+      "exported": false,
+      "id": "github:moon_landing_hoax::__equivalence_result_92516424",
+      "label": "__equivalence_result_92516424",
+      "metadata": {
+        "canonical_name": "same_truth(github:moon_landing_hoax::__disjunction_result_2d072d33,github:moon_landing_hoax::obs_shadows)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "equivalence_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "equivalence_result",
+        "owning_strategy_id": "lcs_d0050da020817778",
+        "owning_strategy_type": "abduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "explains(github:moon_landing_hoax::obs_footprints)",
+      "content_hash": "119af6a1c1d8f33fdc100ef873743552af48ea1dc77d6f3b98340abaa0c4eee8",
+      "exported": false,
+      "id": "github:moon_landing_hoax::__disjunction_result_0b6d54d5",
+      "label": "__disjunction_result_0b6d54d5",
+      "metadata": {
+        "canonical_name": "explains(github:moon_landing_hoax::obs_footprints)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "disjunction_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "disjunction_result",
+        "owning_strategy_id": "lcs_ceb137dcd18a0f61",
+        "owning_strategy_type": "abduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "same_truth(github:moon_landing_hoax::__disjunction_result_0b6d54d5,github:moon_landing_hoax::obs_footprints)",
+      "content_hash": "b89166a023e23a3ecb806bf002eddd69c177e8a9051d21077c2adf6042be6646",
+      "exported": false,
+      "id": "github:moon_landing_hoax::__equivalence_result_af595afc",
+      "label": "__equivalence_result_af595afc",
+      "metadata": {
+        "canonical_name": "same_truth(github:moon_landing_hoax::__disjunction_result_0b6d54d5,github:moon_landing_hoax::obs_footprints)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "equivalence_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "equivalence_result",
+        "owning_strategy_id": "lcs_ceb137dcd18a0f61",
+        "owning_strategy_type": "abduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "explains(github:moon_landing_hoax::obs_no_crater)",
+      "content_hash": "4d6f4f0a9b7cbdd497487a7fec3114fb336ae15f9a4afa73127b8843a02c875f",
+      "exported": false,
+      "id": "github:moon_landing_hoax::__disjunction_result_b4f1d54f",
+      "label": "__disjunction_result_b4f1d54f",
+      "metadata": {
+        "canonical_name": "explains(github:moon_landing_hoax::obs_no_crater)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "disjunction_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "disjunction_result",
+        "owning_strategy_id": "lcs_e732e70f1399d479",
+        "owning_strategy_type": "abduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "same_truth(github:moon_landing_hoax::__disjunction_result_b4f1d54f,github:moon_landing_hoax::obs_no_crater)",
+      "content_hash": "cce99bebc70dc370f5bb029168c8e1e5200b9ca686b5113704157da8cec03f0a",
+      "exported": false,
+      "id": "github:moon_landing_hoax::__equivalence_result_7c263a5e",
+      "label": "__equivalence_result_7c263a5e",
+      "metadata": {
+        "canonical_name": "same_truth(github:moon_landing_hoax::__disjunction_result_b4f1d54f,github:moon_landing_hoax::obs_no_crater)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "equivalence_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "equivalence_result",
+        "owning_strategy_id": "lcs_e732e70f1399d479",
+        "owning_strategy_type": "abduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "explains(github:moon_landing_hoax::obs_retroreflector_us)",
+      "content_hash": "f61b6ca187f0a048ab011208838331057a5f4a041ffb3ce5894244883ce05752",
+      "exported": false,
+      "id": "github:moon_landing_hoax::__disjunction_result_223194b7",
+      "label": "__disjunction_result_223194b7",
+      "metadata": {
+        "canonical_name": "explains(github:moon_landing_hoax::obs_retroreflector_us)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "disjunction_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "disjunction_result",
+        "owning_strategy_id": "lcs_38bf1c0d47c50f91",
+        "owning_strategy_type": "abduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "same_truth(github:moon_landing_hoax::__disjunction_result_223194b7,github:moon_landing_hoax::obs_retroreflector_us)",
+      "content_hash": "4386c48eb28cbb2a0e9096bab6076a19ce422ed868eaf0e7935af55c7a28a391",
+      "exported": false,
+      "id": "github:moon_landing_hoax::__equivalence_result_28ec6e5d",
+      "label": "__equivalence_result_28ec6e5d",
+      "metadata": {
+        "canonical_name": "same_truth(github:moon_landing_hoax::__disjunction_result_223194b7,github:moon_landing_hoax::obs_retroreflector_us)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "equivalence_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "equivalence_result",
+        "owning_strategy_id": "lcs_38bf1c0d47c50f91",
+        "owning_strategy_type": "abduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "explains(github:moon_landing_hoax::obs_retroreflector_china)",
+      "content_hash": "4ed533a08258cf7b26a365cd154efab294e198d9aec0bb1899e5f8191721493e",
+      "exported": false,
+      "id": "github:moon_landing_hoax::__disjunction_result_1fd85102",
+      "label": "__disjunction_result_1fd85102",
+      "metadata": {
+        "canonical_name": "explains(github:moon_landing_hoax::obs_retroreflector_china)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "disjunction_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "disjunction_result",
+        "owning_strategy_id": "lcs_c5de3256b988b68e",
+        "owning_strategy_type": "abduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "same_truth(github:moon_landing_hoax::__disjunction_result_1fd85102,github:moon_landing_hoax::obs_retroreflector_china)",
+      "content_hash": "79fc411df630c6039fe6e5148609cac595d97ad3a76733d5f737faad290626f3",
+      "exported": false,
+      "id": "github:moon_landing_hoax::__equivalence_result_eb68f47a",
+      "label": "__equivalence_result_eb68f47a",
+      "metadata": {
+        "canonical_name": "same_truth(github:moon_landing_hoax::__disjunction_result_1fd85102,github:moon_landing_hoax::obs_retroreflector_china)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "equivalence_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "equivalence_result",
+        "owning_strategy_id": "lcs_c5de3256b988b68e",
+        "owning_strategy_type": "abduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "explains(github:moon_landing_hoax::obs_moon_rocks)",
+      "content_hash": "e8d08ed6778c1a68742298ef5de9b7a9e6e4ecb436aab1b177a06ef6f9f9057f",
+      "exported": false,
+      "id": "github:moon_landing_hoax::__disjunction_result_8aa14b33",
+      "label": "__disjunction_result_8aa14b33",
+      "metadata": {
+        "canonical_name": "explains(github:moon_landing_hoax::obs_moon_rocks)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "disjunction_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "disjunction_result",
+        "owning_strategy_id": "lcs_7ca4d6d8fee8195d",
+        "owning_strategy_type": "abduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "same_truth(github:moon_landing_hoax::__disjunction_result_8aa14b33,github:moon_landing_hoax::obs_moon_rocks)",
+      "content_hash": "7813a446e589096471957e6dd0b893ac5531745ed45f2a88bdf2dba45a50ecb5",
+      "exported": false,
+      "id": "github:moon_landing_hoax::__equivalence_result_ec98c334",
+      "label": "__equivalence_result_ec98c334",
+      "metadata": {
+        "canonical_name": "same_truth(github:moon_landing_hoax::__disjunction_result_8aa14b33,github:moon_landing_hoax::obs_moon_rocks)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "equivalence_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "equivalence_result",
+        "owning_strategy_id": "lcs_7ca4d6d8fee8195d",
+        "owning_strategy_type": "abduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "explains(github:moon_landing_hoax::obs_soviet_samples_match)",
+      "content_hash": "ec61eea3d3424c348c2b8b2adfba8906da15f3d203ac5165cabd02f441354f15",
+      "exported": false,
+      "id": "github:moon_landing_hoax::__disjunction_result_df2e163e",
+      "label": "__disjunction_result_df2e163e",
+      "metadata": {
+        "canonical_name": "explains(github:moon_landing_hoax::obs_soviet_samples_match)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "disjunction_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "disjunction_result",
+        "owning_strategy_id": "lcs_dc98f88e2af1cf86",
+        "owning_strategy_type": "abduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "same_truth(github:moon_landing_hoax::__disjunction_result_df2e163e,github:moon_landing_hoax::obs_soviet_samples_match)",
+      "content_hash": "e1e39aa047af3a59a6ca5d6070ec3f08d21c0f1bab7afc8c3bdf456654c431e0",
+      "exported": false,
+      "id": "github:moon_landing_hoax::__equivalence_result_bd9d8319",
+      "label": "__equivalence_result_bd9d8319",
+      "metadata": {
+        "canonical_name": "same_truth(github:moon_landing_hoax::__disjunction_result_df2e163e,github:moon_landing_hoax::obs_soviet_samples_match)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "equivalence_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "equivalence_result",
+        "owning_strategy_id": "lcs_dc98f88e2af1cf86",
+        "owning_strategy_type": "abduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "explains(github:moon_landing_hoax::obs_china_sample)",
+      "content_hash": "de858e8f1285329b8b75e0799d67a4268a5578f3447ce63bcb3d5b3da2a35faf",
+      "exported": false,
+      "id": "github:moon_landing_hoax::__disjunction_result_14dfc79a",
+      "label": "__disjunction_result_14dfc79a",
+      "metadata": {
+        "canonical_name": "explains(github:moon_landing_hoax::obs_china_sample)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "disjunction_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "disjunction_result",
+        "owning_strategy_id": "lcs_4c8b40163f54bb2c",
+        "owning_strategy_type": "abduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "same_truth(github:moon_landing_hoax::__disjunction_result_14dfc79a,github:moon_landing_hoax::obs_china_sample)",
+      "content_hash": "89fd98c6d53aec8639c7526b09df05a40769890feca17d7b87e2c2795f4d5147",
+      "exported": false,
+      "id": "github:moon_landing_hoax::__equivalence_result_8e9ef190",
+      "label": "__equivalence_result_8e9ef190",
+      "metadata": {
+        "canonical_name": "same_truth(github:moon_landing_hoax::__disjunction_result_14dfc79a,github:moon_landing_hoax::obs_china_sample)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "equivalence_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "equivalence_result",
+        "owning_strategy_id": "lcs_4c8b40163f54bb2c",
+        "owning_strategy_type": "abduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "explains(github:moon_landing_hoax::obs_lro_images)",
+      "content_hash": "2fc3df3794fbe2590bb881aaa0ed7081be9ad6598230f7540849902cba5688d0",
+      "exported": false,
+      "id": "github:moon_landing_hoax::__disjunction_result_6ca8b987",
+      "label": "__disjunction_result_6ca8b987",
+      "metadata": {
+        "canonical_name": "explains(github:moon_landing_hoax::obs_lro_images)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "disjunction_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "disjunction_result",
+        "owning_strategy_id": "lcs_28a53deac759fc2e",
+        "owning_strategy_type": "abduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "same_truth(github:moon_landing_hoax::__disjunction_result_6ca8b987,github:moon_landing_hoax::obs_lro_images)",
+      "content_hash": "12ce8dc70a55f20e491f0d31dba756ef040eafe5a2eb53d5bc03cafab01cce6a",
+      "exported": false,
+      "id": "github:moon_landing_hoax::__equivalence_result_de46e3bf",
+      "label": "__equivalence_result_de46e3bf",
+      "metadata": {
+        "canonical_name": "same_truth(github:moon_landing_hoax::__disjunction_result_6ca8b987,github:moon_landing_hoax::obs_lro_images)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "equivalence_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "equivalence_result",
+        "owning_strategy_id": "lcs_28a53deac759fc2e",
+        "owning_strategy_type": "abduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "explains(github:moon_landing_hoax::obs_japan_selene)",
+      "content_hash": "0daecfc0086c9157b0ffb58226f3ae84800c4af1d08027502148f44dbc6ebe4f",
+      "exported": false,
+      "id": "github:moon_landing_hoax::__disjunction_result_80e030c1",
+      "label": "__disjunction_result_80e030c1",
+      "metadata": {
+        "canonical_name": "explains(github:moon_landing_hoax::obs_japan_selene)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "disjunction_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "disjunction_result",
+        "owning_strategy_id": "lcs_67ea2e80b2536018",
+        "owning_strategy_type": "abduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "same_truth(github:moon_landing_hoax::__disjunction_result_80e030c1,github:moon_landing_hoax::obs_japan_selene)",
+      "content_hash": "5f176db4f71b1333f3c5edf546c2086b6e39c4ac67da499e78002c7200cbc35f",
+      "exported": false,
+      "id": "github:moon_landing_hoax::__equivalence_result_1ea1c1fb",
+      "label": "__equivalence_result_1ea1c1fb",
+      "metadata": {
+        "canonical_name": "same_truth(github:moon_landing_hoax::__disjunction_result_80e030c1,github:moon_landing_hoax::obs_japan_selene)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "equivalence_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "equivalence_result",
+        "owning_strategy_id": "lcs_67ea2e80b2536018",
+        "owning_strategy_type": "abduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "explains(github:moon_landing_hoax::obs_india_chandrayaan)",
+      "content_hash": "3cfdfdc4b1937229040fd5d838e20c8be4597b69c3c866cd0ea2ed26087df186",
+      "exported": false,
+      "id": "github:moon_landing_hoax::__disjunction_result_545ecda3",
+      "label": "__disjunction_result_545ecda3",
+      "metadata": {
+        "canonical_name": "explains(github:moon_landing_hoax::obs_india_chandrayaan)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "disjunction_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "disjunction_result",
+        "owning_strategy_id": "lcs_a999cc54baf08c29",
+        "owning_strategy_type": "abduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "same_truth(github:moon_landing_hoax::__disjunction_result_545ecda3,github:moon_landing_hoax::obs_india_chandrayaan)",
+      "content_hash": "2cec6fb8bf09d3fbc326923f27df413b56cb39d62a514d0dda4d73268e4e82a2",
+      "exported": false,
+      "id": "github:moon_landing_hoax::__equivalence_result_98e43639",
+      "label": "__equivalence_result_98e43639",
+      "metadata": {
+        "canonical_name": "same_truth(github:moon_landing_hoax::__disjunction_result_545ecda3,github:moon_landing_hoax::obs_india_chandrayaan)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "equivalence_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "equivalence_result",
+        "owning_strategy_id": "lcs_a999cc54baf08c29",
+        "owning_strategy_type": "abduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "explains(github:moon_landing_hoax::obs_soviet_tracked)",
+      "content_hash": "a1a0aff743af2fe950f145663076905e12f3958e08b5e7230ceaeb5bc846f71f",
+      "exported": false,
+      "id": "github:moon_landing_hoax::__disjunction_result_4c55233f",
+      "label": "__disjunction_result_4c55233f",
+      "metadata": {
+        "canonical_name": "explains(github:moon_landing_hoax::obs_soviet_tracked)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "disjunction_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "disjunction_result",
+        "owning_strategy_id": "lcs_7d975d58e4aecb9d",
+        "owning_strategy_type": "abduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "same_truth(github:moon_landing_hoax::__disjunction_result_4c55233f,github:moon_landing_hoax::obs_soviet_tracked)",
+      "content_hash": "e621cd70f75ecb2b97509d38e48c8bdebeebb53c5102fe9c5cad9ec0e09cbd07",
+      "exported": false,
+      "id": "github:moon_landing_hoax::__equivalence_result_f3fbde6c",
+      "label": "__equivalence_result_f3fbde6c",
+      "metadata": {
+        "canonical_name": "same_truth(github:moon_landing_hoax::__disjunction_result_4c55233f,github:moon_landing_hoax::obs_soviet_tracked)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "equivalence_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "equivalence_result",
+        "owning_strategy_id": "lcs_7d975d58e4aecb9d",
+        "owning_strategy_type": "abduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "explains(github:moon_landing_hoax::obs_soviet_encyclopedia)",
+      "content_hash": "f340d1fdfcdc9d6f45caa40ccb30c0c411ace810854ef0e7e4c14c725f76303f",
+      "exported": false,
+      "id": "github:moon_landing_hoax::__disjunction_result_33681f67",
+      "label": "__disjunction_result_33681f67",
+      "metadata": {
+        "canonical_name": "explains(github:moon_landing_hoax::obs_soviet_encyclopedia)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "disjunction_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "disjunction_result",
+        "owning_strategy_id": "lcs_9075b89b06787dcf",
+        "owning_strategy_type": "abduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "same_truth(github:moon_landing_hoax::__disjunction_result_33681f67,github:moon_landing_hoax::obs_soviet_encyclopedia)",
+      "content_hash": "54b0e30c8056562af78f7725a44f94436499a51137194200ad9f568e9437b2db",
+      "exported": false,
+      "id": "github:moon_landing_hoax::__equivalence_result_175cde33",
+      "label": "__equivalence_result_175cde33",
+      "metadata": {
+        "canonical_name": "same_truth(github:moon_landing_hoax::__disjunction_result_33681f67,github:moon_landing_hoax::obs_soviet_encyclopedia)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "equivalence_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "equivalence_result",
+        "owning_strategy_id": "lcs_9075b89b06787dcf",
+        "owning_strategy_type": "abduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "explains(github:moon_landing_hoax::obs_soviet_luna15)",
+      "content_hash": "df883e1a01e66662ad4778b1381eaee0c5d6c9937c2a77e0ac60c8ffe1b67ee5",
+      "exported": false,
+      "id": "github:moon_landing_hoax::__disjunction_result_848e1c82",
+      "label": "__disjunction_result_848e1c82",
+      "metadata": {
+        "canonical_name": "explains(github:moon_landing_hoax::obs_soviet_luna15)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "disjunction_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "disjunction_result",
+        "owning_strategy_id": "lcs_18f8e461fab185f1",
+        "owning_strategy_type": "abduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    },
+    {
+      "content": "same_truth(github:moon_landing_hoax::__disjunction_result_848e1c82,github:moon_landing_hoax::obs_soviet_luna15)",
+      "content_hash": "2ef87ce17fdc37454f1aee587adccc33fc41d4accc84d3c417f155ec31164f8b",
+      "exported": false,
+      "id": "github:moon_landing_hoax::__equivalence_result_b8ccffc2",
+      "label": "__equivalence_result_b8ccffc2",
+      "metadata": {
+        "canonical_name": "same_truth(github:moon_landing_hoax::__disjunction_result_848e1c82,github:moon_landing_hoax::obs_soviet_luna15)",
+        "generated": true,
+        "generated_kind": "helper_claim",
+        "helper_kind": "equivalence_result",
+        "helper_visibility": "formal_internal",
+        "intermediate_role": "equivalence_result",
+        "owning_strategy_id": "lcs_18f8e461fab185f1",
+        "owning_strategy_type": "abduction",
+        "visibility": "formal_internal"
+      },
+      "parameters": [],
+      "type": "claim"
+    }
+  ],
+  "module_order": [
+    "motivation",
+    "conspiracy_claims",
+    "independent_evidence"
+  ],
+  "module_titles": {
+    "conspiracy_claims": "Conspiracy theory claims and their scientific debunking.",
+    "independent_evidence": "Independent evidence confirming the Apollo Moon landings.",
+    "motivation": "Core hypotheses: Was the Apollo Moon landing real or faked?"
+  },
+  "namespace": "github",
+  "operators": [
+    {
+      "conclusion": "github:moon_landing_hoax::real_xor_hoax",
+      "operator": "complement",
+      "operator_id": "lco_a0d2d101cbf7cd28",
+      "scope": "local",
+      "variables": [
+        "github:moon_landing_hoax::moon_landing_real",
+        "github:moon_landing_hoax::moon_landing_hoax"
+      ]
+    }
+  ],
+  "package_name": "moon_landing_hoax",
+  "scope": "local",
+  "strategies": [
+    {
+      "background": [
+        "github:moon_landing_hoax::lunar_vacuum"
+      ],
+      "conclusion": "github:moon_landing_hoax::flag_science",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:moon_landing_hoax::__disjunction_result_b36f6296",
+            "operator": "disjunction",
+            "variables": [
+              "github:moon_landing_hoax::flag_science",
+              "github:moon_landing_hoax::alt_flag_studio"
+            ]
+          },
+          {
+            "conclusion": "github:moon_landing_hoax::__equivalence_result_d8267bdd",
+            "operator": "equivalence",
+            "variables": [
+              "github:moon_landing_hoax::__disjunction_result_b36f6296",
+              "github:moon_landing_hoax::obs_flag_waves"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "abduction",
+        "generated_formal_expr": true,
+        "interface_roles": {
+          "alternative_explanation": [
+            "github:moon_landing_hoax::alt_flag_studio"
+          ],
+          "observation": [
+            "github:moon_landing_hoax::obs_flag_waves"
+          ]
+        },
+        "reason": "The @flag_science explanation is fully consistent with the physics of vacuum inertia and the known Γ-shaped support rod design. Video analysis confirms the flag only moves when astronauts touch it — there is no continuous fluttering as wind would produce. The @alt_flag_studio explanation is contradicted by the motion pattern: studio air currents would cause continuous random fluttering."
+      },
+      "premises": [
+        "github:moon_landing_hoax::obs_flag_waves",
+        "github:moon_landing_hoax::alt_flag_studio"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_04bbc986d147c2b5",
+      "type": "abduction"
+    },
+    {
+      "conclusion": "github:moon_landing_hoax::no_stars_science",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:moon_landing_hoax::__disjunction_result_094648df",
+            "operator": "disjunction",
+            "variables": [
+              "github:moon_landing_hoax::no_stars_science",
+              "github:moon_landing_hoax::alt_no_stars_studio"
+            ]
+          },
+          {
+            "conclusion": "github:moon_landing_hoax::__equivalence_result_ced0d42d",
+            "operator": "equivalence",
+            "variables": [
+              "github:moon_landing_hoax::__disjunction_result_094648df",
+              "github:moon_landing_hoax::obs_no_stars"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "abduction",
+        "generated_formal_expr": true,
+        "interface_roles": {
+          "alternative_explanation": [
+            "github:moon_landing_hoax::alt_no_stars_studio"
+          ],
+          "observation": [
+            "github:moon_landing_hoax::obs_no_stars"
+          ]
+        },
+        "reason": "The absence of stars is a well-understood photographic effect. Any camera set to expose a sunlit landscape will render stars invisible — this is trivially reproducible on Earth by photographing a nighttime sports field under floodlights. @no_stars_science provides a complete, quantitative explanation without invoking a conspiracy. @alt_no_stars_studio posits an unnecessary and unfalsifiable additional claim."
+      },
+      "premises": [
+        "github:moon_landing_hoax::obs_no_stars",
+        "github:moon_landing_hoax::alt_no_stars_studio"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_f47027e8b60d47c4",
+      "type": "abduction"
+    },
+    {
+      "conclusion": "github:moon_landing_hoax::radiation_safe",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:moon_landing_hoax::__disjunction_result_da41b834",
+            "operator": "disjunction",
+            "variables": [
+              "github:moon_landing_hoax::radiation_safe",
+              "github:moon_landing_hoax::alt_radiation_lethal"
+            ]
+          },
+          {
+            "conclusion": "github:moon_landing_hoax::__equivalence_result_26d55205",
+            "operator": "equivalence",
+            "variables": [
+              "github:moon_landing_hoax::__disjunction_result_da41b834",
+              "github:moon_landing_hoax::obs_radiation_belt"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "abduction",
+        "generated_formal_expr": true,
+        "interface_roles": {
+          "alternative_explanation": [
+            "github:moon_landing_hoax::alt_radiation_lethal"
+          ],
+          "observation": [
+            "github:moon_landing_hoax::obs_radiation_belt"
+          ]
+        },
+        "reason": "The @radiation_safe explanation is backed by dosimetry data from onboard radiation monitors carried on all Apollo missions. The trajectory was specifically designed to transit the thinnest regions of the belts quickly. The @alt_radiation_lethal claim ignores that radiation dose depends on exposure time and shielding — the aluminum hull provided adequate protection for the brief transit."
+      },
+      "premises": [
+        "github:moon_landing_hoax::obs_radiation_belt",
+        "github:moon_landing_hoax::alt_radiation_lethal"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_80fcc48eeb935274",
+      "type": "abduction"
+    },
+    {
+      "conclusion": "github:moon_landing_hoax::shadows_science",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:moon_landing_hoax::__disjunction_result_2d072d33",
+            "operator": "disjunction",
+            "variables": [
+              "github:moon_landing_hoax::shadows_science",
+              "github:moon_landing_hoax::alt_shadows_studio"
+            ]
+          },
+          {
+            "conclusion": "github:moon_landing_hoax::__equivalence_result_92516424",
+            "operator": "equivalence",
+            "variables": [
+              "github:moon_landing_hoax::__disjunction_result_2d072d33",
+              "github:moon_landing_hoax::obs_shadows"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "abduction",
+        "generated_formal_expr": true,
+        "interface_roles": {
+          "alternative_explanation": [
+            "github:moon_landing_hoax::alt_shadows_studio"
+          ],
+          "observation": [
+            "github:moon_landing_hoax::obs_shadows"
+          ]
+        },
+        "reason": "@shadows_science explains the effect quantitatively via perspective geometry on uneven terrain. Crucially, if multiple studio lights existed, each object would cast multiple shadows — but no Apollo photo shows this. The single-shadow observation is only consistent with a single distant light source (the Sun). @alt_shadows_studio fails this basic test."
+      },
+      "premises": [
+        "github:moon_landing_hoax::obs_shadows",
+        "github:moon_landing_hoax::alt_shadows_studio"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_d0050da020817778",
+      "type": "abduction"
+    },
+    {
+      "conclusion": "github:moon_landing_hoax::footprints_science",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:moon_landing_hoax::__disjunction_result_0b6d54d5",
+            "operator": "disjunction",
+            "variables": [
+              "github:moon_landing_hoax::footprints_science",
+              "github:moon_landing_hoax::alt_footprints_fake"
+            ]
+          },
+          {
+            "conclusion": "github:moon_landing_hoax::__equivalence_result_af595afc",
+            "operator": "equivalence",
+            "variables": [
+              "github:moon_landing_hoax::__disjunction_result_0b6d54d5",
+              "github:moon_landing_hoax::obs_footprints"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "abduction",
+        "generated_formal_expr": true,
+        "interface_roles": {
+          "alternative_explanation": [
+            "github:moon_landing_hoax::alt_footprints_fake"
+          ],
+          "observation": [
+            "github:moon_landing_hoax::obs_footprints"
+          ]
+        },
+        "reason": "@footprints_science is supported by analysis of returned lunar regolith samples: scanning electron microscopy confirms the angular, interlocking micro-particle structure. This angular morphology is a direct consequence of the Moon's lack of atmosphere and water erosion — lunar particles are never rounded by weathering. @alt_footprints_fake incorrectly assumes lunar soil behaves like terrestrial sand."
+      },
+      "premises": [
+        "github:moon_landing_hoax::obs_footprints",
+        "github:moon_landing_hoax::alt_footprints_fake"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_ceb137dcd18a0f61",
+      "type": "abduction"
+    },
+    {
+      "conclusion": "github:moon_landing_hoax::no_crater_science",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:moon_landing_hoax::__disjunction_result_b4f1d54f",
+            "operator": "disjunction",
+            "variables": [
+              "github:moon_landing_hoax::no_crater_science",
+              "github:moon_landing_hoax::alt_crater_studio"
+            ]
+          },
+          {
+            "conclusion": "github:moon_landing_hoax::__equivalence_result_7c263a5e",
+            "operator": "equivalence",
+            "variables": [
+              "github:moon_landing_hoax::__disjunction_result_b4f1d54f",
+              "github:moon_landing_hoax::obs_no_crater"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "abduction",
+        "generated_formal_expr": true,
+        "interface_roles": {
+          "alternative_explanation": [
+            "github:moon_landing_hoax::alt_crater_studio"
+          ],
+          "observation": [
+            "github:moon_landing_hoax::obs_no_crater"
+          ]
+        },
+        "reason": "@no_crater_science is consistent with the physics of rocket exhaust in vacuum and the known throttle profile of the LM descent engine. The prediction that loose regolith would be swept outward — rather than cratered — has been independently confirmed by orbital photographs from Japan (SELENE, 2008) and India (Chandrayaan) showing lighter disturbed soil around Apollo landing sites. @alt_crater_studio ignores the difference between atmospheric and vacuum exhaust behavior."
+      },
+      "premises": [
+        "github:moon_landing_hoax::obs_no_crater",
+        "github:moon_landing_hoax::alt_crater_studio"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_e732e70f1399d479",
+      "type": "abduction"
+    },
+    {
+      "background": [
+        "github:moon_landing_hoax::retroreflector_background"
+      ],
+      "conclusion": "github:moon_landing_hoax::moon_landing_real",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:moon_landing_hoax::__disjunction_result_223194b7",
+            "operator": "disjunction",
+            "variables": [
+              "github:moon_landing_hoax::moon_landing_real",
+              "github:moon_landing_hoax::alt_retroreflector_unmanned"
+            ]
+          },
+          {
+            "conclusion": "github:moon_landing_hoax::__equivalence_result_28ec6e5d",
+            "operator": "equivalence",
+            "variables": [
+              "github:moon_landing_hoax::__disjunction_result_223194b7",
+              "github:moon_landing_hoax::obs_retroreflector_us"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "abduction",
+        "generated_formal_expr": true,
+        "interface_roles": {
+          "alternative_explanation": [
+            "github:moon_landing_hoax::alt_retroreflector_unmanned"
+          ],
+          "observation": [
+            "github:moon_landing_hoax::obs_retroreflector_us"
+          ]
+        }
+      },
+      "premises": [
+        "github:moon_landing_hoax::obs_retroreflector_us",
+        "github:moon_landing_hoax::alt_retroreflector_unmanned"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_38bf1c0d47c50f91",
+      "type": "abduction"
+    },
+    {
+      "background": [
+        "github:moon_landing_hoax::retroreflector_background"
+      ],
+      "conclusion": "github:moon_landing_hoax::moon_landing_real",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:moon_landing_hoax::__disjunction_result_1fd85102",
+            "operator": "disjunction",
+            "variables": [
+              "github:moon_landing_hoax::moon_landing_real",
+              "github:moon_landing_hoax::alt_retroreflector_unmanned"
+            ]
+          },
+          {
+            "conclusion": "github:moon_landing_hoax::__equivalence_result_eb68f47a",
+            "operator": "equivalence",
+            "variables": [
+              "github:moon_landing_hoax::__disjunction_result_1fd85102",
+              "github:moon_landing_hoax::obs_retroreflector_china"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "abduction",
+        "generated_formal_expr": true,
+        "interface_roles": {
+          "alternative_explanation": [
+            "github:moon_landing_hoax::alt_retroreflector_unmanned"
+          ],
+          "observation": [
+            "github:moon_landing_hoax::obs_retroreflector_china"
+          ]
+        }
+      },
+      "premises": [
+        "github:moon_landing_hoax::obs_retroreflector_china",
+        "github:moon_landing_hoax::alt_retroreflector_unmanned"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_c5de3256b988b68e",
+      "type": "abduction"
+    },
+    {
+      "background": [
+        "github:moon_landing_hoax::retroreflector_background"
+      ],
+      "conclusion": "github:moon_landing_hoax::moon_landing_real",
+      "metadata": {
+        "reason": "Multiple independent nations — the US, France, Italy, and China — have verified the existence of retroreflectors at the documented Apollo landing sites. @obs_retroreflector_us and @obs_retroreflector_china provide independent confirmation from geopolitically independent sources. While @alt_retroreflector_unmanned is logically possible, it would require an additional conspiracy: NASA secretly launched unmanned missions to place the retroreflectors while publicly claiming manned landings."
+      },
+      "premises": [
+        "github:moon_landing_hoax::obs_retroreflector_us",
+        "github:moon_landing_hoax::obs_retroreflector_china",
+        "github:moon_landing_hoax::alt_retroreflector_unmanned",
+        "github:moon_landing_hoax::alt_retroreflector_unmanned"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_c265fd887ca923cf",
+      "sub_strategies": [
+        "lcs_38bf1c0d47c50f91",
+        "lcs_c5de3256b988b68e"
+      ],
+      "type": "induction"
+    },
+    {
+      "conclusion": "github:moon_landing_hoax::moon_landing_real",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:moon_landing_hoax::__disjunction_result_8aa14b33",
+            "operator": "disjunction",
+            "variables": [
+              "github:moon_landing_hoax::moon_landing_real",
+              "github:moon_landing_hoax::alt_rocks_fake"
+            ]
+          },
+          {
+            "conclusion": "github:moon_landing_hoax::__equivalence_result_ec98c334",
+            "operator": "equivalence",
+            "variables": [
+              "github:moon_landing_hoax::__disjunction_result_8aa14b33",
+              "github:moon_landing_hoax::obs_moon_rocks"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "abduction",
+        "generated_formal_expr": true,
+        "interface_roles": {
+          "alternative_explanation": [
+            "github:moon_landing_hoax::alt_rocks_fake"
+          ],
+          "observation": [
+            "github:moon_landing_hoax::obs_moon_rocks"
+          ]
+        }
+      },
+      "premises": [
+        "github:moon_landing_hoax::obs_moon_rocks",
+        "github:moon_landing_hoax::alt_rocks_fake"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_7ca4d6d8fee8195d",
+      "type": "abduction"
+    },
+    {
+      "conclusion": "github:moon_landing_hoax::moon_landing_real",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:moon_landing_hoax::__disjunction_result_df2e163e",
+            "operator": "disjunction",
+            "variables": [
+              "github:moon_landing_hoax::moon_landing_real",
+              "github:moon_landing_hoax::alt_rocks_fake"
+            ]
+          },
+          {
+            "conclusion": "github:moon_landing_hoax::__equivalence_result_bd9d8319",
+            "operator": "equivalence",
+            "variables": [
+              "github:moon_landing_hoax::__disjunction_result_df2e163e",
+              "github:moon_landing_hoax::obs_soviet_samples_match"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "abduction",
+        "generated_formal_expr": true,
+        "interface_roles": {
+          "alternative_explanation": [
+            "github:moon_landing_hoax::alt_rocks_fake"
+          ],
+          "observation": [
+            "github:moon_landing_hoax::obs_soviet_samples_match"
+          ]
+        }
+      },
+      "premises": [
+        "github:moon_landing_hoax::obs_soviet_samples_match",
+        "github:moon_landing_hoax::alt_rocks_fake"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_dc98f88e2af1cf86",
+      "type": "abduction"
+    },
+    {
+      "conclusion": "github:moon_landing_hoax::moon_landing_real",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:moon_landing_hoax::__disjunction_result_14dfc79a",
+            "operator": "disjunction",
+            "variables": [
+              "github:moon_landing_hoax::moon_landing_real",
+              "github:moon_landing_hoax::alt_rocks_fake"
+            ]
+          },
+          {
+            "conclusion": "github:moon_landing_hoax::__equivalence_result_8e9ef190",
+            "operator": "equivalence",
+            "variables": [
+              "github:moon_landing_hoax::__disjunction_result_14dfc79a",
+              "github:moon_landing_hoax::obs_china_sample"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "abduction",
+        "generated_formal_expr": true,
+        "interface_roles": {
+          "alternative_explanation": [
+            "github:moon_landing_hoax::alt_rocks_fake"
+          ],
+          "observation": [
+            "github:moon_landing_hoax::obs_china_sample"
+          ]
+        }
+      },
+      "premises": [
+        "github:moon_landing_hoax::obs_china_sample",
+        "github:moon_landing_hoax::alt_rocks_fake"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_4c8b40163f54bb2c",
+      "type": "abduction"
+    },
+    {
+      "conclusion": "github:moon_landing_hoax::moon_landing_real",
+      "metadata": {
+        "reason": "Three independent lines of sample evidence converge: @obs_moon_rocks shows properties impossible to fake with 1960s technology (and still challenging today); @obs_soviet_samples_match demonstrates consistency with Soviet independently-collected samples; @obs_china_sample confirms Chinese scientists' independent verification. @alt_rocks_fake would require a conspiracy encompassing thousands of geochemists across dozens of countries over 50+ years."
+      },
+      "premises": [
+        "github:moon_landing_hoax::obs_moon_rocks",
+        "github:moon_landing_hoax::obs_soviet_samples_match",
+        "github:moon_landing_hoax::obs_china_sample",
+        "github:moon_landing_hoax::alt_rocks_fake",
+        "github:moon_landing_hoax::alt_rocks_fake",
+        "github:moon_landing_hoax::alt_rocks_fake"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_aa8d2eb28182020e",
+      "sub_strategies": [
+        "lcs_7ca4d6d8fee8195d",
+        "lcs_dc98f88e2af1cf86",
+        "lcs_4c8b40163f54bb2c"
+      ],
+      "type": "induction"
+    },
+    {
+      "conclusion": "github:moon_landing_hoax::moon_landing_real",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:moon_landing_hoax::__disjunction_result_6ca8b987",
+            "operator": "disjunction",
+            "variables": [
+              "github:moon_landing_hoax::moon_landing_real",
+              "github:moon_landing_hoax::alt_imaging_fake"
+            ]
+          },
+          {
+            "conclusion": "github:moon_landing_hoax::__equivalence_result_de46e3bf",
+            "operator": "equivalence",
+            "variables": [
+              "github:moon_landing_hoax::__disjunction_result_6ca8b987",
+              "github:moon_landing_hoax::obs_lro_images"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "abduction",
+        "generated_formal_expr": true,
+        "interface_roles": {
+          "alternative_explanation": [
+            "github:moon_landing_hoax::alt_imaging_fake"
+          ],
+          "observation": [
+            "github:moon_landing_hoax::obs_lro_images"
+          ]
+        }
+      },
+      "premises": [
+        "github:moon_landing_hoax::obs_lro_images",
+        "github:moon_landing_hoax::alt_imaging_fake"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_28a53deac759fc2e",
+      "type": "abduction"
+    },
+    {
+      "conclusion": "github:moon_landing_hoax::moon_landing_real",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:moon_landing_hoax::__disjunction_result_80e030c1",
+            "operator": "disjunction",
+            "variables": [
+              "github:moon_landing_hoax::moon_landing_real",
+              "github:moon_landing_hoax::alt_imaging_fake"
+            ]
+          },
+          {
+            "conclusion": "github:moon_landing_hoax::__equivalence_result_1ea1c1fb",
+            "operator": "equivalence",
+            "variables": [
+              "github:moon_landing_hoax::__disjunction_result_80e030c1",
+              "github:moon_landing_hoax::obs_japan_selene"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "abduction",
+        "generated_formal_expr": true,
+        "interface_roles": {
+          "alternative_explanation": [
+            "github:moon_landing_hoax::alt_imaging_fake"
+          ],
+          "observation": [
+            "github:moon_landing_hoax::obs_japan_selene"
+          ]
+        }
+      },
+      "premises": [
+        "github:moon_landing_hoax::obs_japan_selene",
+        "github:moon_landing_hoax::alt_imaging_fake"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_67ea2e80b2536018",
+      "type": "abduction"
+    },
+    {
+      "conclusion": "github:moon_landing_hoax::moon_landing_real",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:moon_landing_hoax::__disjunction_result_545ecda3",
+            "operator": "disjunction",
+            "variables": [
+              "github:moon_landing_hoax::moon_landing_real",
+              "github:moon_landing_hoax::alt_imaging_fake"
+            ]
+          },
+          {
+            "conclusion": "github:moon_landing_hoax::__equivalence_result_98e43639",
+            "operator": "equivalence",
+            "variables": [
+              "github:moon_landing_hoax::__disjunction_result_545ecda3",
+              "github:moon_landing_hoax::obs_india_chandrayaan"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "abduction",
+        "generated_formal_expr": true,
+        "interface_roles": {
+          "alternative_explanation": [
+            "github:moon_landing_hoax::alt_imaging_fake"
+          ],
+          "observation": [
+            "github:moon_landing_hoax::obs_india_chandrayaan"
+          ]
+        }
+      },
+      "premises": [
+        "github:moon_landing_hoax::obs_india_chandrayaan",
+        "github:moon_landing_hoax::alt_imaging_fake"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_a999cc54baf08c29",
+      "type": "abduction"
+    },
+    {
+      "conclusion": "github:moon_landing_hoax::moon_landing_real",
+      "metadata": {
+        "reason": "Three independent space agencies with independent spacecraft, launch vehicles, and communication networks all detected physical evidence of Apollo landings. @obs_lro_images shows detailed hardware and tracks; @obs_japan_selene and @obs_india_chandrayaan provide independent corroboration from nations with no political motivation to support NASA's claims. @alt_imaging_fake requires a conspiracy spanning the US, Japan, and India."
+      },
+      "premises": [
+        "github:moon_landing_hoax::obs_lro_images",
+        "github:moon_landing_hoax::obs_japan_selene",
+        "github:moon_landing_hoax::obs_india_chandrayaan",
+        "github:moon_landing_hoax::alt_imaging_fake",
+        "github:moon_landing_hoax::alt_imaging_fake",
+        "github:moon_landing_hoax::alt_imaging_fake"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_67c72941f05a949e",
+      "sub_strategies": [
+        "lcs_28a53deac759fc2e",
+        "lcs_67ea2e80b2536018",
+        "lcs_a999cc54baf08c29"
+      ],
+      "type": "induction"
+    },
+    {
+      "conclusion": "github:moon_landing_hoax::moon_landing_real",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:moon_landing_hoax::__disjunction_result_4c55233f",
+            "operator": "disjunction",
+            "variables": [
+              "github:moon_landing_hoax::moon_landing_real",
+              "github:moon_landing_hoax::alt_soviet_complicit"
+            ]
+          },
+          {
+            "conclusion": "github:moon_landing_hoax::__equivalence_result_f3fbde6c",
+            "operator": "equivalence",
+            "variables": [
+              "github:moon_landing_hoax::__disjunction_result_4c55233f",
+              "github:moon_landing_hoax::obs_soviet_tracked"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "abduction",
+        "generated_formal_expr": true,
+        "interface_roles": {
+          "alternative_explanation": [
+            "github:moon_landing_hoax::alt_soviet_complicit"
+          ],
+          "observation": [
+            "github:moon_landing_hoax::obs_soviet_tracked"
+          ]
+        }
+      },
+      "premises": [
+        "github:moon_landing_hoax::obs_soviet_tracked",
+        "github:moon_landing_hoax::alt_soviet_complicit"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_7d975d58e4aecb9d",
+      "type": "abduction"
+    },
+    {
+      "conclusion": "github:moon_landing_hoax::moon_landing_real",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:moon_landing_hoax::__disjunction_result_33681f67",
+            "operator": "disjunction",
+            "variables": [
+              "github:moon_landing_hoax::moon_landing_real",
+              "github:moon_landing_hoax::alt_soviet_complicit"
+            ]
+          },
+          {
+            "conclusion": "github:moon_landing_hoax::__equivalence_result_175cde33",
+            "operator": "equivalence",
+            "variables": [
+              "github:moon_landing_hoax::__disjunction_result_33681f67",
+              "github:moon_landing_hoax::obs_soviet_encyclopedia"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "abduction",
+        "generated_formal_expr": true,
+        "interface_roles": {
+          "alternative_explanation": [
+            "github:moon_landing_hoax::alt_soviet_complicit"
+          ],
+          "observation": [
+            "github:moon_landing_hoax::obs_soviet_encyclopedia"
+          ]
+        }
+      },
+      "premises": [
+        "github:moon_landing_hoax::obs_soviet_encyclopedia",
+        "github:moon_landing_hoax::alt_soviet_complicit"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_9075b89b06787dcf",
+      "type": "abduction"
+    },
+    {
+      "conclusion": "github:moon_landing_hoax::moon_landing_real",
+      "formal_expr": {
+        "operators": [
+          {
+            "conclusion": "github:moon_landing_hoax::__disjunction_result_848e1c82",
+            "operator": "disjunction",
+            "variables": [
+              "github:moon_landing_hoax::moon_landing_real",
+              "github:moon_landing_hoax::alt_soviet_complicit"
+            ]
+          },
+          {
+            "conclusion": "github:moon_landing_hoax::__equivalence_result_b8ccffc2",
+            "operator": "equivalence",
+            "variables": [
+              "github:moon_landing_hoax::__disjunction_result_848e1c82",
+              "github:moon_landing_hoax::obs_soviet_luna15"
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "formalization_template": "abduction",
+        "generated_formal_expr": true,
+        "interface_roles": {
+          "alternative_explanation": [
+            "github:moon_landing_hoax::alt_soviet_complicit"
+          ],
+          "observation": [
+            "github:moon_landing_hoax::obs_soviet_luna15"
+          ]
+        }
+      },
+      "premises": [
+        "github:moon_landing_hoax::obs_soviet_luna15",
+        "github:moon_landing_hoax::alt_soviet_complicit"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_18f8e461fab185f1",
+      "type": "abduction"
+    },
+    {
+      "conclusion": "github:moon_landing_hoax::moon_landing_real",
+      "metadata": {
+        "reason": "The Soviet Union had the technical capability, geopolitical motivation, and intelligence infrastructure to detect and expose a hoax. @obs_soviet_tracked shows they independently monitored the missions; @obs_soviet_encyclopedia shows official state acknowledgment; @obs_soviet_luna15 shows active coordination during Apollo 11. @alt_soviet_complicit requires explaining why the USSR's greatest Cold War rival would help cover up a fraud that humiliated them."
+      },
+      "premises": [
+        "github:moon_landing_hoax::obs_soviet_tracked",
+        "github:moon_landing_hoax::obs_soviet_encyclopedia",
+        "github:moon_landing_hoax::obs_soviet_luna15",
+        "github:moon_landing_hoax::alt_soviet_complicit",
+        "github:moon_landing_hoax::alt_soviet_complicit",
+        "github:moon_landing_hoax::alt_soviet_complicit"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_1233159a6c51f1c6",
+      "sub_strategies": [
+        "lcs_7d975d58e4aecb9d",
+        "lcs_9075b89b06787dcf",
+        "lcs_18f8e461fab185f1"
+      ],
+      "type": "induction"
+    },
+    {
+      "conclusion": "github:moon_landing_hoax::conspiracy_impossible",
+      "metadata": {
+        "reason": "Based on @obs_400k_people and Grimes' statistical model of conspiracy viability, the probability of maintaining a conspiracy of this scale for 55+ years without a single credible leak is vanishingly small."
+      },
+      "premises": [
+        "github:moon_landing_hoax::obs_400k_people"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_acf0fd36fdfc9a4d",
+      "type": "noisy_and"
+    },
+    {
+      "conclusion": "github:moon_landing_hoax::moon_landing_real",
+      "metadata": {
+        "reason": "If a hoax conspiracy of this scale is statistically implausible (@conspiracy_impossible), then the landings were almost certainly real."
+      },
+      "premises": [
+        "github:moon_landing_hoax::conspiracy_impossible"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_a5089e5f854f05d9",
+      "type": "noisy_and"
+    },
+    {
+      "conclusion": "github:moon_landing_hoax::moon_landing_real",
+      "metadata": {
+        "reason": "China has no political allegiance to NASA and operates a fully independent space program. @obs_ouyang_endorsement represents the scientific judgment of China's top lunar scientist, backed by @obs_china_sample (independent sample analysis) and @obs_retroreflector_china (independent laser ranging). This constitutes a strong, geopolitically independent endorsement."
+      },
+      "premises": [
+        "github:moon_landing_hoax::obs_ouyang_endorsement",
+        "github:moon_landing_hoax::obs_china_sample",
+        "github:moon_landing_hoax::obs_retroreflector_china"
+      ],
+      "scope": "local",
+      "strategy_id": "lcs_1766b58ef2462c0d",
+      "type": "noisy_and"
+    }
+  ]
+}

@@ -1,0 +1,563 @@
+{
+  "gaia_lang_version": "0.3.0",
+  "ir_hash": "sha256:ed4f04b64060a74431beb594bf2e52e288653706b519e70d2f751433cd50c15b",
+  "objects": [
+    {
+      "judgment": "opposing",
+      "justification": "The hoax hypothesis is rejected by the overwhelming scientific consensus, multiple independent national space agencies, and 55+ years of corroborating physical evidence. Assign very low prior.",
+      "kind": "claim",
+      "knowledge_id": "github:moon_landing_hoax::moon_landing_hoax",
+      "label": "moon_landing_hoax",
+      "metadata": null,
+      "prior": 0.05
+    },
+    {
+      "judgment": "supporting",
+      "justification": "The flag rippling is clearly visible in archived footage.",
+      "kind": "claim",
+      "knowledge_id": "github:moon_landing_hoax::obs_flag_waves",
+      "label": "obs_flag_waves",
+      "metadata": null,
+      "prior": 0.95
+    },
+    {
+      "judgment": "supporting",
+      "justification": "No stars are visible in any Apollo surface photographs.",
+      "kind": "claim",
+      "knowledge_id": "github:moon_landing_hoax::obs_no_stars",
+      "label": "obs_no_stars",
+      "metadata": null,
+      "prior": 0.95
+    },
+    {
+      "judgment": "supporting",
+      "justification": "Apollo trajectories through Van Allen belts are documented fact.",
+      "kind": "claim",
+      "knowledge_id": "github:moon_landing_hoax::obs_radiation_belt",
+      "label": "obs_radiation_belt",
+      "metadata": null,
+      "prior": 0.99
+    },
+    {
+      "judgment": "supporting",
+      "justification": "Non-parallel shadows are visible in several Apollo photos.",
+      "kind": "claim",
+      "knowledge_id": "github:moon_landing_hoax::obs_shadows",
+      "label": "obs_shadows",
+      "metadata": null,
+      "prior": 0.9
+    },
+    {
+      "judgment": "supporting",
+      "justification": "Sharp bootprints are clearly visible in Apollo surface photos.",
+      "kind": "claim",
+      "knowledge_id": "github:moon_landing_hoax::obs_footprints",
+      "label": "obs_footprints",
+      "metadata": null,
+      "prior": 0.95
+    },
+    {
+      "judgment": "supporting",
+      "justification": "No significant blast crater is visible in photos of LM landing sites.",
+      "kind": "claim",
+      "knowledge_id": "github:moon_landing_hoax::obs_no_crater",
+      "label": "obs_no_crater",
+      "metadata": null,
+      "prior": 0.95
+    },
+    {
+      "judgment": "opposing",
+      "justification": "Studio air currents would cause continuous random fluttering, not the observed pattern of motion only when touched. The observed motion pattern contradicts the studio hypothesis.",
+      "kind": "claim",
+      "knowledge_id": "github:moon_landing_hoax::alt_flag_studio",
+      "label": "alt_flag_studio",
+      "metadata": null,
+      "prior": 0.05
+    },
+    {
+      "judgment": "opposing",
+      "justification": "The absence of stars is fully explained by camera exposure settings. A studio backdrop explanation is unnecessary and provides no additional explanatory power.",
+      "kind": "claim",
+      "knowledge_id": "github:moon_landing_hoax::alt_no_stars_studio",
+      "label": "alt_no_stars_studio",
+      "metadata": null,
+      "prior": 0.05
+    },
+    {
+      "judgment": "opposing",
+      "justification": "Dosimetry data from onboard monitors measured ~0.18 rad total. The claim of lethal radiation ignores transit time and shielding.",
+      "kind": "claim",
+      "knowledge_id": "github:moon_landing_hoax::alt_radiation_lethal",
+      "label": "alt_radiation_lethal",
+      "metadata": null,
+      "prior": 0.02
+    },
+    {
+      "judgment": "opposing",
+      "justification": "Multiple light sources would produce multiple shadows per object. No Apollo photo shows multiple shadows. The studio hypothesis is directly contradicted by the photographic evidence.",
+      "kind": "claim",
+      "knowledge_id": "github:moon_landing_hoax::alt_shadows_studio",
+      "label": "alt_shadows_studio",
+      "metadata": null,
+      "prior": 0.03
+    },
+    {
+      "judgment": "opposing",
+      "justification": "Returned lunar regolith samples confirm angular particle morphology. The wet sand hypothesis is contradicted by direct sample analysis.",
+      "kind": "claim",
+      "knowledge_id": "github:moon_landing_hoax::alt_footprints_fake",
+      "label": "alt_footprints_fake",
+      "metadata": null,
+      "prior": 0.05
+    },
+    {
+      "judgment": "opposing",
+      "justification": "SELENE and Chandrayaan images confirm swept regolith, consistent with vacuum rocket exhaust. A static prop cannot produce this signature.",
+      "kind": "claim",
+      "knowledge_id": "github:moon_landing_hoax::alt_crater_studio",
+      "label": "alt_crater_studio",
+      "metadata": null,
+      "prior": 0.03
+    },
+    {
+      "judgment": "supporting",
+      "justification": "Laser ranging experiments have been conducted continuously since 1969.",
+      "kind": "claim",
+      "knowledge_id": "github:moon_landing_hoax::obs_retroreflector_us",
+      "label": "obs_retroreflector_us",
+      "metadata": null,
+      "prior": 0.99
+    },
+    {
+      "judgment": "supporting",
+      "justification": "China's Yunnan Observatory (2018) and SYSU TianQin Center (2019) independently verified all five lunar retroreflectors.",
+      "kind": "claim",
+      "knowledge_id": "github:moon_landing_hoax::obs_retroreflector_china",
+      "label": "obs_retroreflector_china",
+      "metadata": null,
+      "prior": 0.99
+    },
+    {
+      "judgment": "tentative",
+      "justification": "Technically possible to place retroreflectors via unmanned probes (the Soviets did this with Lunokhod). However, this would require an additional conspiracy: secretly launching unmanned missions while publicly claiming manned ones. Low but not negligible prior.",
+      "kind": "claim",
+      "knowledge_id": "github:moon_landing_hoax::alt_retroreflector_unmanned",
+      "label": "alt_retroreflector_unmanned",
+      "metadata": null,
+      "prior": 0.15
+    },
+    {
+      "judgment": "supporting",
+      "justification": "381.7 kg of samples analyzed by thousands of scientists over 50+ years.",
+      "kind": "claim",
+      "knowledge_id": "github:moon_landing_hoax::obs_moon_rocks",
+      "label": "obs_moon_rocks",
+      "metadata": null,
+      "prior": 0.99
+    },
+    {
+      "judgment": "supporting",
+      "justification": "Isotopic match between Apollo and Soviet Luna samples is published science.",
+      "kind": "claim",
+      "knowledge_id": "github:moon_landing_hoax::obs_soviet_samples_match",
+      "label": "obs_soviet_samples_match",
+      "metadata": null,
+      "prior": 0.98
+    },
+    {
+      "judgment": "supporting",
+      "justification": "Published in Chinese peer-reviewed journals by CAS scientists.",
+      "kind": "claim",
+      "knowledge_id": "github:moon_landing_hoax::obs_china_sample",
+      "label": "obs_china_sample",
+      "metadata": null,
+      "prior": 0.97
+    },
+    {
+      "judgment": "opposing",
+      "justification": "Would require thousands of geochemists across dozens of countries to be either complicit or incompetent for 50+ years. Nano-structures from micrometeorite impacts cannot be fabricated.",
+      "kind": "claim",
+      "knowledge_id": "github:moon_landing_hoax::alt_rocks_fake",
+      "label": "alt_rocks_fake",
+      "metadata": null,
+      "prior": 0.01
+    },
+    {
+      "judgment": "supporting",
+      "justification": "High-resolution LRO imagery is publicly available and verified.",
+      "kind": "claim",
+      "knowledge_id": "github:moon_landing_hoax::obs_lro_images",
+      "label": "obs_lro_images",
+      "metadata": null,
+      "prior": 0.98
+    },
+    {
+      "judgment": "supporting",
+      "justification": "JAXA (Japan) published SELENE results independently.",
+      "kind": "claim",
+      "knowledge_id": "github:moon_landing_hoax::obs_japan_selene",
+      "label": "obs_japan_selene",
+      "metadata": null,
+      "prior": 0.97
+    },
+    {
+      "judgment": "supporting",
+      "justification": "ISRO (India) published Chandrayaan results independently.",
+      "kind": "claim",
+      "knowledge_id": "github:moon_landing_hoax::obs_india_chandrayaan",
+      "label": "obs_india_chandrayaan",
+      "metadata": null,
+      "prior": 0.96
+    },
+    {
+      "judgment": "opposing",
+      "justification": "Requires a conspiracy spanning US, Japan, and India — three countries with independent space programs and no shared motivation to help NASA.",
+      "kind": "claim",
+      "knowledge_id": "github:moon_landing_hoax::alt_imaging_fake",
+      "label": "alt_imaging_fake",
+      "metadata": null,
+      "prior": 0.01
+    },
+    {
+      "judgment": "supporting",
+      "justification": "Soviet deep-space tracking was operational and independently documented.",
+      "kind": "claim",
+      "knowledge_id": "github:moon_landing_hoax::obs_soviet_tracked",
+      "label": "obs_soviet_tracked",
+      "metadata": null,
+      "prior": 0.95
+    },
+    {
+      "judgment": "supporting",
+      "justification": "The Great Soviet Encyclopedia is a verifiable state publication.",
+      "kind": "claim",
+      "knowledge_id": "github:moon_landing_hoax::obs_soviet_encyclopedia",
+      "label": "obs_soviet_encyclopedia",
+      "metadata": null,
+      "prior": 0.98
+    },
+    {
+      "judgment": "supporting",
+      "justification": "Luna 15 mission and coordination are documented in both US and Soviet archives.",
+      "kind": "claim",
+      "knowledge_id": "github:moon_landing_hoax::obs_soviet_luna15",
+      "label": "obs_soviet_luna15",
+      "metadata": null,
+      "prior": 0.97
+    },
+    {
+      "judgment": "opposing",
+      "justification": "The Soviet Union had every geopolitical motivation to expose a fraud. Complicity with their primary Cold War rival is implausible.",
+      "kind": "claim",
+      "knowledge_id": "github:moon_landing_hoax::alt_soviet_complicit",
+      "label": "alt_soviet_complicit",
+      "metadata": null,
+      "prior": 0.01
+    },
+    {
+      "judgment": "supporting",
+      "justification": "Apollo workforce size is documented in NASA records and contractor data.",
+      "kind": "claim",
+      "knowledge_id": "github:moon_landing_hoax::obs_400k_people",
+      "label": "obs_400k_people",
+      "metadata": null,
+      "prior": 0.99
+    },
+    {
+      "judgment": "supporting",
+      "justification": "Ouyang Ziyuan's statements are publicly documented. He is China's most authoritative lunar scientist with no allegiance to NASA.",
+      "kind": "claim",
+      "knowledge_id": "github:moon_landing_hoax::obs_ouyang_endorsement",
+      "label": "obs_ouyang_endorsement",
+      "metadata": null,
+      "prior": 0.98
+    },
+    {
+      "conditional_probabilities": [
+        0.95
+      ],
+      "judgment": "formalized",
+      "justification": "Statistical modeling strongly supports conspiracy implausibility.",
+      "kind": "strategy",
+      "label": null,
+      "metadata": null,
+      "strategy_id": "lcs_acf0fd36fdfc9a4d",
+      "type": "noisy_and"
+    },
+    {
+      "conditional_probabilities": [
+        0.9
+      ],
+      "judgment": "formalized",
+      "justification": "If large-scale conspiracy is implausible, landings were likely real.",
+      "kind": "strategy",
+      "label": null,
+      "metadata": null,
+      "strategy_id": "lcs_a5089e5f854f05d9",
+      "type": "noisy_and"
+    },
+    {
+      "conditional_probabilities": [
+        0.9
+      ],
+      "judgment": "formalized",
+      "justification": "China's independent scientific authority plus independent data strongly supports landing authenticity.",
+      "kind": "strategy",
+      "label": null,
+      "metadata": null,
+      "strategy_id": "lcs_1766b58ef2462c0d",
+      "type": "noisy_and"
+    }
+  ],
+  "priors": [
+    {
+      "created_at": "2026-05-06T14:48:31.455889Z",
+      "justification": "The hoax hypothesis is rejected by the overwhelming scientific consensus, multiple independent national space agencies, and 55+ years of corroborating physical evidence. Assign very low prior.",
+      "knowledge_id": "github:moon_landing_hoax::moon_landing_hoax",
+      "source_id": "self_review",
+      "value": 0.05
+    },
+    {
+      "created_at": "2026-05-06T14:48:31.455900Z",
+      "justification": "The flag rippling is clearly visible in archived footage.",
+      "knowledge_id": "github:moon_landing_hoax::obs_flag_waves",
+      "source_id": "self_review",
+      "value": 0.95
+    },
+    {
+      "created_at": "2026-05-06T14:48:31.455903Z",
+      "justification": "No stars are visible in any Apollo surface photographs.",
+      "knowledge_id": "github:moon_landing_hoax::obs_no_stars",
+      "source_id": "self_review",
+      "value": 0.95
+    },
+    {
+      "created_at": "2026-05-06T14:48:31.455905Z",
+      "justification": "Apollo trajectories through Van Allen belts are documented fact.",
+      "knowledge_id": "github:moon_landing_hoax::obs_radiation_belt",
+      "source_id": "self_review",
+      "value": 0.99
+    },
+    {
+      "created_at": "2026-05-06T14:48:31.455906Z",
+      "justification": "Non-parallel shadows are visible in several Apollo photos.",
+      "knowledge_id": "github:moon_landing_hoax::obs_shadows",
+      "source_id": "self_review",
+      "value": 0.9
+    },
+    {
+      "created_at": "2026-05-06T14:48:31.455908Z",
+      "justification": "Sharp bootprints are clearly visible in Apollo surface photos.",
+      "knowledge_id": "github:moon_landing_hoax::obs_footprints",
+      "source_id": "self_review",
+      "value": 0.95
+    },
+    {
+      "created_at": "2026-05-06T14:48:31.455909Z",
+      "justification": "No significant blast crater is visible in photos of LM landing sites.",
+      "knowledge_id": "github:moon_landing_hoax::obs_no_crater",
+      "source_id": "self_review",
+      "value": 0.95
+    },
+    {
+      "created_at": "2026-05-06T14:48:31.455910Z",
+      "justification": "Studio air currents would cause continuous random fluttering, not the observed pattern of motion only when touched. The observed motion pattern contradicts the studio hypothesis.",
+      "knowledge_id": "github:moon_landing_hoax::alt_flag_studio",
+      "source_id": "self_review",
+      "value": 0.05
+    },
+    {
+      "created_at": "2026-05-06T14:48:31.455911Z",
+      "justification": "The absence of stars is fully explained by camera exposure settings. A studio backdrop explanation is unnecessary and provides no additional explanatory power.",
+      "knowledge_id": "github:moon_landing_hoax::alt_no_stars_studio",
+      "source_id": "self_review",
+      "value": 0.05
+    },
+    {
+      "created_at": "2026-05-06T14:48:31.455912Z",
+      "justification": "Dosimetry data from onboard monitors measured ~0.18 rad total. The claim of lethal radiation ignores transit time and shielding.",
+      "knowledge_id": "github:moon_landing_hoax::alt_radiation_lethal",
+      "source_id": "self_review",
+      "value": 0.02
+    },
+    {
+      "created_at": "2026-05-06T14:48:31.455913Z",
+      "justification": "Multiple light sources would produce multiple shadows per object. No Apollo photo shows multiple shadows. The studio hypothesis is directly contradicted by the photographic evidence.",
+      "knowledge_id": "github:moon_landing_hoax::alt_shadows_studio",
+      "source_id": "self_review",
+      "value": 0.03
+    },
+    {
+      "created_at": "2026-05-06T14:48:31.455914Z",
+      "justification": "Returned lunar regolith samples confirm angular particle morphology. The wet sand hypothesis is contradicted by direct sample analysis.",
+      "knowledge_id": "github:moon_landing_hoax::alt_footprints_fake",
+      "source_id": "self_review",
+      "value": 0.05
+    },
+    {
+      "created_at": "2026-05-06T14:48:31.455915Z",
+      "justification": "SELENE and Chandrayaan images confirm swept regolith, consistent with vacuum rocket exhaust. A static prop cannot produce this signature.",
+      "knowledge_id": "github:moon_landing_hoax::alt_crater_studio",
+      "source_id": "self_review",
+      "value": 0.03
+    },
+    {
+      "created_at": "2026-05-06T14:48:31.455916Z",
+      "justification": "Laser ranging experiments have been conducted continuously since 1969.",
+      "knowledge_id": "github:moon_landing_hoax::obs_retroreflector_us",
+      "source_id": "self_review",
+      "value": 0.99
+    },
+    {
+      "created_at": "2026-05-06T14:48:31.455917Z",
+      "justification": "China's Yunnan Observatory (2018) and SYSU TianQin Center (2019) independently verified all five lunar retroreflectors.",
+      "knowledge_id": "github:moon_landing_hoax::obs_retroreflector_china",
+      "source_id": "self_review",
+      "value": 0.99
+    },
+    {
+      "created_at": "2026-05-06T14:48:31.455918Z",
+      "justification": "Technically possible to place retroreflectors via unmanned probes (the Soviets did this with Lunokhod). However, this would require an additional conspiracy: secretly launching unmanned missions while publicly claiming manned ones. Low but not negligible prior.",
+      "knowledge_id": "github:moon_landing_hoax::alt_retroreflector_unmanned",
+      "source_id": "self_review",
+      "value": 0.15
+    },
+    {
+      "created_at": "2026-05-06T14:48:31.455919Z",
+      "justification": "381.7 kg of samples analyzed by thousands of scientists over 50+ years.",
+      "knowledge_id": "github:moon_landing_hoax::obs_moon_rocks",
+      "source_id": "self_review",
+      "value": 0.99
+    },
+    {
+      "created_at": "2026-05-06T14:48:31.455920Z",
+      "justification": "Isotopic match between Apollo and Soviet Luna samples is published science.",
+      "knowledge_id": "github:moon_landing_hoax::obs_soviet_samples_match",
+      "source_id": "self_review",
+      "value": 0.98
+    },
+    {
+      "created_at": "2026-05-06T14:48:31.455921Z",
+      "justification": "Published in Chinese peer-reviewed journals by CAS scientists.",
+      "knowledge_id": "github:moon_landing_hoax::obs_china_sample",
+      "source_id": "self_review",
+      "value": 0.97
+    },
+    {
+      "created_at": "2026-05-06T14:48:31.455922Z",
+      "justification": "Would require thousands of geochemists across dozens of countries to be either complicit or incompetent for 50+ years. Nano-structures from micrometeorite impacts cannot be fabricated.",
+      "knowledge_id": "github:moon_landing_hoax::alt_rocks_fake",
+      "source_id": "self_review",
+      "value": 0.01
+    },
+    {
+      "created_at": "2026-05-06T14:48:31.455923Z",
+      "justification": "High-resolution LRO imagery is publicly available and verified.",
+      "knowledge_id": "github:moon_landing_hoax::obs_lro_images",
+      "source_id": "self_review",
+      "value": 0.98
+    },
+    {
+      "created_at": "2026-05-06T14:48:31.455924Z",
+      "justification": "JAXA (Japan) published SELENE results independently.",
+      "knowledge_id": "github:moon_landing_hoax::obs_japan_selene",
+      "source_id": "self_review",
+      "value": 0.97
+    },
+    {
+      "created_at": "2026-05-06T14:48:31.455924Z",
+      "justification": "ISRO (India) published Chandrayaan results independently.",
+      "knowledge_id": "github:moon_landing_hoax::obs_india_chandrayaan",
+      "source_id": "self_review",
+      "value": 0.96
+    },
+    {
+      "created_at": "2026-05-06T14:48:31.455925Z",
+      "justification": "Requires a conspiracy spanning US, Japan, and India — three countries with independent space programs and no shared motivation to help NASA.",
+      "knowledge_id": "github:moon_landing_hoax::alt_imaging_fake",
+      "source_id": "self_review",
+      "value": 0.01
+    },
+    {
+      "created_at": "2026-05-06T14:48:31.455926Z",
+      "justification": "Soviet deep-space tracking was operational and independently documented.",
+      "knowledge_id": "github:moon_landing_hoax::obs_soviet_tracked",
+      "source_id": "self_review",
+      "value": 0.95
+    },
+    {
+      "created_at": "2026-05-06T14:48:31.455927Z",
+      "justification": "The Great Soviet Encyclopedia is a verifiable state publication.",
+      "knowledge_id": "github:moon_landing_hoax::obs_soviet_encyclopedia",
+      "source_id": "self_review",
+      "value": 0.98
+    },
+    {
+      "created_at": "2026-05-06T14:48:31.455928Z",
+      "justification": "Luna 15 mission and coordination are documented in both US and Soviet archives.",
+      "knowledge_id": "github:moon_landing_hoax::obs_soviet_luna15",
+      "source_id": "self_review",
+      "value": 0.97
+    },
+    {
+      "created_at": "2026-05-06T14:48:31.455929Z",
+      "justification": "The Soviet Union had every geopolitical motivation to expose a fraud. Complicity with their primary Cold War rival is implausible.",
+      "knowledge_id": "github:moon_landing_hoax::alt_soviet_complicit",
+      "source_id": "self_review",
+      "value": 0.01
+    },
+    {
+      "created_at": "2026-05-06T14:48:31.455930Z",
+      "justification": "Apollo workforce size is documented in NASA records and contractor data.",
+      "knowledge_id": "github:moon_landing_hoax::obs_400k_people",
+      "source_id": "self_review",
+      "value": 0.99
+    },
+    {
+      "created_at": "2026-05-06T14:48:31.455931Z",
+      "justification": "Ouyang Ziyuan's statements are publicly documented. He is China's most authoritative lunar scientist with no allegiance to NASA.",
+      "knowledge_id": "github:moon_landing_hoax::obs_ouyang_endorsement",
+      "source_id": "self_review",
+      "value": 0.98
+    }
+  ],
+  "resolution_policy": {
+    "source_id": "self_review",
+    "strategy": "source"
+  },
+  "review_content_hash": "sha256:903d79d1719ec0f2458df151f848735f2154df4823dea80301dd715369c5964a",
+  "source": {
+    "created_at": "2026-05-06T14:48:31.455363Z",
+    "model": "agent-authored",
+    "source_id": "self_review"
+  },
+  "strategy_params": [
+    {
+      "conditional_probabilities": [
+        0.95
+      ],
+      "created_at": "2026-05-06T14:48:31.455937Z",
+      "justification": "Statistical modeling strongly supports conspiracy implausibility.",
+      "source_id": "self_review",
+      "strategy_id": "lcs_acf0fd36fdfc9a4d"
+    },
+    {
+      "conditional_probabilities": [
+        0.9
+      ],
+      "created_at": "2026-05-06T14:48:31.455941Z",
+      "justification": "If large-scale conspiracy is implausible, landings were likely real.",
+      "source_id": "self_review",
+      "strategy_id": "lcs_a5089e5f854f05d9"
+    },
+    {
+      "conditional_probabilities": [
+        0.9
+      ],
+      "created_at": "2026-05-06T14:48:31.455944Z",
+      "justification": "China's independent scientific authority plus independent data strongly supports landing authenticity.",
+      "source_id": "self_review",
+      "strategy_id": "lcs_1766b58ef2462c0d"
+    }
+  ]
+}
